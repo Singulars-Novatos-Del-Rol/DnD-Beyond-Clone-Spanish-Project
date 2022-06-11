@@ -33,23 +33,23 @@
 			],
 			"entries": [
 				{
-					"name": "Dive Attack",
+					"name": "Ataque en Picado",
 					"entries": [
-						"If you are flying and dive at least 30 ft. straight toward a target and then hit it with a melee weapon attack, the attack deals an extra {@dice 1d6} damage to the target."
+						"Si estás volando y te lanzas en picado al menos 30 pies en línea recta hacia un objetivo y luego lo golpeas con un ataque de arma cuerpo a cuerpo, el ataque inflige un daño extra de {@dice 1d6} al objetivo."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Talons",
+					"name": "Garras",
 					"entries": [
-						"You are proficient with your unarmed strikes, which deal {@damage 1d4} slashing damage on a hit."
+						"Eres competente con tus golpes desarmados, que infligen {@daño 1d4} de daño cortante al impactar."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Language",
+					"name": "Idioma",
 					"entries": [
-						"You can speak, read, and write Auran."
+						"Puedes hablar, leer y escribir Auran."
 					],
 					"type": "entries"
 				}
@@ -86,7 +86,7 @@
 				"max": 30
 			},
 			"traitTags": [
-				"Natural Weapon"
+				"Arma Natural"
 			],
 			"languageProficiencies": [
 				{
@@ -101,44 +101,44 @@
 			},
 			"entries": [
 				{
-					"name": "Age",
+					"name": "Edad",
 					"type": "entries",
 					"entries": [
-						"Aarakocra reach maturity by age 3. Compared to humans, aarakocra don't usually live longer than 30 years."
+						"Los aarakocra alcanzan la madurez a los 3 años. En comparación con los humanos, los aarakocra no suelen vivir más de 30 años."
 					]
 				},
 				{
 					"name": "Alignment",
 					"type": "entries",
 					"entries": [
-						"Most aarakocra are good and rarely choose sides when it comes to law and chaos. Tribal leaders and warriors might be lawful, while explorers and adventurers might tend toward chaotic."
+						"La mayoría de los aarakocra son buenos y rara vez eligen un bando cuando se trata de la ley y el caos. Los líderes tribales y los guerreros pueden ser lícitos, mientras que los exploradores y aventureros pueden tender hacia el caos."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Size",
 					"entries": [
-						"Aarakocra are about 5 feet tall. They have thin, lightweight bodies that weigh between 80 and 100 pounds. Your size is Medium."
+						"Los Aarakocra miden alrededor de 1,5 metros. Tienen cuerpos delgados y ligeros que pesan entre 80 y 100 libras. Su tamaño es Medio."
 					]
 				},
 				{
-					"name": "Flight",
+					"name": "Vuelo",
 					"entries": [
-						"You have a flying speed of 50 feet. To use this speed, you can't be wearing medium or heavy armor."
+						"Tienes una velocidad de vuelo de 50 pies. Para usar esta velocidad, no puedes llevar una armadura media o pesada."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Talons",
+					"name": "Garras",
 					"entries": [
-						"Your talons are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@damage 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+						"Tus garras son armas naturales que puedes utilizar para realizar golpes desarmados. Si golpeas con ellas, infliges un daño cortante igual a {@damage 1d4} + tu modificador de Fuerza, en lugar del daño contundente normal de un golpe desarmado."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Language",
+					"name": "Idiomas",
 					"entries": [
-						"You can speak, read, and write Common, Aarakocra, and Auran."
+						"Puedes hablar, leer y escribir en Común, Aarakocra y Auran."
 					],
 					"type": "entries"
 				}
