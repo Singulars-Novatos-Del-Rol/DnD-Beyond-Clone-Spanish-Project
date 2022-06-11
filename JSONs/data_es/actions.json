@@ -1,0 +1,552 @@
+{
+    "action": [
+        {
+            "name": "",
+            "page": 141,
+            "srd": true,
+            "basicRules": true,
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "acción"
+                }
+            ],
+            "entries": [
+                "La activación de algunos objetos mágicos requiere que el usuario haga algo en particular, como sostener el objeto y pronunciar una palabra de comando, leer el objeto si es un pergamino o beberlo si es una poción. La descripción de cada categoría de objetos o de cada objeto individual detalla cómo se activa un objeto. Algunos objetos utilizan una o más de las siguientes reglas relacionadas con su activación.",
+                "Si un objeto requiere una acción para activarse, esa acción no es una función de la acción {@acción Usar un objeto}, por lo que una característica como la {@subclassFeature Manos rápidas|Rogue||Thief||3} del pícaro no puede ser",
+                {
+                    "type": "entradas",
+                    "name": "Palabra de mando",
+                    "entries": [
+                        "Una palabra de mando es una palabra o frase que debe pronunciarse de forma audible para que el elemento funcione. Un objeto mágico que requiera que el usuario pronuncie una palabra de mando no puede activarse en el área de cualquier efecto que impida el sonido, como el área creada por el hechizo de silencio."
+                    ]
+                },
+                {
+                    "type": "entradas",
+                    "name": "Consumibles",
+                    "entries": [
+                        "Algunos elementos se agotan cuando se activan. Hay que ingerir una poción o un elixir, o aplicar un aceite en el cuerpo. La escritura desaparece de un pergamino cuando se lee. Una vez utilizado, un objeto consumible pierde su magia y deja de funcionar."
+                    ]
+                },
+                {
+                    "type": "entradas",
+                    "name": "Hechizos",
+                    "entries": [
+                        "Algunos objetos mágicos permiten al usuario lanzar un hechizo desde el objeto, a menudo gastando cargas del mismo. El hechizo se lanza al nivel de hechizo y de lanzador más bajo posible, no gasta ninguna de las ranuras de hechizo del usuario y no requiere componentes a menos que la descripción del objeto diga lo contrario. El hechizo utiliza su tiempo de lanzamiento, alcance y duración normales, y el usuario del objeto debe concentrarse si el hechizo requiere concentración. Algunos objetos hacen excepciones a estas reglas, cambiando el tiempo de lanzamiento, la duración u otras partes de un hechizo.",
+                        "Muchos objetos, como las pociones, evitan el lanzamiento del hechizo y confieren sus efectos. Estos objetos siguen utilizando la duración del hechizo a menos que la descripción del objeto diga lo contrario.",
+                        "Un objeto mágico, como ciertos báculos, puede requerir que uses tu propia habilidad de lanzamiento de hechizos cuando lances un hechizo desde el objeto. Si tienes más de una habilidad de lanzamiento de hechizos, eliges cuál usar con el objeto. Si no tienes una habilidad de lanzamiento de conjuros -tal vez seas un pícaro con la característica de Usar Dispositivo Mágico- tu modificador de habilidad de lanzamiento de conjuros es +0 para el objeto, y se aplica tu bonificador de competencia."
+                    ]
+                },
+                {
+                    "type": "entradas",
+                    "name": "Cargos",
+                    "entries": [
+                        "Algunos objetos mágicos tienen cargas que se gastan para activar sus propiedades. El número de cargas que le quedan a un objeto se revela cuando se lanza un hechizo de identificación sobre el objeto, o cuando una criatura se sintoniza con el objeto. Además, cuando un objeto recupera sus cargas, la criatura que está en sintonía con ese objeto sabe cuántas cargas ha recuperado."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ataque",
+            "page": 192,
+            "srd": true,
+            "basicRules": true,
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "acción"
+                }
+            ],
+            "entries": [
+                "La acción más común en el combate es la acción de ataque, ya sea que estés blandiendo una espada, disparando una flecha con un arco o peleando con tus puños.",
+                "Con esta acción, haces un ataque cuerpo a cuerpo o a distancia. Consulta la sección \"{@libro Hacer un ataque|phb|9|hacer un ataque}\" para conocer las reglas que rigen los ataques",
+                "Algunos rasgos, como el rasgo de ataque extra del luchador, te permiten hacer más de un ataque con esta acción."
+            ],
+            "seeAlsoAction": [
+                "Desarmar|DMG",
+                "Grapple",
+                "Marca|DMG",
+                "Empujar",
+                "Empujar a un lado|DMG",
+                "Lucha con dos armas"
+            ]
+        },
+        {
+            "name": "Lanzar un hechizo",
+            "page": 192,
+            "srd": true,
+            "basicRules": true,
+            "time": [
+                "Varía"
+            ],
+            "entries": [
+                "Los hechiceros, como los magos y los clérigos, así como muchos monstruos, tienen acceso a hechizos y pueden utilizarlos con gran efecto en el combate. Cada hechizo tiene un tiempo de lanzamiento, que especifica si el lanzador debe utilizar una acción, una reacción, minutos o incluso horas para lanzar el hechizo. Por lo tanto, lanzar un hechizo no es necesariamente una acción. La mayoría de los hechizos tienen un tiempo de lanzamiento de 1 acción, por lo que un hechicero suele utilizar su acción en el combate para lanzar dicho hechizo. Ver {@capítulo del libro 10|phb|10|lanzamiento de un hechizo} para las reglas de lanzamiento de hechizos."
+            ]
+        },
+        {
+            "name": "Súbete a una criatura más grande",
+            "page": 271,
+            "fromVariant": "Opciones de acción",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "acción"
+                }
+            ],
+            "entries": [
+                "Si una criatura quiere saltar sobre otra, puede hacerlo mediante {@acción grapple||grappling}. Sin embargo, una criatura pequeña o mediana tiene pocas probabilidades de lograr un agarre exitoso contra una criatura enorme o gargantuesca, a menos que la magia le haya concedido al agarrador un poder sobrenatural.",
+                "Como alternativa, un oponente de tamaño adecuado puede ser tratado como terreno a efectos de saltar sobre su espalda o agarrarse a una extremidad. Después de hacer los chequeos de habilidad necesarios para ponerse en posición y sobre la criatura más grande, la criatura más pequeña utiliza su acción para hacer un chequeo de Fuerza ({@habilidad Atletismo}) o Destreza ({@habilidad Acrobacia}) impugnado por el chequeo de Destreza ({@habilidad Acrobacia}) del objetivo. Si gana el chequeo, la criatura más pequeña se mueve con éxito al espacio de la criatura objetivo, la criatura más pequeña se mueve con el objetivo y tiene ventaja en las tiradas de ataque contra él.",
+                "La criatura más pequeña puede moverse dentro del espacio de la criatura más grande, tratando el espacio como {@quickref terreno difícil||3}. La capacidad de la criatura mayor para atacar a la criatura menor depende de la ubicación de la criatura menor, y se deja a tu discreción. La criatura más grande puede desalojar a la criatura más pequeña como acción -golpearla, rasparla contra una pared o agarrarla y lanzarla- haciendo un chequeo de Fuerza ({@habilidad Atletismo}) contestado por el chequeo de Fuerza ({@habilidad Atletismo}) o Destreza ({@habilidad Acrobacia}) de la criatura más pequeña. La criatura más pequeña elige qué habilidad utilizar."
+            ]
+        },
+        {
+            "name": "Dash",
+            "page": 192,
+            "srd": true,
+            "basicRules": true,
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "acción"
+                }
+            ],
+            "entries": [
+                "Cuando realizas la acción de correr, ganas movimiento extra para el turno actual. El aumento es igual a tu velocidad, después de aplicar cualquier modificador. Con una velocidad de 30 pies, por ejemplo, puedes moverte hasta 60 pies en tu turno si te lanzas.",
+                "Cualquier aumento o disminución de su velocidad cambia este movimiento adicional en la misma cantidad. Si tu velocidad de 30 pies se reduce a 15 pies, por ejemplo, puedes moverte hasta 30 pies en este turno si corres."
+            ]
+        },
+        {
+            "name": "Desarme",
+            "page": 271,
+            "fromVariant": "Opciones de acción",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "acción"
+                }
+            ],
+            "entries": [
+                "Una criatura puede usar un ataque de arma para derribar un arma u otro objeto del agarre de un objetivo. El atacante realiza una tirada de ataque impugnada por el chequeo de Fuerza ({@habilidad Atletismo}) o de Destreza ({@habilidad Acrobacia}) del objetivo. Si el atacante gana la tirada, el ataque no causa daño ni ningún otro efecto negativo, pero el defensor deja caer el objeto.",
+                "El atacante tiene desventaja en su tirada de ataque si el objetivo sostiene el objeto con dos o más manos. El objetivo tiene ventaja en su chequeo de habilidad si es mayor que la criatura atacante, o desventaja si es menor."
+            ],
+            "seeAlsoAction": [
+                "Ataque"
+            ]
+        },
+        {
+            "name": "Desactivar",
+            "page": 192,
+            "srd": true,
+            "basicRules": true,
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "acción"
+                }
+            ],
+            "entries": [
+                "Si realizas la acción de Desenganche, tu movimiento no provoca ataques de oportunidad durante el resto del turno."
+            ]
+        },
+        {
+            "name": "Dodge",
+            "page": 192,
+            "srd": true,
+            "basicRules": true,
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "acción"
+                }
+            ],
+            "entries": [
+                "Cuando realizas la acción de esquivar, te centras por completo en evitar los ataques. Hasta el comienzo de tu siguiente turno, cualquier tirada de ataque realizada contra ti tiene desventaja si puedes ver al atacante, y haces tiradas de salvación de Destreza con ventaja. Pierdes esta ventaja si estás incapacitado (como se explica en el apéndice) o si tu velocidad baja a 0."
+            ]
+        },
+        {
+            "name": "Poner o quitar un escudo",
+            "page": 146,
+            "srd": true,
+            "basicRules": true,
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "acción"
+                }
+            ],
+            "entries": [
+                "El tiempo que se tarda en ponerse o quitarse una armadura {@tabla Ponerse y quitarse una armadura|phb|depende de la categoría de la armadura}. Un {@item escudo|phb} puede ponerse o quitarse como una acción."
+            ]
+        },
+        {
+            "name": "Fin de la concentración",
+            "page": 203,
+            "srd": true,
+            "basicRules": true,
+            "time": [
+                "Gratis"
+            ],
+            "entries": [
+                "Si un hechizo debe mantenerse con concentración, ese hecho aparece en su entrada de Duración, y el hechizo especifica cuánto tiempo puedes concentrarte en él. Puedes terminar la concentración en cualquier momento (no se requiere ninguna acción)."
+            ]
+        },
+        {
+            "name": "Escapar de un Grapple",
+            "page": 195,
+            "srd": true,
+            "basicRules": true,
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "acción"
+                }
+            ],
+            "entries": [
+                "Una criatura {@condición agarrada} puede usar su acción para escapar. Para ello, debe tener éxito en un chequeo de Fuerza ({@habilidades de Atletismo}) o Destreza ({@habilidades de Acrobacia}) contestado por tu chequeo de Fuerza ({@habilidades de Atletismo})."
+            ],
+            "seeAlsoAction": [
+                "Grapple"
+            ]
+        },
+        {
+            "name": "Grapple",
+            "page": 195,
+            "srd": true,
+            "basicRules": true,
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "acción"
+                }
+            ],
+            "entries": [
+                "Cuando quieras agarrar a una criatura o luchar con ella, puedes utilizar la acción {@acción Ataque} para realizar un ataque especial cuerpo a cuerpo, un grapple. Si puedes realizar varios ataques con la acción {@action Attack}, este ataque sustituye a uno de ellos. El objetivo de tu agarre no debe ser más grande que tú y debe estar a tu alcance.",
+                "Utilizando al menos una mano libre, intentas agarrar al objetivo haciendo un chequeo de agarre, un chequeo de Fuerza ({@habilidad Atletismo}) impugnado por el chequeo de Fuerza ({@habilidad Atletismo}) o Destreza ({@habilidad Acrobacia}) del objetivo (el objetivo elige la habilidad a utilizar). Tienes éxito automáticamente si el objetivo está {@condición incapacitada}. Si tienes éxito, sometes al objetivo a la condición de {@condición de agarre} (ver el apéndice). La condición especifica las cosas que la terminan, y puedes liberar al objetivo cuando quieras (no se requiere ninguna acción).",
+                {
+                    "type": "entradas",
+                    "name": "Mover un objetivo agarrado",
+                    "entries": [
+                        "Cuando te mueves, puedes arrastrar o llevar contigo a la criatura {@condición agarrada}, pero tu velocidad se reduce a la mitad, a menos que la criatura sea dos o más tallas menor que"
+                    ]
+                }
+            ],
+            "seeAlsoAction": [
+                "Escapar de un Grapple"
+            ]
+        },
+        {
+            "name": "Oleada de curación",
+            "page": 266,
+            "fromVariant": "Curación",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "acción"
+                }
+            ],
+            "entries": [
+                "Como acción, un personaje puede usar una oleada de curación y gastar hasta la mitad de sus Dados de Golpe. Por cada Dado de Golpe gastado de esta manera, el jugador tira el dado y añade el modificador de Constitución del personaje. El personaje recupera puntos de golpe iguales al total. El jugador puede decidir gastar un Dado de Golpe adicional después de cada tirada.",
+                "Un personaje que utiliza un aumento de curación no puede volver a hacerlo hasta que termine un descanso corto o largo. Bajo esta regla opcional, un personaje recupera todos los Dados de Golpe gastados al final de un descanso largo. Con un descanso corto, un personaje recupera Dados de Golpe iguales a su nivel dividido por cuatro (mínimo de un dado)."
+            ]
+        },
+        {
+            "name": "Ayuda",
+            "page": 192,
+            "srd": true,
+            "basicRules": true,
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "acción"
+                }
+            ],
+            "entries": [
+                "Puedes prestar tu ayuda a otra criatura en la realización de una tarea. Cuando realizas la acción de ayuda, la criatura a la que ayudas gana ventaja en el siguiente chequeo de habilidad que realice para llevar a cabo la tarea en la que estás ayudando, siempre que haga el chequeo antes del comienzo de tu siguiente turno.",
+                "Alternativamente, puedes ayudar a una criatura amiga a atacar a una criatura que esté a 5 pies de ti. Haces una finta, distraes al objetivo o te unes de alguna manera para que el ataque de tu aliado sea más efectivo. Si tu aliado ataca al objetivo antes de tu siguiente turno, la primera tirada de ataque se hace con ventaja."
+            ]
+        },
+        {
+            "name": "Ocultar",
+            "page": 192,
+            "srd": true,
+            "basicRules": true,
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "acción"
+                }
+            ],
+            "entries": [
+                "Cuando realizas la acción de Esconderse, haces un chequeo de Destreza ({@habilidad Sigilo}) para intentar esconderte, siguiendo las reglas del {@capítulo 7 del libro |phb|7|hiding} para esconderse. Si tienes éxito, obtienes ciertos beneficios, como se describe en la sección \"{@libro Atacantes y Objetivos Invisibles|PHB|9|Atacantes y Objetivos Invisibles}\" del Manual del Jugador."
+            ]
+        },
+        {
+            "name": "Identificar un hechizo",
+            "page": 85,
+            "fromVariant": "Hechizos|XGE",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "reacción"
+                },
+                {
+                    "number": 1,
+                    "unit": "acción"
+                }
+            ],
+            "entries": [
+                "A veces un personaje quiere identificar un hechizo que otra persona está lanzando o que ya fue lanzado. Para ello, un personaje puede utilizar su reacción para identificar un hechizo mientras se está lanzando, o puede utilizar una acción en su turno para identificar un hechizo por su efecto después de que",
+                "Si el personaje percibió el lanzamiento, el efecto del hechizo, o ambos, el personaje puede hacer un chequeo de Inteligencia ({@habilidad Arcana}) con la reacción o acción. La DC es igual a 15 + el nivel del hechizo. Si el hechizo se lanza como un hechizo de clase y el personaje es miembro de esa clase, el chequeo se hace con ventaja. Por ejemplo, si el hechicero lanza un hechizo como clérigo, otro clérigo tiene ventaja en el chequeo para identificar el hechizo. Algunos hechizos no están asociados a ninguna clase cuando se lanzan, como cuando un monstruo utiliza su rasgo de Hechicería Innata.",
+                "Este chequeo de Inteligencia ({@skill Arcana}) representa el hecho de que la identificación de un hechizo requiere una mente rápida y la familiaridad con la teoría y la práctica del lanzamiento. Esto es cierto incluso para un personaje cuya habilidad de lanzamiento de hechizos es Sabiduría o Carisma. Ser capaz de lanzar hechizos no te hace por sí mismo experto en deducir exactamente lo que otros están haciendo cuando lanzan sus hechizos."
+            ]
+        },
+        {
+            "name": "Improvisar una acción",
+            "page": 193,
+            "basicRules": true,
+            "time": [
+                "Varía"
+            ],
+            "entries": [
+                "Tu personaje puede hacer cosas que no están contempladas en las acciones de este capítulo, como derribar puertas, intimidar a los enemigos, percibir los puntos débiles de las defensas mágicas o llamar al parlamento a un enemigo. Los únicos límites a las acciones que puedes intentar son tu imaginación y las puntuaciones de habilidad de tu personaje. Consulta las descripciones de las puntuaciones de habilidad en {@capítulo 7|phb|7|Puntuaciones de habilidad y modificadores} para inspirarte mientras improvisas.",
+                "Cuando describas una acción no detallada en otra parte de las reglas, el DM te dirá si esa acción es posible y qué tipo de tirada tienes que hacer, si es que hay alguna, para determinar el éxito o el fracaso."
+            ]
+        },
+        {
+            "name": "Mark",
+            "page": 271,
+            "fromVariant": "Opciones de acción",
+            "entries": [
+                "Esta opción facilita que los combatientes cuerpo a cuerpo se acosen con ataques de oportunidad.",
+                "Cuando una criatura realiza un ataque cuerpo a cuerpo, también puede marcar a su objetivo. Hasta el final del siguiente turno del atacante, cualquier ataque de oportunidad que realice contra el objetivo marcado tiene ventaja. El ataque de oportunidad no gasta la reacción del atacante, pero el atacante no puede realizar el ataque si algo, como la condición {@condición de incapacitado} o el hechizo {@spellizco impactante}, le impide realizar reacciones. El atacante está limitado a un ataque de oportunidad por turno."
+            ],
+            "seeAlsoAction": [
+                "Ataque"
+            ]
+        },
+        {
+            "name": "Ataque de oportunidad",
+            "page": 195,
+            "srd": true,
+            "basicRules": true,
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "reacción"
+                }
+            ],
+            "entries": [
+                "En una pelea, todo el mundo está constantemente pendiente de que los enemigos bajen la guardia. Rara vez se puede pasar por delante de los enemigos sin ponerse en peligro; si lo haces, provocas un ataque de oportunidad.",
+                "Puedes hacer un ataque de oportunidad cuando una criatura hostil que puedes ver se mueve fuera de tu alcance. Para realizar el ataque de oportunidad, utilizas tu reacción para realizar un ataque cuerpo a cuerpo contra la criatura provocadora. El ataque interrumpe el movimiento de la criatura provocadora y se produce justo antes de que la criatura salga de tu alcance.",
+                "Puedes evitar provocar un ataque de oportunidad realizando la acción {@acción Desengancharse}. Tampoco provocas un ataque de oportunidad cuando te teletransportas o cuando alguien o algo te mueve sin usar tu movimiento, acción o reacción. Por ejemplo, no provocas un ataque de oportunidad si una explosión te lanza fuera del alcance de un enemigo o si la gravedad te hace caer junto a un enemigo."
+            ]
+        },
+        {
+            "name": "Otra actividad",
+            "page": 190,
+            "srd": true,
+            "basicRules": true,
+            "time": [
+                "Varía"
+            ],
+            "entries": [
+                "Tu turno puede incluir una variedad de florituras que no requieren ni tu acción ni tu movimiento.",
+                "Puedes comunicarte de la forma que quieras, con breves expresiones y gestos, mientras haces tu turno.",
+                "También puedes interactuar con un objeto o característica del entorno de forma gratuita, ya sea durante tu movimiento o tu acción. Por ejemplo, puedes abrir una puerta durante tu movimiento mientras te diriges a un enemigo, o puedes desenfundar tu arma como parte de la misma acción que utilizas para atacar.",
+                "Si quieres interactuar con un segundo objeto, tienes que usar tu acción. Algunos objetos mágicos y otros objetos especiales requieren siempre una acción para ser utilizados, como se indica en sus descripciones.",
+                "El DM puede requerir que utilices una acción para cualquiera de estas actividades cuando necesita un cuidado especial o cuando presenta un obstáculo inusual. Por ejemplo, el DM podría esperar razonablemente que utilices una acción para abrir una puerta atascada o girar una manivela para bajar un puente levadizo.",
+                {
+                    "type": "inserto",
+                    "name": "Interacción con los objetos del entorno",
+                    "entries": [
+                        "Estos son algunos ejemplos del tipo de cosas que puedes hacer en conjunto con tu movimiento y acción:",
+                        {
+                            "type": "lista",
+                            "items": [
+                                "desenfundar o envainar una espada",
+                                "abrir o cerrar una puerta",
+                                "sacar una poción de tu mochila",
+                                "recoger un hacha caída",
+                                "coger una chuchería de una mesa",
+                                "quitarse un anillo del dedo",
+                                "meter algo de comida en la boca",
+                                "plantar una bandera en el suelo",
+                                "pescar unas cuantas monedas de la bolsa del cinturón",
+                                "beber toda la cerveza en una jarra",
+                                "accionar una palanca o un interruptor",
+                                "sacar una antorcha de un candelabro",
+                                "coge un libro de una estantería que puedas alcanzar",
+                                "apagar una pequeña llama",
+                                "ponte una máscara",
+                                "sube la capucha de tu capa y pásala por encima de tu cabeza",
+                                "poner la oreja en la puerta",
+                                "patear una pequeña piedra",
+                                "girar una llave en una cerradura",
+                                "golpear el suelo con un palo de 3 metros",
+                                "entregar un objeto a otro personaje"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "O",
+            "page": 272,
+            "fromVariant": "Opciones de acción",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "acción"
+                },
+                {
+                    "number": 1,
+                    "unit": "bono"
+                }
+            ],
+            "entries": [
+                "Cuando una criatura intenta moverse a través del espacio de una criatura hostil, ésta puede intentar forzar su paso arrollando a la criatura hostil. Como acción o acción adicional, el movedor hace un chequeo de Fuerza ({habilidades de Atletismo}) impugnado por el chequeo de Fuerza ({habilidades de Atletismo}) de la criatura hostil. La criatura que intenta el atropello tiene ventaja en este chequeo si es mayor que la criatura hostil, o desventaja si es menor. Si la criatura que se desplaza gana el chequeo, puede moverse a través del espacio de la criatura hostil una vez en este turno."
+            ],
+            "seeAlsoAction": [
+                "Tumble|DMG"
+            ]
+        },
+        {
+            "name": "Listo",
+            "page": 193,
+            "srd": true,
+            "basicRules": true,
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "acción"
+                }
+            ],
+            "entries": [
+                "A veces quieres adelantarte a un enemigo o esperar a una circunstancia concreta antes de actuar. Para ello, puedes realizar la acción Preparado en tu turno, que te permite actuar utilizando tu reacción antes del inicio de tu siguiente turno.",
+                "En primer lugar, decide qué circunstancia perceptible desencadenará su reacción. A continuación, eliges la acción que vas a realizar en respuesta a ese desencadenante, o bien optas por aumentar tu velocidad en respuesta a él. Algunos ejemplos son: \"Si el cultista pisa la trampilla, tiraré de la palanca que la abre\" y \"Si el duende se pone a mi lado, me alejo\".",
+                "Cuando se produce el desencadenamiento, puedes tomar tu reacción justo después de que termine el desencadenamiento o ignorar el desencadenamiento. Recuerda que sólo puedes tomar una reacción por ronda.",
+                "Cuando preparas un hechizo, lo lanzas de forma normal pero mantienes su energía, que liberas con tu reacción cuando se produce el disparo. Para ser preparado, un hechizo debe tener un tiempo de lanzamiento de 1 acción, y mantener la magia del hechizo requiere concentración (explicada en {@capítulo 10|phb|10|concentración}). Si tu concentración se rompe, el hechizo se disipa sin hacer efecto. Por ejemplo, si estás concentrado en el hechizo de telaraña y preparas un misil mágico, tu hechizo de telaraña termina, y si recibes daño antes de soltar el misil mágico con tu reacción, tu concentración podría romperse.",
+                "Tienes hasta el comienzo de tu siguiente turno para usar una acción preparada."
+            ]
+        },
+        {
+            "name": "Se",
+            "page": 193,
+            "srd": true,
+            "basicRules": true,
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "acción"
+                }
+            ],
+            "entries": [
+                "Cuando realizas la acción de Buscar, dedicas tu atención a encontrar algo. Dependiendo de la naturaleza de tu búsqueda, el DM puede hacerte hacer un chequeo de Sabiduría ({habilidades de Percepción}) o un chequeo de Inteligencia ({habilidades de Investigación})."
+            ]
+        },
+        {
+            "name": "Empujar",
+            "page": 195,
+            "srd": true,
+            "basicRules": true,
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "acción"
+                }
+            ],
+            "entries": [
+                "Utilizando la acción {@acción Ataque}, puedes realizar un ataque especial cuerpo a cuerpo para empujar a una criatura, ya sea para dejarla {@condición de prono} o para alejarla de ti. Si puedes realizar varios ataques con la acción {@Ataque}, este ataque sustituye a uno de ellos.",
+                "El objetivo de tu empujón no debe ser más de una talla mayor que la tuya, y debe estar a tu alcance. Haces un chequeo de Fuerza ({@habilidades de Atletismo}) impugnado por el chequeo de Fuerza ({@habilidades de Atletismo}) o Destreza ({@habilidades de Acrobacia}) del objetivo (el objetivo elige la habilidad a utilizar). Tienes éxito automáticamente si el objetivo está {@condición incapacitada}. Si tienes éxito, derribas al objetivo {@condición prona} o lo alejas 5 pies de ti."
+            ],
+            "seeAlsoAction": [
+                "Ataque",
+                "Empujar a un lado|DMG"
+            ]
+        },
+        {
+            "name": "Empujar a un lado",
+            "page": 272,
+            "fromVariant": "Opciones de acción",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "acción"
+                }
+            ],
+            "entries": [
+                "Con esta opción, una criatura utiliza el ataque especial {@acción empujar} del {@libro Manual del Jugador|9|Empujar a una criatura} para obligar a un objetivo a apartarse, en lugar de alejarse. El atacante tiene desventaja en su chequeo de Fuerza ({@habilidad Atletismo}) cuando lo hace. Si ese chequeo tiene éxito, el atacante mueve al objetivo 1,5 metros a un espacio diferente dentro de su alcance."
+            ]
+        },
+        {
+            "name": "Tumble",
+            "page": 272,
+            "fromVariant": "Opciones de acción",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "acción"
+                },
+                {
+                    "number": 1,
+                    "unit": "bono"
+                }
+            ],
+            "entries": [
+                "Una criatura puede intentar atravesar el espacio de una criatura hostil, agachándose y pasando por encima del oponente. Como acción o acción adicional, el volteador hace un chequeo de Destreza ({@habilidad Acrobacia}) impugnado por el chequeo de Destreza ({@habilidad Acrobacia}) de la criatura hostil. Si el volteador gana el chequeo, puede moverse a través del espacio de la criatura hostil una vez en este turno."
+            ],
+            "seeAlsoAction": [
+                "Rebasamiento|DMG"
+            ]
+        },
+        {
+            "name": "Lucha con dos armas",
+            "page": 195,
+            "srd": true,
+            "basicRules": true,
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bono"
+                }
+            ],
+            "entries": [
+                "Cuando realizas la acción {@action Attack} y atacas con un arma ligera de combate cuerpo a cuerpo que tienes en una mano, puedes utilizar una acción de bonificación para atacar con otra arma ligera de combate cuerpo a cuerpo que tengas en la otra mano. No añades tu modificador de habilidad al daño del ataque extra, a menos que ese modificador sea negativo.",
+                "Si cualquiera de las dos armas tiene la propiedad de lanzar, puedes lanzar el arma, en lugar de hacer un ataque cuerpo a cuerpo con ella."
+            ],
+            "seeAlsoAction": [
+                "Ataque"
+            ]
+        },
+        {
+            "name": "Utilizar un objeto",
+            "page": 193,
+            "srd": true,
+            "basicRules": true,
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "acción"
+                }
+            ],
+            "entries": [
+                "Normalmente se interactúa con un objeto mientras se hace otra cosa, como cuando se desenvaina una espada como parte de un ataque. Cuando un objeto requiere tu acción para su uso, realizas la acción Usar un objeto. Esta acción también es útil cuando quieres interactuar con más de un objeto en tu turno."
+            ]
+        },
+        {
+            "name": "Despertar a alguien",
+            "page": 77,
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "acción"
+                }
+            ],
+            "entries": [
+                "Una criatura que está durmiendo de forma natural, en lugar de estar en un sueño inducido mágica o químicamente, se despierta si recibe algún daño o si alguien utiliza una acción para sacudir o abofetear a la criatura. Un ruido fuerte y repentino -como un grito, un trueno o el sonido de una campana- también despierta a alguien que duerme de forma natural.",
+                "Los susurros no perturban el sueño, a menos que la puntuación pasiva de Sabiduría ({@habilidad Percepción}) del durmiente sea 20 o superior y los susurros estén a menos de 3 metros del durmiente. El habla a un volumen normal despierta a un durmiente si el entorno es silencioso (no hay viento, canto de pájaros, grillos, sonidos de la calle o similares) y el durmiente tiene una puntuación pasiva de Sabiduría ({habilidad Percepción}) de 15 o más."
+            ]
+        }
+    ]
+}
