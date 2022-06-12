@@ -1,0 +1,3569 @@
+{
+    "class": [
+        {
+            "name": "Hechicero",
+            "advancement": [
+                {
+                    "type": "ScaleValue",
+                    "configuration": {
+                        "identifier": "puntos de brujería",
+                        "type": "número",
+                        "scale": {
+                            "2": {
+                                "value": 2
+                            },
+                            "3": {
+                                "value": 3
+                            },
+                            "4": {
+                                "value": 4
+                            },
+                            "5": {
+                                "value": 5
+                            },
+                            "6": {
+                                "value": 6
+                            },
+                            "7": {
+                                "value": 7
+                            },
+                            "8": {
+                                "value": 8
+                            },
+                            "9": {
+                                "value": 9
+                            },
+                            "10": {
+                                "value": 10
+                            },
+                            "11": {
+                                "value": 11
+                            },
+                            "12": {
+                                "value": 12
+                            },
+                            "13": {
+                                "value": 13
+                            },
+                            "14": {
+                                "value": 14
+                            },
+                            "15": {
+                                "value": 15
+                            },
+                            "16": {
+                                "value": 16
+                            },
+                            "17": {
+                                "value": 17
+                            },
+                            "18": {
+                                "value": 18
+                            },
+                            "19": {
+                                "value": 19
+                            },
+                            "20": {
+                                "value": 20
+                            }
+                        }
+                    },
+                    "title": "Puntos de brujería"
+                }
+            ]
+        }
+    ],
+    "subclass": [
+        {
+            "name": "Colegio de los Susurros",
+            "className": "Bard",
+            "advancement": [
+                {
+                    "type": "ScaleValue",
+                    "configuration": {
+                        "identifier": "cuchillas psíquicas",
+                        "type": "dados",
+                        "scale": {
+                            "3": {
+                                "n": 2,
+                                "die": 6
+                            },
+                            "5": {
+                                "n": 3,
+                                "die": 6
+                            },
+                            "10": {
+                                "n": 5,
+                                "die": 6
+                            },
+                            "15": {
+                                "n": 8,
+                                "die": 6
+                            }
+                        }
+                    },
+                    "title": "Cuchillas psíquicas"
+                }
+            ]
+        },
+        {
+            "name": "Dominio de la muerte",
+            "className": "Clérigo",
+            "advancement": [
+                {
+                    "type": "ScaleValue",
+                    "configuration": {
+                        "identifier": "golpe divino",
+                        "type": "dados",
+                        "scale": {
+                            "8": {
+                                "n": 1,
+                                "die": 8
+                            },
+                            "14": {
+                                "n": 2,
+                                "die": 8
+                            }
+                        }
+                    },
+                    "title": "Golpe Divino"
+                }
+            ]
+        },
+        {
+            "name": "Dominio de la fragua",
+            "className": "Clérigo",
+            "advancement": [
+                {
+                    "type": "ScaleValue",
+                    "configuration": {
+                        "identifier": "golpe divino",
+                        "type": "dados",
+                        "scale": {
+                            "8": {
+                                "n": 1,
+                                "die": 8
+                            },
+                            "14": {
+                                "n": 2,
+                                "die": 8
+                            }
+                        }
+                    },
+                    "title": "Golpe Divino"
+                }
+            ]
+        },
+        {
+            "name": "Golpe Divino",
+            "className": "Clérigo",
+            "advancement": [
+                {
+                    "type": "ScaleValue",
+                    "configuration": {
+                        "identifier": "golpe divino",
+                        "type": "dados",
+                        "scale": {
+                            "8": {
+                                "n": 1,
+                                "die": 8
+                            },
+                            "14": {
+                                "n": 2,
+                                "die": 8
+                            }
+                        }
+                    },
+                    "title": "Golpe Divino"
+                }
+            ]
+        },
+        {
+            "name": "Ordenar el dominio",
+            "className": "Clérigo",
+            "advancement": [
+                {
+                    "type": "ScaleValue",
+                    "configuration": {
+                        "identifier": "golpe divino",
+                        "type": "dados",
+                        "scale": {
+                            "8": {
+                                "n": 1,
+                                "die": 8
+                            },
+                            "14": {
+                                "n": 2,
+                                "die": 8
+                            }
+                        }
+                    },
+                    "title": "Golpe Divino"
+                }
+            ]
+        },
+        {
+            "name": "Dominio del engaño",
+            "className": "Clérigo",
+            "advancement": [
+                {
+                    "type": "ScaleValue",
+                    "configuration": {
+                        "identifier": "golpe divino",
+                        "type": "dados",
+                        "scale": {
+                            "8": {
+                                "n": 1,
+                                "die": 8
+                            },
+                            "14": {
+                                "n": 2,
+                                "die": 8
+                            }
+                        }
+                    },
+                    "title": "Golpe Divino"
+                }
+            ]
+        }
+    ],
+    "classFeature": [
+        {
+            "name": "Movimiento sin armadura",
+            "className": "Monk",
+            "level": 2,
+            "effects": [
+                {
+                    "name": "Movimiento sin armadura",
+                    "changes": [
+                        {
+                            "key": "data.attributes.movement.walk",
+                            "value": "sign(@attributes.movement.walk) * @scale.monk.unarmored-movement"
+                        },
+                        {
+                            "key": "dat",
+                            "value": "sign(@attributes.movement.burrow) * @scale.monk.unarmored-m"
+                        },
+                        {
+                            "key": "data.attributes.movement.climb",
+                            "value": "sign(@attributes.movement.climb) * @scale.monk.unarmored-movement"
+                        },
+                        {
+                            "key": "data.attributes.movement.fly",
+                            "value": "sign(@attributes.movement.fly) * @scale.monk.unarmored-moveme"
+                        },
+                        {
+                            "key": "data.attributes.movement.swim",
+                            "value": "sign(@attributes.movement.swim) * @scale.monk.unarmored-movement"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Metamagia",
+            "className": "Hechicero",
+            "level": 3,
+            "entries": [
+                "A 3er nivel, obtienes la capacidad de modificar tus hechizos para adaptarlos a tus necesidades. Ganas dos opciones metamágicas a tu elección. Ganas otra a 10º y 17º nivel.",
+                "Sólo puedes usar una opción de Metamagia en un hechizo cuando lo lanzas, a menos que se indique lo contrario."
+            ]
+        },
+        {
+            "name": "Opciones metamágicas",
+            "source": "UAClassFeatureVariants",
+            "className": "Hechicero",
+            "level": 3,
+            "isIgnored": true
+        },
+        {
+            "name": "Opciones metamágicas",
+            "className": "Hechicero",
+            "level": 3,
+            "isIgnored": true
+        },
+        {
+            "name": "Metamagia",
+            "className": "Hechicero",
+            "level": 10,
+            "isIgnored": true
+        },
+        {
+            "name": "Metamagia",
+            "className": "Hechicero",
+            "level": 17,
+            "isIgnored": true
+        },
+        {
+            "name": "Infusiones conocidas",
+            "className": "Artificer",
+            "level": 2,
+            "isIgnored": true
+        },
+        {
+            "name": "Invocaciones Eldritch",
+            "className": "Warlock",
+            "level": 2,
+            "entries": [
+                "En tu estudio del saber oculto, has desenterrado invocaciones eldritch, fragmentos de conocimiento prohibido que te imbuyen de una habilidad mágica permanente.",
+                "A 2º nivel, ganas dos invocaciones eldritch a tu elección. Tus opciones de invocación se detallan al final de la descripción de la clase. Cuando adquieres ciertos niveles de brujo, obtienes invocaciones adicionales a tu elección, como se muestra en la columna Invocaciones conocidas de la tabla de brujos.",
+                "Además, cuando ganes un nivel en esta clase, puedes elegir una de las invocaciones que conozcas y sustituirla por otra invocación que puedas aprender a ese nivel.",
+                "Si una invocación eldritch tiene requisitos previos, debes cumplirlos para aprenderla. Puedes aprender la invocación al mismo tiempo que cumples sus prerrequisitos. Un prerrequisito de nivel se refiere a tu nivel en esta clase."
+            ]
+        },
+        {
+            "name": "Artes marciales",
+            "className": "Monk",
+            "level": 1,
+            "subEntities": {
+                "item": [
+                    {
+                        "name": "Golpe desarmado (Monje)",
+                        "page": 76,
+                        "srd": true,
+                        "rarity": "ninguno",
+                        "weaponCategory": "simple",
+                        "entries": [
+                            {
+                                "type": "cita",
+                                "entries": [
+                                    "Atar hasta un pollo asado."
+                                ],
+                                "by": "Yamamoto Tsunetomo",
+                                "from": "Hagakure Kikigaki"
+                            }
+                        ],
+                        "foundryData": {
+                            "equipped": true,
+                            "damage.parts": [
+                                [
+                                    "@scale.monk.die + @mod",
+                                    "aporreando"
+                                ]
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Movimiento rápido",
+            "className": "Bárbaro",
+            "level": 5,
+            "effects": [
+                {
+                    "changes": [
+                        {
+                            "key": "data.attributes.movement.walk",
+                            "value": 10
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Experiencia",
+            "className": "Rogue",
+            "level": 1,
+            "entryData": {
+                "expertise": [
+                    {
+                        "anyProficientSkill": 2
+                    },
+                    {
+                        "anyProficientSkill": 1,
+                        "thieves' tools": true
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Experiencia",
+            "className": "Rogue",
+            "level": 6,
+            "entryData": {
+                "expertise": [
+                    {
+                        "anyProficientSkill": 2
+                    },
+                    {
+                        "anyProficientSkill": 1,
+                        "thieves' tools": true
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Experiencia",
+            "className": "Bard",
+            "level": 3,
+            "entryData": {
+                "expertise": [
+                    {
+                        "anyProficientSkill": 2
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Experiencia",
+            "className": "Bard",
+            "level": 10,
+            "entryData": {
+                "expertise": [
+                    {
+                        "anyProficientSkill": 2
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Conocimiento primordial",
+            "className": "Bárbaro",
+            "level": 3,
+            "entryData": {
+                "skillProficiencies": [
+                    {
+                        "choose": {
+                            "from": [
+                                "manejo de animales",
+                                "atletismo",
+                                "intimidación",
+                                "naturaleza",
+                                "percepción",
+                                "supervivencia"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Bonificación de competencias",
+            "className": "Hechicero compañero",
+            "level": 1,
+            "entryData": {
+                "skillProficiencies": [
+                    {
+                        "choose": {
+                            "from": [
+                                "arcanos",
+                                "historia",
+                                "información",
+                                "investigación",
+                                "medicina",
+                                "rendimiento",
+                                "persuasión",
+                                "religión"
+                            ],
+                            "count": 2
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Bonificación de competencias",
+            "className": "Guerrero Sidekick",
+            "level": 1,
+            "entryData": {
+                "skillProficiencies": [
+                    {
+                        "choose": {
+                            "from": [
+                                "acrobacia",
+                                "manejo de animales",
+                                "atletismo",
+                                "intimidación",
+                                "naturaleza",
+                                "percepción",
+                                "supervivencia"
+                            ],
+                            "count": 2
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Druida",
+            "className": "Druida",
+            "level": 1,
+            "entryData": {
+                "languageProficiencies": [
+                    {
+                        "druidic": true
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Explorador hábil",
+            "className": "Ranger",
+            "level": 1,
+            "entryData": {
+                "languageProficiencies": [
+                    {
+                        "any": 2
+                    }
+                ],
+                "expertise": [
+                    {
+                        "anyProficientSkill": 1
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Cant de los ladrones",
+            "className": "Rogue",
+            "level": 1,
+            "entryData": {
+                "languageProficiencies": [
+                    {
+                        "thieves' cant": true
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Mente resbaladiza",
+            "className": "Rogue",
+            "level": 15,
+            "entryData": {
+                "savingThrowProficiencies": [
+                    {
+                        "wis": true
+                    }
+                ]
+            }
+        },
+        {
+            "name": "El mejor de los oficios",
+            "className": "Bard",
+            "level": 2,
+            "effects": [
+                {
+                    "changes": [
+                        {
+                            "key": "flags.dnd5e.jackOfAllTrades",
+                            "mode": "OVERRIDE",
+                            "value": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Talento fiable",
+            "className": "Rogue",
+            "level": 11,
+            "effects": [
+                {
+                    "changes": [
+                        {
+                            "key": "flags.dnd5e.reliableTalent",
+                            "mode": "OVERRIDE",
+                            "value": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Alma de diamante",
+            "className": "Monk",
+            "level": 14,
+            "effects": [
+                {
+                    "changes": [
+                        {
+                            "key": "flags.dnd5e.diamondSoul",
+                            "mode": "OVERRIDE",
+                            "value": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Crítico brutal (1 dado)",
+            "className": "Bárbaro",
+            "level": 9,
+            "effects": [
+                {
+                    "changes": [
+                        {
+                            "key": "flags.dnd5e.meleeCriticalDamageDice",
+                            "mode": "ACTUALIZACIÓN",
+                            "value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Crítico brutal (2 dados)",
+            "className": "Bárbaro",
+            "level": 13,
+            "effects": [
+                {
+                    "changes": [
+                        {
+                            "key": "flags.dnd5e.meleeCriticalDamageDice",
+                            "mode": "ACTUALIZACIÓN",
+                            "value": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Crítico brutal (3 dados)",
+            "className": "Barbaridad",
+            "level": 17,
+            "effects": [
+                {
+                    "changes": [
+                        {
+                            "key": "flags.dnd5e.meleeCriticalDamageDice",
+                            "mode": "ACTUALIZACIÓN",
+                            "value": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Campeón Primordial",
+            "className": "Bárbaro",
+            "level": 20,
+            "effects": [
+                {
+                    "changes": [
+                        {
+                            "key": "valor.str.data.abilities",
+                            "value": 4
+                        },
+                        {
+                            "key": "valor.de.las.capacidades.de.los.datos",
+                            "value": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Canalizar la divinidad",
+            "className": "Clérigo",
+            "level": 6,
+            "isIgnored": true
+        },
+        {
+            "name": "Canalizar la divinidad",
+            "className": "Clérigo",
+            "level": 18,
+            "isIgnored": true
+        },
+        {
+            "name": "Fuente de Magia",
+            "className": "Hechicero",
+            "level": 2,
+            "data": {
+                "activation.type": null,
+                "uses.per": null,
+                "uses.value": null,
+                "uses.max": null
+            }
+        },
+        {
+            "name": "Puntos de brujería",
+            "className": "Hechicero",
+            "level": 2,
+            "data": {
+                "uses.max": "@scale.sorcerer.sorcery-points"
+            },
+            "img": "icons/magic/control/silhouette-hold-change-blue.webp"
+        },
+        {
+            "name": "Estilo de lucha",
+            "className": "Caza",
+            "level": 1,
+            "isIgnored": true
+        },
+        {
+            "name": "Estilo de lucha",
+            "className": "Paladín",
+            "level": 2,
+            "isIgnored": true
+        },
+        {
+            "name": "Estilo de lucha",
+            "className": "Ranger",
+            "level": 2,
+            "isIgnored": true
+        },
+        {
+            "name": "Pacto Boon",
+            "className": "Warlock",
+            "level": 3,
+            "isIgnored": true
+        },
+        {
+            "name": "Blindsense",
+            "className": "Rogue",
+            "level": 14,
+            "entryData": {
+                "senses": [
+                    {
+                        "blindsight": 10
+                    }
+                ]
+            }
+        }
+    ],
+    "subclassFeature": [
+        {
+            "name": "Arma de fuego arcana",
+            "className": "Artificer",
+            "subclassShortName": "Artillero",
+            "level": 5,
+            "effects": [
+                {
+                    "changes": [
+                        {
+                            "key": "datos.bonos.msak.daños"
+                        },
+                        {
+                            "key": "datos.bonos.rsak.daños"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Atleta notable",
+            "className": "Caza",
+            "subclassShortName": "Campeón",
+            "level": 7,
+            "effects": [
+                {
+                    "changes": [
+                        {
+                            "key": "flags.dnd5e.remarkableAthlete",
+                            "mode": "OVERRIDE",
+                            "value": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Estilo de lucha adicional",
+            "className": "Caza",
+            "subclassShortName": "Campeón",
+            "level": 10,
+            "isIgnored": true
+        },
+        {
+            "name": "Crítica mejorada",
+            "className": "Caza",
+            "subclassShortName": "Campeón",
+            "level": 3,
+            "effects": [
+                {
+                    "changes": [
+                        {
+                            "key": "flags.dnd5e.weaponCriticalThreshold",
+                            "mode": "OVERRIDE",
+                            "value": 19
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Águila",
+            "className": "Bárbaro",
+            "subclassShortName": "Guerrero tótem",
+            "level": 3,
+            "data": {
+                "activation.type": "bono",
+                "activation.cost": 1
+            }
+        },
+        {
+            "name": "Superioridad en el combate",
+            "className": "Caza",
+            "subclassShortName": "Maestro de la Batalla",
+            "level": 3,
+            "entryData": {
+                "resources": [
+                    {
+                        "name": "Dados de superioridad",
+                        "type": "dados",
+                        "recharge": "restShort",
+                        "count": "floor((<$nivel$> + 1) / 8) + 4",
+                        "number": 1,
+                        "faces": "8"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Dado de superioridad adicional",
+            "className": "Caza",
+            "subclassShortName": "Maestro de la Batalla",
+            "level": 7,
+            "isIgnored": true
+        },
+        {
+            "name": "Dado de superioridad adicional",
+            "className": "Caza",
+            "subclassShortName": "Maestro de la Batalla",
+            "level": 15,
+            "isIgnored": true
+        },
+        {
+            "name": "Superioridad de combate mejorada (d10)",
+            "className": "Caza",
+            "subclassShortName": "Maestro de la Batalla",
+            "level": 10,
+            "isIgnored": true
+        },
+        {
+            "name": "Superioridad de combate mejorada (d12)",
+            "className": "Caza",
+            "subclassShortName": "Maestro de la Batalla",
+            "level": 18,
+            "isIgnored": true
+        },
+        {
+            "name": "Maniobras",
+            "className": "Caza",
+            "subclassShortName": "Maestro de la Batalla",
+            "level": 3,
+            "isIgnored": true
+        },
+        {
+            "name": "Maniobras adicionales",
+            "className": "Caza",
+            "subclassShortName": "Maestro de la Batalla",
+            "level": 7,
+            "isIgnored": true
+        },
+        {
+            "name": "Maniobras adicionales",
+            "className": "Caza",
+            "subclassShortName": "Maestro de la Batalla",
+            "level": 10,
+            "isIgnored": true
+        },
+        {
+            "name": "Maniobras adicionales",
+            "className": "Caza",
+            "subclassShortName": "Maestro de la Batalla",
+            "level": 15,
+            "isIgnored": true
+        },
+        {
+            "name": "Opciones de maniobra",
+            "source": "UAClassFeatureVariants",
+            "className": "Caza",
+            "subclassShortName": "Maestro de la Batalla",
+            "level": 3,
+            "isIgnored": true
+        },
+        {
+            "name": "Opciones de maniobra",
+            "className": "Caza",
+            "subclassShortName": "Maestro de la Batalla",
+            "level": 3,
+            "isIgnored": true
+        },
+        {
+            "name": "Dominio de la química",
+            "className": "Artificer",
+            "subclassShortName": "Alquimista",
+            "level": 15,
+            "entryData": {
+                "resist": [
+                    "ácido",
+                    "veneno"
+                ],
+                "conditionImmune": [
+                    "envenenado"
+                ]
+            }
+        },
+        {
+            "name": "Furia divina",
+            "className": "Bárbaro",
+            "subclassShortName": "Zealot",
+            "level": 3,
+            "isChooseDataRenderEntries": true,
+            "data": {
+                "activation.type": "especial",
+                "activation.condition": "Mientras estés furioso, la primera criatura que golpees en cada uno de tus turnos con un ataque de arma"
+            },
+            "chooseData": [
+                {
+                    "name": "Daño necrótico",
+                    "data": {
+                        "damage.parts": [
+                            [
+                                "1d6 + floor(@classes.barbarian.levels / 2)",
+                                "necrótico"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "name": "Daño radiante",
+                    "data": {
+                        "damage.parts": [
+                            [
+                                "1d6 + floor(@classes.barbarian.levels / 2)",
+                                "radiante"
+                            ]
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Rendimiento apasionante",
+            "className": "Bard",
+            "subclassShortName": "Glamour",
+            "level": 3,
+            "data": {
+                "activation.type": "minuto",
+                "activation.cost": 1,
+                "target.value": 60,
+                "target.type": "esfera"
+            }
+        },
+        {
+            "name": "Cuchillas psíquicas",
+            "className": "Bard",
+            "subclassShortName": "Susurros",
+            "level": 3,
+            "data": {
+                "activation.type": "especial",
+                "activation.condition": "Cuando golpeas a una criatura con un ataque de arma",
+                "damage.parts": [
+                    [
+                        "@scale.college-of-whispers.psychic-blades",
+                        "psíquico"
+                    ]
+                ]
+            }
+        },
+        {
+            "name": "Palabras de terror",
+            "className": "Bard",
+            "subclassShortName": "Susurros",
+            "level": 3,
+            "data": {
+                "activation.type": "minuto",
+                "activation.cost": 1,
+                "target.value": 1,
+                "target.type": "criatura"
+            }
+        },
+        {
+            "name": "Manto de susurros",
+            "className": "Bard",
+            "subclassShortName": "Susurros",
+            "level": 6,
+            "data": {
+                "target.value": 30,
+                "target.type": "criatura"
+            }
+        },
+        {
+            "name": "Sombra Lore",
+            "className": "Bard",
+            "subclassShortName": "Susurros",
+            "level": 14,
+            "data": {
+                "target.value": 30,
+                "target.type": "criatura"
+            }
+        },
+        {
+            "name": "Canaliza la divinidad: Abjuración Arcana",
+            "source": "SC",
+            "className": "Clérigo",
+            "subclassShortName": "Arcana",
+            "subclassSource": "SCAG",
+            "level": 2,
+            "data": {
+                "target.value": 1,
+                "target.type": "criatura",
+                "range.value": 30
+            }
+        },
+        {
+            "name": "Canaliza la divinidad: Toque de Muerte",
+            "className": "Clérigo",
+            "subclassShortName": "Muerte",
+            "level": 2,
+            "data": {
+                "activation.type": "especial",
+                "activation.condition": "Cuando el clérigo golpea a una criatura con un ataque cuerpo a cuerpo",
+                "damage.parts": [
+                    [
+                        "5 + (2 * @classes.cleric.levels)",
+                        "necrótico"
+                    ]
+                ]
+            }
+        },
+        {
+            "name": "Golpe divino",
+            "className": "Clérigo",
+            "subclassShortName": "Muerte",
+            "level": 8,
+            "data": {
+                "damage.parts": [
+                    [
+                        "@scale.death-domain.divine-strike",
+                        "necrótico"
+                    ]
+                ]
+            }
+        },
+        {
+            "name": "Golpe divino",
+            "className": "Clérigo",
+            "subclassShortName": "Forja",
+            "level": 8,
+            "data": {
+                "damage.parts": [
+                    [
+                        "@scale.forge-domain.divine-strike",
+                        "fuego"
+                    ]
+                ]
+            }
+        },
+        {
+            "name": "Santo de la fragua y el fuego",
+            "className": "Clérigo",
+            "subclassShortName": "Forja",
+            "level": 17,
+            "entryData": {
+                "immune": [
+                    "fuego"
+                ]
+            }
+        },
+        {
+            "name": "Canaliza la divinidad: Path to the Grave",
+            "className": "Clérigo",
+            "subclassShortName": "Grave",
+            "level": 2,
+            "data": {
+                "target.value": 1,
+                "target.type": "criatura",
+                "range.value": 30
+            }
+        },
+        {
+            "name": "Centinela a las puertas de la muerte",
+            "className": "Clérigo",
+            "subclassShortName": "Grave",
+            "level": 6,
+            "data": {
+                "target.value": 1,
+                "target.type": "criatura",
+                "range.value": 30
+            }
+        },
+        {
+            "name": "Guardián de las almas",
+            "className": "Clérigo",
+            "subclassShortName": "Grave",
+            "level": 17,
+            "data": {
+                "target.value": 1,
+                "target.type": "criatura",
+                "range.value": 60
+            }
+        },
+        {
+            "name": "Canaliza la divinidad: Conocimiento de las Edades",
+            "className": "Clérigo",
+            "subclassShortName": "Conocimiento",
+            "level": 2,
+            "data": {
+                "duration.value": 10,
+                "duration.units": "minuto"
+            }
+        },
+        {
+            "name": "Canaliza la divinidad: Leer pensamientos",
+            "className": "Clérigo",
+            "subclassShortName": "Conocimiento",
+            "level": 6,
+            "data": {
+                "target.value": 1,
+                "target.type": "criatura",
+                "range.value": 60
+            }
+        },
+        {
+            "name": "Visiones del pasado",
+            "className": "Clérigo",
+            "subclassShortName": "Conocimiento",
+            "level": 17,
+            "data": {
+                "activation.type": "minuto",
+                "activation.cost": 1
+            }
+        },
+        {
+            "name": "Canaliza la divinidad: El resplandor del amanecer",
+            "className": "Clérigo",
+            "subclassShortName": "Luz",
+            "level": 2,
+            "data": {
+                "target.value": 30,
+                "target.type": "esfera",
+                "damage.parts": [
+                    [
+                        "2d10 + @classes.cleric.levels",
+                        "radiante"
+                    ]
+                ]
+            }
+        },
+        {
+            "name": "Corona de luz",
+            "className": "Clérigo",
+            "subclassShortName": "Luz",
+            "level": 17,
+            "data": {
+                "target.value": 60,
+                "target.type": "esfera"
+            }
+        },
+        {
+            "name": "Canaliza la divinidad: Encantar animales y plantas",
+            "className": "Clérigo",
+            "subclassShortName": "Naturaleza",
+            "level": 2,
+            "data": {
+                "target.value": 30,
+                "target.type": "esfera",
+                "damage.parts": [
+                    [
+                        "2d10 + @classes.cleric.levels",
+                        "radiante"
+                    ]
+                ]
+            }
+        },
+        {
+            "name": "Golpe divino",
+            "className": "Clérigo",
+            "subclassShortName": "Naturaleza",
+            "level": 8,
+            "data": {
+                "damage.parts": [
+                    [
+                        "@scale.nature-domain.divine-strike",
+                        "frío"
+                    ],
+                    [
+                        "@scale.nature-domain.divine-strike",
+                        "fuego"
+                    ],
+                    [
+                        "@scale.nature-domain.divine-strike",
+                        "relámpago"
+                    ]
+                ]
+            }
+        },
+        {
+            "name": "Canaliza la divinidad: Order's Demand",
+            "className": "Clérigo",
+            "subclassShortName": "Pida",
+            "level": 2,
+            "data": {
+                "target.value": 30,
+                "target.type": "esfera"
+            }
+        },
+        {
+            "name": "Golpe divino",
+            "className": "Clérigo",
+            "subclassShortName": "Pida",
+            "level": 8,
+            "data": {
+                "damage.parts": [
+                    [
+                        "@scale.order-domain.divine-strike",
+                        "psíquico"
+                    ]
+                ]
+            }
+        },
+        {
+            "name": "Canaliza la divinidad: Invocar Duplicidad",
+            "className": "Clérigo",
+            "subclassShortName": "Engaño",
+            "level": 2,
+            "data": {
+                "target.value": 1,
+                "target.type": "espacio",
+                "range.value": 30
+            }
+        },
+        {
+            "name": "Golpe divino",
+            "className": "Clérigo",
+            "subclassShortName": "Engaño",
+            "level": 8,
+            "data": {
+                "damage.parts": [
+                    [
+                        "@scale.order-domain.divine-strike",
+                        "veneno"
+                    ]
+                ]
+            }
+        },
+        {
+            "name": "Bálsamo de la Corte de Verano",
+            "className": "Druida",
+            "subclassShortName": "Sueños",
+            "level": 2,
+            "data": {
+                "target.value": 1,
+                "target.type": "criatura",
+                "range.value": 120
+            }
+        },
+        {
+            "name": "El corazón de la luz y la sombra de la luna",
+            "className": "Druida",
+            "subclassShortName": "Sueños",
+            "level": 6,
+            "data": {
+                "target.value": 30,
+                "target.type": "esfera"
+            }
+        },
+        {
+            "name": "Caminos ocultos",
+            "className": "Druida",
+            "subclassShortName": "Sueños",
+            "level": 10,
+            "data": {
+                "target.value": 1,
+                "target.type": "espacio",
+                "range.value": 60
+            }
+        },
+        {
+            "name": "Sala de la Naturaleza",
+            "className": "Druida",
+            "subclassShortName": "Tierra",
+            "level": 10,
+            "entryData": {
+                "immune": [
+                    "veneno"
+                ],
+                "conditionImmune": [
+                    "enfermedad",
+                    "envenenado"
+                ]
+            }
+        },
+        {
+            "name": "Discurso de los Bosques",
+            "className": "Druida",
+            "subclassShortName": "Shepherd",
+            "level": 2,
+            "entryData": {
+                "languageProficiencies": [
+                    {
+                        "sylvan": true
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Tótem del Espíritu",
+            "className": "Druida",
+            "subclassShortName": "Shepherd",
+            "level": 2,
+            "data": {
+                "target.value": 1,
+                "target.type": "espacio",
+                "range.value": 60
+            }
+        },
+        {
+            "name": "Halo de esporas",
+            "className": "Druida",
+            "subclassShortName": "Esporas",
+            "level": 2,
+            "data": {
+                "target.value": 10,
+                "target.type": "esfera",
+                "range.units": "auto"
+            }
+        },
+        {
+            "name": "Propagación de esporas",
+            "className": "Druida",
+            "subclassShortName": "Esporas",
+            "level": 10,
+            "data": {
+                "target.value": 10,
+                "target.type": "cubo",
+                "range.value": 30,
+                "duration.value": 1,
+                "duration.units": "minuto"
+            }
+        },
+        {
+            "name": "Cuerpo de hongos",
+            "className": "Druida",
+            "subclassShortName": "Esporas",
+            "level": 14,
+            "entryData": {
+                "conditionImmune": [
+                    "cegado",
+                    "ensordecido",
+                    "asustado",
+                    "envenenado"
+                ]
+            }
+        },
+        {
+            "name": "Carga Arcana",
+            "className": "Caza",
+            "subclassShortName": "Eldritch Knight",
+            "level": 15,
+            "data": {
+                "target.value": 1,
+                "target.type": "espacio",
+                "range.value": 30
+            }
+        },
+        {
+            "name": "Grito de guerra",
+            "source": "SCAG",
+            "className": "Caza",
+            "subclassShortName": "Caballero del Dragón Púrpura (Banneret)",
+            "subclassSource": "SCAG",
+            "level": 3,
+            "data": {
+                "target.value": 3,
+                "target.type": "criatura",
+                "range.value": 60
+            }
+        },
+        {
+            "name": "Inspirando la oleada",
+            "source": "SCAG",
+            "className": "Caza",
+            "subclassShortName": "Caballero del Dragón Púrpura (Banneret)",
+            "subclassSource": "SCAG",
+            "level": 10,
+            "data": {
+                "target.value": 1,
+                "target.type": "ally",
+                "range.value": 60
+            }
+        },
+        {
+            "name": "Hora de la cosecha",
+            "source": "SCAG",
+            "className": "Monk",
+            "subclassShortName": "Muerte prolongada",
+            "subclassSource": "SCAG",
+            "level": 6,
+            "data": {
+                "target.value": 30,
+                "target.type": "esfera"
+            }
+        },
+        {
+            "name": "Paso de la sombra",
+            "className": "Monk",
+            "subclassShortName": "Sombra",
+            "level": 6,
+            "data": {
+                "target.value": 60,
+                "target.type": "espacio"
+            }
+        },
+        {
+            "name": "Searing Sunburst",
+            "className": "Monk",
+            "subclassShortName": "Alma del Sol",
+            "level": 11,
+            "data": {
+                "target.value": 20,
+                "target.type": "esfera",
+                "range.value": 150
+            }
+        },
+        {
+            "name": "Escudo solar",
+            "className": "Monk",
+            "subclassShortName": "Alma del Sol",
+            "level": 17,
+            "data": {
+                "target.value": 60,
+                "target.type": "radio"
+            }
+        },
+        {
+            "name": "Canaliza la divinidad: Nature's Wrath",
+            "className": "Paladín",
+            "subclassShortName": "Antiguos",
+            "level": 3,
+            "data": {
+                "target.value": 1,
+                "target.type": "criatura",
+                "range.value": 10
+            }
+        },
+        {
+            "name": "Canaliza la divinidad: Gira a los infieles",
+            "className": "Paladín",
+            "subclassShortName": "Antiguos",
+            "level": 3,
+            "data": {
+                "target.value": 30,
+                "target.type": "criatura"
+            }
+        },
+        {
+            "name": "Canaliza la divinidad: Presencia Conquistadora",
+            "className": "Paladín",
+            "subclassShortName": "Conquista",
+            "level": 3,
+            "data": {
+                "target.value": 30,
+                "target.type": "criatura"
+            }
+        },
+        {
+            "name": "Canaliza la divinidad: Desafío del Campeón",
+            "source": "SCAG",
+            "className": "Paladín",
+            "subclassShortName": "Corona",
+            "subclassSource": "SCAG",
+            "level": 3,
+            "data": {
+                "target.value": 30,
+                "target.type": "criatura"
+            }
+        },
+        {
+            "name": "Canaliza la divinidad: Turn the Tide",
+            "source": "SCAG",
+            "className": "Paladín",
+            "subclassShortName": "Corona",
+            "subclassSource": "SCAG",
+            "level": 3,
+            "data": {
+                "target.value": 30,
+                "target.type": "criatura"
+            }
+        },
+        {
+            "name": "Canaliza la divinidad: Arma Sagrada",
+            "className": "Paladín",
+            "subclassShortName": "Devoción",
+            "level": 3,
+            "data": {
+                "target.value": 40,
+                "target.type": "radio"
+            }
+        },
+        {
+            "name": "Canaliza la divinidad: Convierte a los impíos",
+            "className": "Paladín",
+            "subclassShortName": "Devoción",
+            "level": 3,
+            "data": {
+                "target.value": 30,
+                "target.type": "criatura"
+            }
+        },
+        {
+            "name": "Santo Nimbus",
+            "className": "Paladín",
+            "subclassShortName": "Devoción",
+            "level": 20,
+            "data": {
+                "target.value": 60,
+                "target.type": "radio"
+            }
+        },
+        {
+            "name": "Canaliza la divinidad: Golpe inspirador",
+            "className": "Paladín",
+            "subclassShortName": "Glory",
+            "level": 3,
+            "data": {
+                "target.value": 30,
+                "target.type": "criatura"
+            }
+        },
+        {
+            "name": "Gloriosa defensa",
+            "className": "Paladín",
+            "subclassShortName": "Glory",
+            "level": 15,
+            "data": {
+                "range.value": 10
+            }
+        },
+        {
+            "name": "Canal Oathbreaker Divinity: Controla a los muertos vivientes",
+            "className": "Paladín",
+            "subclassShortName": "Oathbreaker",
+            "level": 3,
+            "data": {
+                "target.value": 30,
+                "target.type": "criatura"
+            }
+        },
+        {
+            "name": "Canal Oathbreaker Divinity: Aspecto terrible",
+            "className": "Paladín",
+            "subclassShortName": "Oathbreaker",
+            "level": 3,
+            "data": {
+                "target.value": 30,
+                "target.type": "criatura"
+            }
+        },
+        {
+            "name": "Canaliza la divinidad: Reprende a los violentos",
+            "className": "Paladín",
+            "subclassShortName": "Redención",
+            "level": 3,
+            "data": {
+                "range.value": 30
+            }
+        },
+        {
+            "name": "Canaliza la divinidad: Abjurar del enemigo",
+            "className": "Paladín",
+            "subclassShortName": "Venganza",
+            "level": 3,
+            "data": {
+                "range.value": 60
+            }
+        },
+        {
+            "name": "Canaliza la divinidad: Voto de Enemistad",
+            "className": "Paladín",
+            "subclassShortName": "Venganza",
+            "level": 3,
+            "data": {
+                "range.value": 10
+            }
+        },
+        {
+            "name": "Vista Umbral",
+            "className": "Ranger",
+            "subclassShortName": "Gloom Stalker",
+            "level": 3,
+            "actorTokenMod": {
+                "_": [
+                    {
+                        "mode": "condicionales",
+                        "conditionals": [
+                            {
+                                "condition": "PLUT_CONTEXT?.actor?.data?.token?.dimSight",
+                                "mod": {
+                                    "dimSight": [
+                                        {
+                                            "value": 60
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "mod": {
+                                    "dimSight": [
+                                        {
+                                            "mode": "scalarAdd",
+                                            "scalar": 30
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Sentido del cazador",
+            "className": "Ranger",
+            "subclassShortName": "Cazador de monstruos",
+            "level": 3,
+            "data": {
+                "range.value": 60
+            }
+        },
+        {
+            "name": "La presa del cazador",
+            "className": "Ranger",
+            "subclassShortName": "Cazador de monstruos",
+            "level": 3,
+            "data": {
+                "range.value": 60
+            }
+        },
+        {
+            "name": "Némesis del usuario de magia",
+            "className": "Ranger",
+            "subclassShortName": "Cazador de monstruos",
+            "level": 11,
+            "data": {
+                "range.value": 60
+            }
+        },
+        {
+            "name": "Maestro de la táctica",
+            "className": "Rogue",
+            "subclassShortName": "Mastermind",
+            "level": 3,
+            "data": {
+                "range.value": 30
+            }
+        },
+        {
+            "name": "Movilidad superior",
+            "className": "Rogue",
+            "subclassShortName": "Scout",
+            "level": 9,
+            "effects": [
+                {
+                    "name": "Movilidad superior",
+                    "changes": [
+                        {
+                            "key": "data.attributes.movement.walk"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Presencia dracónica",
+            "className": "Hechicero",
+            "subclassShortName": "Dracónico",
+            "level": 18,
+            "data": {
+                "target.value": 60,
+                "target.type": "esfera"
+            }
+        },
+        {
+            "name": "Sabueso de mal agüero",
+            "className": "Hechicero",
+            "subclassShortName": "Sombra",
+            "level": 6,
+            "data": {
+                "target.value": 1,
+                "target.type": "criatura",
+                "range.value": 120
+            }
+        },
+        {
+            "name": "Paseo de las Sombras",
+            "className": "Hechicero",
+            "subclassShortName": "Sombra",
+            "level": 14,
+            "data": {
+                "target.value": 1,
+                "target.type": "espacio",
+                "range.value": 120
+            }
+        },
+        {
+            "name": "El corazón de la tormenta",
+            "className": "Hechicero",
+            "subclassShortName": "Tormenta",
+            "level": 6,
+            "entryData": {
+                "resist": [
+                    "relámpago",
+                    "trueno"
+                ]
+            },
+            "data": {
+                "target.value": 10,
+                "target.type": "esfera"
+            }
+        },
+        {
+            "name": "Alma del viento",
+            "className": "Hechicero",
+            "subclassShortName": "Tormenta",
+            "level": 18,
+            "entryData": {
+                "immune": [
+                    "relámpago",
+                    "trueno"
+                ]
+            }
+        },
+        {
+            "name": "Presencia Fey",
+            "className": "Warlock",
+            "subclassShortName": "Archfey",
+            "level": 1,
+            "data": {
+                "target.value": 10,
+                "target.type": "cubo"
+            }
+        },
+        {
+            "name": "Escapada de la niebla",
+            "className": "Warlock",
+            "subclassShortName": "Archfey",
+            "level": 6,
+            "data": {
+                "target.value": 1,
+                "target.type": "espacio",
+                "range.value": 60
+            }
+        },
+        {
+            "name": "Defensas seductoras",
+            "className": "Warlock",
+            "subclassShortName": "Archfey",
+            "level": 10,
+            "entryData": {
+                "conditionImmune": [
+                    "encantado"
+                ]
+            }
+        },
+        {
+            "name": "Delirio oscuro",
+            "className": "Warlock",
+            "subclassShortName": "Archfey",
+            "level": 14,
+            "data": {
+                "target.value": 1,
+                "target.type": "criatura",
+                "range.value": 60
+            }
+        },
+        {
+            "name": "Alma radiante",
+            "className": "Warlock",
+            "subclassShortName": "Celestial",
+            "level": 6,
+            "entryData": {
+                "resist": [
+                    "radiante"
+                ]
+            }
+        },
+        {
+            "name": "Venganza abrasadora",
+            "className": "Warlock",
+            "subclassShortName": "Celestial",
+            "level": 14,
+            "data": {
+                "target.value": 30,
+                "target.type": "esfera"
+            }
+        },
+        {
+            "name": "Mente despierta",
+            "className": "Warlock",
+            "subclassShortName": "El Gran Antiguo",
+            "level": 1,
+            "data": {
+                "target.value": 30,
+                "target.type": "esfera"
+            }
+        },
+        {
+            "name": "Escudo del pensamiento",
+            "className": "Warlock",
+            "subclassShortName": "El Gran Antiguo",
+            "level": 10,
+            "entryData": {
+                "resist": [
+                    "psíquico"
+                ]
+            }
+        },
+        {
+            "name": "Sala proyectada",
+            "className": "Mago",
+            "subclassShortName": "Abjuración",
+            "level": 6,
+            "data": {
+                "target.value": 30,
+                "target.type": "esfera"
+            }
+        },
+        {
+            "name": "Desplazamiento de los cronos",
+            "className": "Mago",
+            "subclassShortName": "Chronurgy",
+            "level": 2,
+            "data": {
+                "range.value": 30
+            }
+        },
+        {
+            "name": "Estasis momentánea",
+            "className": "Mago",
+            "subclassShortName": "Chronurgy",
+            "level": 6,
+            "data": {
+                "range.value": 60
+            }
+        },
+        {
+            "name": "Futuro convergente",
+            "className": "Mago",
+            "subclassShortName": "Chronurgy",
+            "level": 14,
+            "data": {
+                "range.value": 60
+            }
+        },
+        {
+            "name": "Transposición benigna",
+            "className": "Mago",
+            "subclassShortName": "Conjuración",
+            "level": 6,
+            "data": {
+                "target.value": 1,
+                "target.type": "espacio",
+                "range.value": 30
+            }
+        },
+        {
+            "name": "Mirada hipnótica",
+            "className": "Mago",
+            "subclassShortName": "Encanto",
+            "level": 2,
+            "data": {
+                "target.value": 1,
+                "target.type": "criatura",
+                "range.value": 5
+            }
+        },
+        {
+            "name": "Encanto instintivo",
+            "className": "Mago",
+            "subclassShortName": "Encanto",
+            "level": 6,
+            "data": {
+                "target.value": 1,
+                "target.type": "criatura",
+                "range.value": 30
+            }
+        },
+        {
+            "name": "Ajustar la densidad",
+            "className": "Mago",
+            "subclassShortName": "Graviturgia",
+            "level": 2,
+            "data": {
+                "target.value": 1,
+                "target.type": "criatura",
+                "range.value": 30
+            }
+        },
+        {
+            "name": "Atracción violenta",
+            "className": "Mago",
+            "subclassShortName": "Graviturgia",
+            "level": 10,
+            "data": {
+                "target.value": 1,
+                "target.type": "criatura",
+                "range.value": 60
+            }
+        },
+        {
+            "name": "Horizonte de sucesos",
+            "className": "Mago",
+            "subclassShortName": "Graviturgia",
+            "level": 14,
+            "data": {
+                "target.value": 30,
+                "target.type": "esfera"
+            }
+        },
+        {
+            "name": "Acostumbrado a la no-muerte",
+            "className": "Mago",
+            "subclassShortName": "Necromancia",
+            "level": 10,
+            "entryData": {
+                "resist": [
+                    "necrótico"
+                ]
+            }
+        },
+        {
+            "name": "Mando de muertos vivientes",
+            "className": "Mago",
+            "subclassShortName": "Necromancia",
+            "level": 14,
+            "data": {
+                "target.value": 1,
+                "target.type": "criatura",
+                "range.value": 60
+            }
+        },
+        {
+            "name": "Mortaja deflectora",
+            "className": "Mago",
+            "level": 14,
+            "data": {
+                "target.value": 3,
+                "target.type": "criatura",
+                "range.value": 60
+            }
+        },
+        {
+            "name": "Llamar a la caza",
+            "className": "Bárbaro",
+            "subclassShortName": "Bestia",
+            "level": 14,
+            "data": {
+                "target.value": 30
+            }
+        },
+        {
+            "name": "Conciencia mágica",
+            "className": "Bárbaro",
+            "subclassShortName": "Magia salvaje",
+            "level": 3,
+            "data": {
+                "target.value": 60
+            }
+        },
+        {
+            "name": "Rendimiento de la creación",
+            "className": "Bard",
+            "subclassShortName": "Creación",
+            "level": 3,
+            "data": {
+                "target.value": 1,
+                "target.type": "objeto",
+                "range.value": 10
+            }
+        },
+        {
+            "name": "Animar el rendimiento",
+            "className": "Bard",
+            "subclassShortName": "Creación",
+            "level": 6,
+            "data": {
+                "target.value": 1,
+                "target.type": "objeto",
+                "range.value": 30
+            }
+        },
+        {
+            "name": "Palabras inquietantes",
+            "className": "Bard",
+            "subclassShortName": "Elocuencia",
+            "level": 3,
+            "data": {
+                "target.value": 1,
+                "target.type": "criatura",
+                "range.value": 60
+            }
+        },
+        {
+            "name": "Discurso universal",
+            "className": "Bard",
+            "subclassShortName": "Elocuencia",
+            "level": 6,
+            "data": {
+                "target.type": "criatura",
+                "range.value": 60
+            }
+        },
+        {
+            "name": "Inspiración infecciosa",
+            "className": "Bard",
+            "subclassShortName": "Elocuencia",
+            "level": 14,
+            "data": {
+                "target.value": 1,
+                "target.type": "criatura",
+                "range.value": 60
+            }
+        },
+        {
+            "name": "Vínculo envolvente",
+            "className": "Clérigo",
+            "subclassShortName": "Paz",
+            "level": 1,
+            "data": {
+                "target.type": "criatura",
+                "range.value": 30
+            }
+        },
+        {
+            "name": "Ojos de la noche",
+            "className": "Clérigo",
+            "subclassShortName": "Crepúsculo",
+            "level": 1,
+            "actorTokenMod": {
+                "dimSight": [
+                    {
+                        "mode": "setMax",
+                        "value": 300
+                    }
+                ]
+            },
+            "data": {
+                "target.type": "criatura",
+                "range.value": 10
+            }
+        },
+        {
+            "name": "Invocar Espíritu del Fuego Salvaje",
+            "className": "Druida",
+            "subclassShortName": "Incendio forestal",
+            "level": 2,
+            "data": {
+                "target.type": "espacio",
+                "range.value": 30
+            }
+        },
+        {
+            "name": "Mente vigilada",
+            "className": "Caza",
+            "subclassShortName": "Guerrero Psíquico",
+            "level": 10,
+            "entryData": {
+                "resist": [
+                    "psíquico"
+                ]
+            }
+        },
+        {
+            "name": "Baluarte de la fuerza",
+            "className": "Caza",
+            "subclassShortName": "Guerrero Psíquico",
+            "level": 15,
+            "data": {
+                "target.type": "criatura",
+                "range.value": 30
+            }
+        },
+        {
+            "name": "Escudo rúnico",
+            "className": "Caza",
+            "subclassShortName": "Caballero de las runas",
+            "level": 7,
+            "data": {
+                "target.value": 1,
+                "target.type": "criatura",
+                "range.value": 60
+            }
+        },
+        {
+            "name": "Rebote vigilante",
+            "className": "Paladín",
+            "subclassShortName": "Observadores",
+            "level": 15,
+            "data": {
+                "target.value": 1,
+                "target.type": "criatura",
+                "range.value": 30
+            }
+        },
+        {
+            "name": "Giro seductor",
+            "className": "Ranger",
+            "subclassShortName": "Fey Wanderer",
+            "level": 7,
+            "data": {
+                "target.value": 1,
+                "target.type": "criatura",
+                "range.value": 120
+            }
+        },
+        {
+            "name": "Lamentos desde la tumba",
+            "className": "Rogue",
+            "subclassShortName": "Phantom",
+            "level": 3,
+            "data": {
+                "target.value": 1,
+                "target.type": "criatura",
+                "range.value": 30
+            }
+        },
+        {
+            "name": "Discurso telepático",
+            "className": "Hechicero",
+            "subclassShortName": "Mente aberrante",
+            "level": 1,
+            "data": {
+                "target.value": 1,
+                "target.type": "criatura",
+                "range.value": 30
+            }
+        },
+        {
+            "name": "Implosión deformante",
+            "className": "Hechicero",
+            "subclassShortName": "Mente aberrante",
+            "level": 18,
+            "data": {
+                "target.value": 1,
+                "target.type": "espacio",
+                "range.value": 120
+            }
+        },
+        {
+            "name": "Restablecer el equilibrio",
+            "className": "Hechicero",
+            "subclassShortName": "Alma de reloj",
+            "level": 1,
+            "data": {
+                "target.value": 1,
+                "target.type": "criatura",
+                "range.value": 60
+            }
+        },
+        {
+            "name": "Baluarte de la ley",
+            "className": "Hechicero",
+            "subclassShortName": "Alma de reloj",
+            "level": 6,
+            "data": {
+                "target.value": 1,
+                "target.type": "criatura",
+                "range.value": 30
+            }
+        },
+        {
+            "name": "Cabalgata del Reloj",
+            "className": "Hechicero",
+            "subclassShortName": "Alma de reloj",
+            "level": 18,
+            "data": {
+                "target.value": 30,
+                "target.type": "cubo"
+            }
+        },
+        {
+            "name": "Tentáculo de las profundidades",
+            "className": "Warlock",
+            "subclassShortName": "Fathomless",
+            "level": 1,
+            "data": {
+                "target.value": 1,
+                "target.type": "espacio",
+                "range.value": 60
+            }
+        },
+        {
+            "name": "Regalo del mar",
+            "className": "Warlock",
+            "subclassShortName": "Fathomless",
+            "level": 1,
+            "effects": [
+                {
+                    "name": "Regalo del mar",
+                    "changes": [
+                        {
+                            "key": "data.attributes.movement.swim",
+                            "mode": "ACTUALIZACIÓN"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Alma oceánica",
+            "className": "Warlock",
+            "subclassShortName": "Fathomless",
+            "level": 6,
+            "entryData": {
+                "resist": [
+                    "c"
+                ]
+            }
+        },
+        {
+            "name": "c",
+            "className": "Warlock",
+            "subclassShortName": "Fathomless",
+            "level": 14,
+            "data": {
+                "target.value": 30,
+                "target.type": "radio",
+                "range.value": 1
+            }
+        },
+        {
+            "name": "Buque Santuario",
+            "className": "Warlock",
+            "subclassShortName": "Genie",
+            "level": 10,
+            "data": {
+                "target.value": 5,
+                "target.type": "criatura",
+                "range.value": 30
+            }
+        },
+        {
+            "name": "Desencadenar la encarnación",
+            "className": "Caza",
+            "subclassShortName": "Caballero del Eco",
+            "level": 3,
+            "data": {
+                "activation.type": "especial",
+                "activation.condition": "Siempre que realices la acción de Ataque",
+                "activation.cost": 1
+            }
+        },
+        {
+            "name": "Runa Carver",
+            "className": "Caza",
+            "subclassShortName": "Caballero de las runas",
+            "level": 3,
+            "entries": [
+                "{@i Característica de caballero rúnico de 3er nivel}",
+                "Puedes utilizar runas mágicas para mejorar tu equipo. Aprendes dos runas a tu elección, de entre las que se describen a continuación, y cada vez que subes de nivel en esta clase, puedes sustituir una runa que conozcas por otra de esta característica. Cuando alcanzas ciertos niveles en esta clase, aprendes runas adicionales, como se muestra en la tabla de Runas Conocidas.",
+                "Cada vez que terminas un descanso largo, puedes tocar un número de objetos igual al número de runas que conoces, e inscribes una runa diferente en cada uno de los objetos. Para ser elegible, un objeto debe ser un arma, una armadura, un escudo, una pieza de joyería o cualquier otra cosa que puedas llevar o sostener en la mano. Tu runa permanece en un objeto hasta que termines un descanso largo, y un objeto sólo puede llevar una de tus runas a la vez.",
+                {
+                    "type": "tabla",
+                    "caption": "Runas conocidas",
+                    "colLabels": [
+                        "Nivel de combate",
+                        "Número de runas"
+                    ],
+                    "colStyles": [
+                        "col-6 texto-centro",
+                        "col-6 texto-centro"
+                    ],
+                    "rows": [
+                        [
+                            null,
+                            null
+                        ],
+                        [
+                            null,
+                            null
+                        ],
+                        [
+                            "10ª edición",
+                            null
+                        ],
+                        [
+                            "15ª edición",
+                            null
+                        ]
+                    ]
+                },
+                "Si una runa tiene un requisito de nivel, debes tener al menos ese nivel en esta clase para aprender la runa. Si una runa requiere una tirada de salvación, tu DC de salvación de Magia Rúnica es igual a 8 + tu bono de competencia + tu modificador de Constitución."
+            ]
+        },
+        {
+            "name": "Runa adicional conocida",
+            "className": "Caza",
+            "subclassShortName": "Caballero de las runas",
+            "level": 7,
+            "entries": [
+                {
+                    "type": "opciones",
+                    "count": 1,
+                    "entries": [
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Runa de la nube|TCE"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Runa de fuego|TCE"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Runa de Escarcha|TCE"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Runa de piedra|TCE"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Runa de la colina|TCE"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Runa de la tormenta|TCE"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Runa adicional conocida",
+            "className": "Caza",
+            "subclassShortName": "Caballero de las runas",
+            "level": 10,
+            "entries": [
+                {
+                    "type": "opciones",
+                    "count": 1,
+                    "entries": [
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Runa de la nube|TCE"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Runa de fuego|TCE"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Runa de Escarcha|TCE"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Runa de piedra|TCE"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Runa de la colina|TCE"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Runa de la tormenta|TCE"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Runa adicional conocida",
+            "className": "Caza",
+            "subclassShortName": "Caballero de las runas",
+            "level": 15,
+            "entries": [
+                {
+                    "type": "opciones",
+                    "count": 1,
+                    "entries": [
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Runa de la nube|TCE"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Runa de fuego|TCE"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Runa de Escarcha|TCE"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Runa de piedra|TCE"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Runa de la colina|TCE"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Runa de la tormenta|TCE"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Disciplina elemental adicional",
+            "className": "Monk",
+            "subclassShortName": "Fo",
+            "level": 6,
+            "isIgnored": true
+        },
+        {
+            "name": "Disciplina elemental adicional",
+            "className": "Monk",
+            "subclassShortName": "Cuatro elementos",
+            "level": 11,
+            "isIgnored": true
+        },
+        {
+            "name": "Disciplina elemental adicional",
+            "className": "Monk",
+            "subclassShortName": "Cuatro elementos",
+            "level": 17,
+            "isIgnored": true
+        },
+        {
+            "name": "Las bendiciones del conocimiento",
+            "className": "Clérigo",
+            "subclassShortName": "Conocimiento",
+            "level": 1,
+            "entryData": {
+                "skillProficiencies": [
+                    {
+                        "choose": {
+                            "from": [
+                                "arcanos",
+                                "historia",
+                                "naturaleza",
+                                "religión"
+                            ],
+                            "count": 2
+                        }
+                    }
+                ],
+                "languageProficiencies": [
+                    {
+                        "any": 2
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Tiger",
+            "source": "SCAG",
+            "className": "Bárbaro",
+            "classSource": "SCAG",
+            "subclassShortName": "Guerrero tótem",
+            "level": 6,
+            "entryData": {
+                "skillProficiencies": [
+                    {
+                        "choose": {
+                            "from": [
+                                "atletismo",
+                                "acrobacia",
+                                "sigilo",
+                                "supervivencia"
+                            ],
+                            "count": 2
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Acólito de la naturaleza",
+            "className": "Clérigo",
+            "subclassShortName": "Naturaleza",
+            "level": 1,
+            "entryData": {
+                "skillProficiencies": [
+                    {
+                        "choose": {
+                            "from": [
+                                "manejo de animales",
+                                "naturaleza",
+                                "supervivencia"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Acólito de la fuerza",
+            "className": "Clérigo",
+            "subclassShortName": "Fuerza (PSA)",
+            "level": 1,
+            "entryData": {
+                "skillProficiencies": [
+                    {
+                        "choose": {
+                            "from": [
+                                "manejo de animales",
+                                "atletismo",
+                                "naturaleza",
+                                "supervivencia"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Iniciado arcano",
+            "source": "SCAG",
+            "className": "Clérigo",
+            "subclassShortName": "Arcana",
+            "subclassSource": "SCAG",
+            "level": 1,
+            "entryData": {
+                "skillProficiencies": [
+                    {
+                        "arcana": true
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Bonificación de competencias",
+            "className": "Clérigo",
+            "subclassShortName": "Pida",
+            "level": 1,
+            "entryData": {
+                "skillProficiencies": [
+                    {
+                        "choose": {
+                            "from": [
+                                "intimidación",
+                                "persuasión"
+                            ]
+                        }
+                    }
+                ],
+                "armorProficiencies": [
+                    {
+                        "heavy": true
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Implemento de la Paz",
+            "className": "Clérigo",
+            "subclassShortName": "Paz",
+            "level": 1,
+            "entryData": {
+                "skillProficiencies": [
+                    {
+                        "choose": {
+                            "from": [
+                                "información",
+                                "rendimiento",
+                                "persuasión"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Enviado Real",
+            "source": "SCAG",
+            "className": "Caza",
+            "subclassShortName": "Caballero del Dragón Púrpura (Banneret)",
+            "subclassSource": "SCAG",
+            "level": 7,
+            "entryData": {
+                "skillProficiencies": [
+                    {
+                        "choose": {
+                            "from": [
+                                "manejo de animales",
+                                "información",
+                                "intimidación",
+                                "rendimiento",
+                                "persuasión"
+                            ]
+                        }
+                    }
+                ],
+                "expertise": [
+                    {
+                        "persuasion": true
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Arquero arcano Lore",
+            "className": "Caza",
+            "subclassShortName": "Arquero arcano",
+            "level": 3,
+            "entryData": {
+                "skillProficiencies": [
+                    {
+                        "choose": {
+                            "from": [
+                                "arcanos",
+                                "natu"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Bonificación de competencia",
+            "className": "Caza",
+            "subclassShortName": "Cavalier",
+            "level": 3,
+            "entryData": {
+                "skillProficiencies": [
+                    {
+                        "choose": {
+                            "from": [
+                                "manejo de animales",
+                                "historia",
+                                "información",
+                                "rendimiento",
+                                "persuasión"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Bonificación de competencia",
+            "className": "Caza",
+            "subclassShortName": "Samurai",
+            "level": 3,
+            "entryData": {
+                "skillProficiencies": [
+                    {
+                        "choose": {
+                            "from": [
+                                "historia",
+                                "información",
+                                "rendimiento",
+                                "persuasión"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Herramientas de misericordia",
+            "className": "Monk",
+            "subclassShortName": "Mercy",
+            "level": 3,
+            "entryData": {
+                "skillProficiencies": [
+                    {
+                        "insight": true,
+                        "medicine": true
+                    }
+                ],
+                "toolProficiencies": [
+                    {
+                        "herbalism kit": true
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Bonificación de competencias",
+            "className": "Monk",
+            "subclassShortName": "Maestro borracho",
+            "level": 3,
+            "entryData": {
+                "skillProficiencies": [
+                    {
+                        "performance": true
+                    }
+                ],
+                "toolProficiencies": [
+                    {
+                        "brewer's supplies": true
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Glamour de otro mundo",
+            "className": "Ranger",
+            "subclassShortName": "Fey Wanderer",
+            "level": 3,
+            "entryData": {
+                "skillProficiencies": [
+                    {
+                        "choose": {
+                            "from": [
+                                "engaño",
+                                "rendimiento",
+                                "persuasión"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Survivalist",
+            "className": "Rogue",
+            "subclassShortName": "Scout",
+            "level": 3,
+            "entryData": {
+                "expertise": [
+                    {
+                        "nature": true,
+                        "survival": true
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Entrenamiento en la guerra y la canción (Bladesing)",
+            "className": "Mago",
+            "subclassShortName": "Bladesing",
+            "level": 2,
+            "entryData": {
+                "skillProficiencies": [
+                    {
+                        "performance": true
+                    }
+                ],
+                "armorProficiencies": [
+                    {
+                        "light": true
+                    }
+                ],
+                "weaponProficiencies": [
+                    {
+                        "choose": {
+                            "fromFilter": "tipo=arma de combate cuerpo a cuerpo|propiedad=a dos manos|raridad=ninguna"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Bonificación de competencias",
+            "className": "Caza",
+            "subclassShortName": "Caballero de las runas",
+            "level": 3,
+            "entryData": {
+                "toolProficiencies": [
+                    {
+                        "smith's tools": true
+                    }
+                ],
+                "languageProficiencies": [
+                    {
+                        "giant": true
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Dragón Ancestral",
+            "className": "Hechicero",
+            "subclassShortName": "Dracónico",
+            "level": 1,
+            "entryData": {
+                "languageProficiencies": [
+                    {
+                        "draconic": true
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Altavoz de viento",
+            "className": "Hechicero",
+            "subclassShortName": "Tormenta",
+            "level": 1,
+            "entryData": {
+                "languageProficiencies": [
+                    {
+                        "primordial": true
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Dominio de las herramientas",
+            "className": "Artificer",
+            "subclassShortName": "Alquimista",
+            "level": 3,
+            "entryData": {
+                "toolProficiencies": [
+                    {
+                        "alchemist's supplies": true
+                    },
+                    {
+                        "anyArtisansTool": true
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Herramientas de trabajo",
+            "className": "Artificer",
+            "subclassShortName": "Armador",
+            "level": 3,
+            "entryData": {
+                "armorProficiencies": [
+                    {
+                        "heavy": true
+                    }
+                ],
+                "toolProficiencies": [
+                    {
+                        "smith's tools": true
+                    },
+                    {
+                        "anyArtisansTool": true
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Dominio de las herramientas",
+            "className": "Artificer",
+            "subclassShortName": "Artillero",
+            "level": 3,
+            "entryData": {
+                "toolProficiencies": [
+                    {
+                        "woodcarver's tools": true
+                    },
+                    {
+                        "anyArtisansTool": true
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Preparado para la batalla",
+            "className": "Artificer",
+            "subclassShortName": "Batalla Smith",
+            "level": 3,
+            "entryData": {
+                "weaponProficiencies": [
+                    {
+                        "martial": true
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Dominio de las herramientas",
+            "className": "Artificer",
+            "subclassShortName": "Batalla Smith",
+            "level": 3,
+            "entryData": {
+                "toolProficiencies": [
+                    {
+                        "smith's tools": true
+                    },
+                    {
+                        "anyArtisansTool": true
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Bonificación de competencias",
+            "className": "Bard",
+            "subclassShortName": "Lore",
+            "level": 3,
+            "entryData": {
+                "skillProficiencies": [
+                    {
+                        "any": 3
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Bonificación de competencias",
+            "className": "Bard",
+            "subclassShortName": "Valor",
+            "level": 3,
+            "entryData": {
+                "armorProficiencies": [
+                    {
+                        "medium": true,
+                        "shield|phb": true
+                    }
+                ],
+                "weaponProficiencies": [
+                    {
+                        "martial": true
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Bonificación de competencias",
+            "className": "Bard",
+            "subclassShortName": "Espadas",
+            "level": 3,
+            "entryData": {
+                "armorProficiencies": [
+                    {
+                        "medium": true
+                    }
+                ],
+                "weaponProficiencies": [
+                    {
+                        "scimitar|phb": true
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Bonificación de competencia",
+            "className": "Clérigo",
+            "subclassShortName": "La vida",
+            "level": 1,
+            "entryData": {
+                "armorProficiencies": [
+                    {
+                        "heavy": true
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Bonificación de competencia",
+            "className": "Clérigo",
+            "subclassShortName": "Naturaleza",
+            "level": 1,
+            "entryData": {
+                "armorProficiencies": [
+                    {
+                        "heavy": true
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Bonificación de competencias",
+            "className": "Clérigo",
+            "subclassShortName": "Tempestad",
+            "level": 1,
+            "entryData": {
+                "armorProficiencies": [
+                    {
+                        "heavy": true
+                    }
+                ],
+                "weaponProficiencies": [
+                    {
+                        "martial": true
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Bonificación de competencias",
+            "className": "Clérigo",
+            "level": 1,
+            "entryData": {
+                "armorProficiencies": [
+                    {
+                        "heavy": true
+                    }
+                ],
+                "weaponProficiencies": [
+                    {
+                        "martial": true
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Bonificación de competencias",
+            "className": "Clérigo",
+            "subclassShortName": "Crepúsculo",
+            "level": 1,
+            "entryData": {
+                "armorProficiencies": [
+                    {
+                        "heavy": true
+                    }
+                ],
+                "weaponProficiencies": [
+                    {
+                        "martial": true
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Bonificación de competencia",
+            "className": "Clérigo",
+            "subclassShortName": "Forja",
+            "level": 1,
+            "entryData": {
+                "armorProficiencies": [
+                    {
+                        "heavy": true
+                    }
+                ],
+                "toolProficiencies": [
+                    {
+                        "smith's tools": true
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Estudiante de guerra",
+            "className": "Caza",
+            "subclassShortName": "Maestro de la Batalla",
+            "level": 3,
+            "entryData": {
+                "toolProficiencies": [
+                    {
+                        "anyArtisansTool": true
+                    }
+                ]
+            }
+        },
+        {
+            "name": "La senda del Kensei",
+            "className": "Monk",
+            "subclassShortName": "Kensei",
+            "level": 3,
+            "entryData": {
+                "toolProficiencies": [
+                    {
+                        "choose": {
+                            "from": [
+                                "material de caligrafía",
+                                "suministros para pintores"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Bonificación de competencias",
+            "className": "Rogue",
+            "subclassShortName": "Asesino",
+            "level": 3,
+            "entryData": {
+                "toolProficiencies": [
+                    {
+                        "disguise kit": true,
+                        "poisoner's kit": true
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Maestro de la Intriga",
+            "className": "Rogue",
+            "subclassShortName": "Mastermind",
+            "level": 3,
+            "entryData": {
+                "toolProficiencies": [
+                    {
+                        "disguise kit": true,
+                        "forgery kit": true,
+                        "gaming set": true
+                    }
+                ],
+                "languageProficiencies": [
+                    {
+                        "any": 2
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Guerrero hexagonal",
+            "className": "Warlock",
+            "subclassShortName": "Hoja hexagonal",
+            "level": 1,
+            "entryData": {
+                "weaponProficiencies": [
+                    {
+                        "martial": true
+                    }
+                ],
+                "armorProficiencies": [
+                    {
+                        "shield|phb": true,
+                        "medium": true
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Mente de hierro",
+            "className": "Ranger",
+            "subclassShortName": "Gloom Stalker",
+            "level": 7,
+            "entryData": {
+                "savingThrowProficiencies": [
+                    {
+                        "wis": true
+                    },
+                    {
+                        "choose": {
+                            "from": [
+                                null,
+                                null
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Cortesano elegante",
+            "className": "Caza",
+            "subclassShortName": "Samurai",
+            "level": 7,
+            "entryData": {
+                "savingThrowProficiencies": [
+                    {
+                        "wis": true
+                    },
+                    {
+                        "choose": {
+                            "from": [
+                                null,
+                                null
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Cuentos del más allá",
+            "source": "V",
+            "className": "Bard",
+            "subclassShortName": "Espíritus",
+            "subclassSource": "VRGR",
+            "level": 3,
+            "data": {
+                "target.value": 1,
+                "target.type": "criatura",
+                "range.value": 30
+            }
+        },
+        {
+            "name": "Cáscara Necrótica",
+            "source": "VRGR",
+            "className": "Warlock",
+            "subclassShortName": "Undead",
+            "subclassSource": "VRGR",
+            "level": 10,
+            "entryData": {
+                "resist": [
+                    "necrótico"
+                ]
+            },
+            "data": {
+                "target.value": 30,
+                "target.type": "radio"
+            }
+        },
+        {
+            "name": "Resistencia dracónica",
+            "className": "Hechicero",
+            "subclassShortName": "Dracónico",
+            "level": 1,
+            "effects": [
+                {
+                    "name": "Armadura natural",
+                    "changes": [
+                        {
+                            "key": "data.attributes.ac.calc",
+                            "mode": "OVERRIDE",
+                            "value": "draconiano"
+                        }
+                    ]
+                },
+                {
+                    "name": "Aumento de HP",
+                    "changes": [
+                        {
+                            "key": "data.attributes.hp.max",
+                            "value": "@classes.sorcerer.levels"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Alas de Dragón",
+            "className": "Hechicero",
+            "subclassShortName": "Dracónico",
+            "level": 14,
+            "effects": [
+                {
+                    "name": "F",
+                    "changes": [
+                        {
+                            "key": "data.attributes.movement.fly",
+                            "mode": "ACTUALIZACIÓN",
+                            "value": "@attributes.movement.walk"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Durabilidad inmortal",
+            "source": "UATheMysticClass",
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "subclassShortName": "Inmortal",
+            "subclassSource": "UATheMysticClass",
+            "level": 1,
+            "effects": [
+                {
+                    "name": "Aumento de HP",
+                    "changes": [
+                        {
+                            "key": "data.attributes.hp.max",
+                            "value": "@classes.mystic.levels"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Cañón Eldritch",
+            "className": "Artificer",
+            "subclassShortName": "Artillero",
+            "level": 3,
+            "data": {
+                "damage.parts": [
+                    [
+                        null,
+                        "fuego"
+                    ],
+                    [
+                        null,
+                        "fuerza"
+                    ]
+                ],
+                "formula": "1d8 + @habilidades.int.mod"
+            }
+        },
+        {
+            "name": "Conciencia temporal",
+            "className": "Mago",
+            "subclassShortName": "Chronurgy",
+            "level": 2,
+            "effects": [
+                {
+                    "changes": [
+                        {
+                            "key": "data.attributes.init.value",
+                            "value": "@capacidades.i"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Sala Arcana",
+            "className": "Mago",
+            "subclassShortName": "Abjuración",
+            "level": 2,
+            "data": {
+                "activation.type": "especial",
+                "activation.cost": null,
+                "uses.per": null,
+                "uses.max": "2 * @classes.wizard.levels + floor((@abilities.int.value - 10) / 2)"
+            }
+        },
+        {
+            "name": "Discípulo dracónico",
+            "className": "Monk",
+            "subclassShortName": "Dragón Ascendente",
+            "level": 3,
+            "entryData": {
+                "languageProficiencies": [
+                    {
+                        "any": 1
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Regalo dracónico",
+            "className": "Ranger",
+            "subclassShortName": "Drakewarden",
+            "level": 3,
+            "entryData": {
+                "languageProficiencies": [
+                    {
+                        "any": 1
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Bendición del Padre Todopoderoso",
+            "source": "UAGiantSoulSorcerer",
+            "className": "Hechicero",
+            "subclassShortName": "Alma gigante (UA)",
+            "subclassSource": "UAGiantSoulSorcerer",
+            "level": 18,
+            "effects": [
+                {
+                    "changes": [
+                        {
+                            "key": "valor.de.las.capacidades.de.los.datos",
+                            "value": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Poder psiónico",
+            "className": "Caza",
+            "subclassShortName": "Guerrero Psíquico",
+            "level": 3,
+            "entryData": {
+                "resources": [
+                    {
+                        "name": "Dados de energía psiónica",
+                        "type": "dicePool",
+                        "recharge": "restLong",
+                        "count": "2 * PB",
+                        "number": 1,
+                        "faces": "6 + ((ceil((<$level$> + 2) / 6) - 1) * 2)"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Poder psiónico",
+            "className": "Rogue",
+            "subclassShortName": "Soulknife",
+            "level": 3,
+            "entryData": {
+                "resources": [
+                    {
+                        "name": "Dados de energía psiónica",
+                        "type": "dicePool",
+                        "recharge": "restLong",
+                        "count": "2 * PB",
+                        "number": 1,
+                        "faces": "6 + ((ceil((<$level$> + 2) / 6) - 1) * 2)"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Tiro arcano",
+            "className": "Caza",
+            "subclassShortName": "Arquero arcano",
+            "level": 3,
+            "data": {
+                "uses.value": 2,
+                "uses.max": 2
+            }
+        },
+        {
+            "name": "Opciones de disparo arcano",
+            "className": "Caza",
+            "subclassShortName": "Arquero arcano",
+            "level": 3,
+            "entries": [
+                "Los tiros arcanos son todos efectos mágicos, y cada uno está asociado a una de las escuelas de magia.",
+                "Si una opción requiere una tirada de salvación, tu DC de salvación de Tiro Arcano se calcula como sigue:",
+                {
+                    "type": "abilityDc",
+                    "name": "Tiro arcano",
+                    "attributes": [
+                        null
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Opción adicional de tiro arcano",
+            "className": "Caza",
+            "subclassShortName": "Arquero arcano",
+            "level": 7,
+            "isIgnored": true
+        },
+        {
+            "name": "Opción adicional de tiro arcano",
+            "className": "Caza",
+            "subclassShortName": "Arquero arcano",
+            "level": 10,
+            "isIgnored": true
+        },
+        {
+            "name": "Opción adicional de tiro arcano",
+            "className": "Caza",
+            "subclassShortName": "Arquero arcano",
+            "level": 15,
+            "isIgnored": true
+        },
+        {
+            "name": "Opción adicional de tiro arcano",
+            "className": "Caza",
+            "subclassShortName": "Arquero arcano",
+            "level": 18,
+            "isIgnored": true
+        },
+        {
+            "name": "Disciplinas elementales",
+            "className": "Monk",
+            "subclassShortName": "Cuatro elementos",
+            "level": 3,
+            "isIgnored": true
+        },
+        {
+            "name": "Modelo de armadura",
+            "className": "Artificer",
+            "subclassShortName": "Armador",
+            "level": 3,
+            "data": {
+                "uses.value": null,
+                "uses.max": null,
+                "uses.per": null
+            }
+        },
+        {
+            "name": "Guanteletes del Trueno",
+            "className": "Artificer",
+            "subclassShortName": "Armador",
+            "level": 3,
+            "subEntities": {
+                "item": [
+                    {
+                        "name": "Guanteletes del Trueno",
+                        "page": 15,
+                        "srd": true,
+                        "rarity": "ninguno",
+                        "weaponCategory": "simple",
+                        "entries": [
+                            "Esta arma forma parte del modelo de armadura de los Guardianes. Cuando ataques con esa arma, puedes añadir tu modificador de Inteligencia, en lugar de Fuerza o Destreza, a las tiradas de ataque y daño.",
+                            "Una criatura golpeada por el guantelete tiene desventaja en las tiradas de ataque contra objetivos que no sean tú hasta el comienzo de tu siguiente turno, ya que la armadura emite mágicamente un pulso de distracción cuando la criatura ataca a otra persona."
+                        ],
+                        "foundryData": {}
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Lanzador de rayos",
+            "className": "Artificer",
+            "subclassShortName": "Armador",
+            "level": 3,
+            "subEntities": {
+                "item": [
+                    {
+                        "name": "Lanzador de rayos",
+                        "page": 15,
+                        "srd": true,
+                        "rarity": "ninguno",
+                        "weaponCategory": "simple",
+                        "range": "90/300",
+                        "entries": [
+                            "Esta arma forma parte del modelo de armadura Infiltrador. Cuando ataques con esa arma, puedes añadir tu modificador de Inteligencia, en lugar de Fuerza o Destreza, a las tiradas de ataque y daño.",
+                            "Una vez en cada uno de tus turnos, cuando golpees a una criatura con el lanzador, puedes infligir un daño de rayo adicional de {@damage 1d6} a ese objetivo."
+                        ],
+                        "foundryData": {}
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Escalones motorizados",
+            "className": "Artificer",
+            "subclassShortName": "Armador",
+            "level": 3,
+            "effects": [
+                {
+                    "name": "Escalones motorizados",
+                    "changes": [
+                        {
+                            "key": "data.attributes.movement.walk",
+                            "value": 5
+                        }
+                    ],
+                    "disabled": true
+                }
+            ]
+        },
+        {
+            "name": "Campo defensivo",
+            "className": "Artificer",
+            "subclassShortName": "Armador",
+            "level": 3,
+            "data": {
+                "actionType": "curar",
+                "damage.parts": [
+                    [
+                        "@classes.artificer.levels",
+                        "temphp"
+                    ]
+                ]
+            }
+        },
+        {
+            "name": "Discípulo de la vida",
+            "className": "Clérigo",
+            "subclassShortName": "La vida",
+            "level": 1,
+            "effects": [
+                {
+                    "name": "Bonificación de curación",
+                    "changes": [
+                        {
+                            "key": "datos.bonos.curar.daño",
+                            "value": "@item.level + 2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Perno de sol radiante",
+            "className": "Monk",
+            "subclassShortName": "Alma del Sol",
+            "level": 3,
+            "subEntities": {
+                "item": [
+                    {
+                        "name": "Perno de sol radiante",
+                        "page": 35,
+                        "rarity": "ninguno",
+                        "weaponCategory": "simple",
+                        "entries": [
+                            "Este ataque especial es un ataque de hechizo a distancia con un alcance de 30 pies. Eres competente con él y añades tu modificador de Destreza a sus tiradas de ataque y daño.",
+                            "Cuando realizas la acción {@action Attack} en tu turno y utilizas este ataque especial como parte de ella, puedes gastar 1 punto de ki para realizar este ataque especial dos veces como acción adicional. Cuando obtienes el rasgo de Ataque Extra, este ataque especial puede utilizarse para cualquiera de los ataques que realices como parte de la acción {@acción Ataque}."
+                        ],
+                        "foundryData": {
+                            "equipped": true,
+                            "damage.parts": [
+                                [
+                                    "@escala.m",
+                                    "radiante"
+                                ]
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
