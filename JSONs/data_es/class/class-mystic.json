@@ -1,0 +1,1596 @@
+{
+    "class": [
+        {
+            "name": "Mystic",
+            "source": "UATheMysticClass",
+            "page": 1,
+            "hd": {
+                "number": 1,
+                "faces": 8
+            },
+            "proficiency": [
+                null,
+                null
+            ],
+            "startingProficiencies": {
+                "armor": [
+                    "luz"
+                ],
+                "weapons": [
+                    "simple"
+                ],
+                "tools": [
+                    "Ninguno"
+                ],
+                "skills": [
+                    {
+                        "choose": {
+                            "from": [
+                                "arcanos",
+                                "historia",
+                                "información",
+                                "medicina",
+                                "naturaleza",
+                                "percepción",
+                                "religión"
+                            ],
+                            "count": 2
+                        }
+                    }
+                ]
+            },
+            "startingEquipment": {
+                "additionalFromBackground": true,
+                "default": [
+                    "(a) una {@item lanza|phb} o (b) una {@item maza|phb}",
+                    "(a) {@item armadura de cuero|phb} o (b) {@item armadura de cuero con tachuelas|phb}",
+                    "(a) una {@item ballesta ligera|phb} y {@item pernos de ballesta (20)|phb|20 pernos} o (b) cualquier {@filter arma simple|items|source=phb|category=basic|type=simple we",
+                    "(a) una {@empaque de erudito|phb} o (b) un {@empaque de explorador|phb}"
+                ],
+                "goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Oro inicial}",
+                "defaultData": [
+                    {
+                        "a": [
+                            "lanza|phb"
+                        ],
+                        "b": [
+                            "mace|phb"
+                        ]
+                    },
+                    {
+                        "a": [
+                            "armadura de cuero|phb"
+                        ],
+                        "b": [
+                            "armadura de cuero con tachuelas|phb"
+                        ]
+                    },
+                    {
+                        "a": [
+                            "ballesta ligera",
+                            "pernos de ballesta (20)|phb"
+                        ],
+                        "b": [
+                            {
+                                "equipmentType": "armaSimple"
+                            }
+                        ]
+                    },
+                    {
+                        "a": [
+                            "paquete de estudiosos|phb"
+                        ],
+                        "b": [
+                            "paquete de explorador|phb"
+                        ]
+                    }
+                ]
+            },
+            "classTableGroups": [
+                {
+                    "colLabels": [
+                        "{@filtro Talentos Conocidos|pensamientos|tipo=T}",
+                        "{@filtro Disciplinas Conocidas|piónica|tipo=D}",
+                        "Puntos Psi",
+                        "Límite Psi"
+                    ],
+                    "rows": [
+                        [
+                            1,
+                            1,
+                            4,
+                            2
+                        ],
+                        [
+                            1,
+                            1,
+                            6,
+                            2
+                        ],
+                        [
+                            2,
+                            2,
+                            14,
+                            3
+                        ],
+                        [
+                            2,
+                            2,
+                            17,
+                            3
+                        ],
+                        [
+                            2,
+                            3,
+                            27,
+                            5
+                        ],
+                        [
+                            2,
+                            3,
+                            32,
+                            5
+                        ],
+                        [
+                            2,
+                            4,
+                            38,
+                            6
+                        ],
+                        [
+                            2,
+                            4,
+                            44,
+                            6
+                        ],
+                        [
+                            2,
+                            5,
+                            57,
+                            7
+                        ],
+                        [
+                            3,
+                            5,
+                            64,
+                            7
+                        ],
+                        [
+                            3,
+                            5,
+                            64,
+                            7
+                        ],
+                        [
+                            3,
+                            6,
+                            64,
+                            7
+                        ],
+                        [
+                            3,
+                            6,
+                            64,
+                            7
+                        ],
+                        [
+                            3,
+                            6,
+                            64,
+                            7
+                        ],
+                        [
+                            3,
+                            7,
+                            64,
+                            7
+                        ],
+                        [
+                            3,
+                            7,
+                            64,
+                            7
+                        ],
+                        [
+                            4,
+                            7,
+                            64,
+                            7
+                        ],
+                        [
+                            4,
+                            8,
+                            71,
+                            7
+                        ],
+                        [
+                            4,
+                            8,
+                            71,
+                            7
+                        ],
+                        [
+                            4,
+                            8,
+                            71,
+                            7
+                        ]
+                    ]
+                }
+            ],
+            "classFeatures": [
+                "Psiónica|Mística|UATheMysticClass|1",
+                "Disciplinas y talentos psiónicos|Mística|UATheMysticClass|1",
+                "Usar una Disciplina|Mística|UATheMysticClass|1",
+                {
+                    "classFeature": "Orden Mística|Mística|UATheMysticClass|1",
+                    "gainSubclassFeature": true
+                },
+                "Recuperación mística|Mística|UATheMysticClass|2",
+                "Telepatía|Mística|UATheMysticClass|2",
+                {
+                    "classFeature": "Función de orden mística|Mística|UATheMysticClass|3",
+                    "gainSubclassFeature": true
+                },
+                "Mejora de la Habilidad|Mística|UATheMysticClass|4",
+                "Proficiency Versatilidad|Mística|UATheMysticClass|4|UAClassFeatureVariants",
+                "Fuerza de la mente|Mística|UATheMysticClass|4",
+                {
+                    "classFeature": "Función de orden místico|Místico|UATheMysticClass|6",
+                    "gainSubclassFeature": true
+                },
+                "Mejora de la Habilidad|Mística|UATheMysticClass|8",
+                "Proficiency Versatilidad|Mística|UATheMysticClass|8|UAClassFeatureVariants",
+                "Potente Psiónica (1d8)|Mística|UATheMysticClass|8",
+                "Poder de consumo|Mística|UATheMysticClass|10",
+                "Dominio psiónico (1/día)|Místico|UATheMysticClass|11",
+                "Mejora de la Habilidad|Mística|UATheMysticClass|12",
+                "Proficiency Versatilidad|Mística|UATheMysticClass|12|UAClassFeatureVariants",
+                "Dominio Psiónico (2/Día)|Místico|UATheMysticClass|13",
+                {
+                    "classFeature": "Función de orden mística|Mística|UATheMysticClass|14",
+                    "gainSubclassFeature": true
+                },
+                "Potente Psiónica (2d8)|Mística|UATheMysticClass|14",
+                "Dominio psiónico (3/día)|Místico|UATheMysticClass|15",
+                "Mejora de la Habilidad|Mística|UATheMysticClass|16",
+                "Proficiency Versatilidad|Mística|UATheMysticClass|16|UAClassFeatureVariants",
+                "Dominio psiónico (4/día)|Místico|UATheMysticClass|17",
+                "Mejora de la Habilidad|Mística|UATheMysticClass|19",
+                "Proficiency Versatilidad|Mística|UATheMysticClass|19|UAClassFeatureVariants",
+                "Cuerpo psiónico|Místico|UATheMysticClass|20"
+            ],
+            "subclassTitle": "Orden místico",
+            "fluff": [
+                {
+                    "type": "sección",
+                    "name": "Mystic",
+                    "entries": [
+                        "Un humano vestido con una sencilla túnica camina por un sendero del bosque. Una banda de goblins emerge de la maleza, con las flechas apuntando hacia él, con una amplia sonrisa por su buena suerte de encontrar una presa tan fácil para los corrales de esclavos de la legión. Sus sonrisas se transforman en gritos de terror cuando el viajero adquiere un tamaño gigantesco y salta hacia ellos, con su bastón convertido en un garrote mortal.",
+                        "La milicia se forma en filas para prepararse para la carga de los orcos. Los brutos gruñones aúllan sus gritos de batalla y se lanzan al ataque. Para su sorpresa, la chusma humana se mantiene firme y lucha con sorprendente ferocidad. De repente, un miedo irreflexivo se apodera de la mente de los orcos y, a pesar de enfrentarse a un enemigo muy inferior, se dan la vuelta y huyen, sin percatarse de que el tranquilo semielfo se encuentra en medio de la milicia y dirige sus esfuerzos.",
+                        "El barón von Ludwig siempre estuvo orgulloso de su gran biblioteca. Poco sabía que cada noche, un gnomo cargado de pergaminos en blanco se colaba entre sus guardias y copiaba obedientemente sus archivos más vigilados. Cuando los hombres del duque llegaron para arrestarlo por traficar con demonios, nunca imaginó que el gnomo escriba que viajaba con ellos había pasado más tiempo en su torreón que él durante el último año.",
+                        "Estos héroes son todos místicos, seguidores de una extraña y misteriosa forma de poder. Los místicos evitan el mundo para volver la vista hacia dentro, dominando todo el potencial de sus mentes y explorando su psique antes de enfrentarse al mundo. Los místicos son increíblemente raros, y la mayoría prefiere mantener en secreto la naturaleza de sus habilidades. Utilizando su fuerza psíquica interior, pueden leer las mentes, desvanecerse en la invisibilidad, transformar sus cuerpos en hierro vivo y tomar el control del mundo físico y someterlo a su voluntad.",
+                        {
+                            "type": "entradas",
+                            "name": "Ermitaños y parias",
+                            "entries": [
+                                "Los místicos son solitarios. La mayoría descubre los secretos de su poder a través de vagas referencias en los tomos de la sabiduría popular o congraciándose con un maestro del poder.",
+                                "Para dominar su poder, los místicos deben primero dominarse a sí mismos. Pasan meses y años en tranquila contemplación, explorando su mente y sin dejar nada al descubierto. Durante este tiempo, evitan la sociedad y suelen vivir como ermitaños al margen de la sociedad. Un místico que estudia con un maestro trabaja como un esclavo virtual, trabajando en tareas mundanas a cambio de una lección ocasional o una visión críptica.",
+                                "Cuando los místicos dominan finalmente su poder, vuelven al mundo para ampliar sus horizontes y practicar su oficio. Algunos místicos prefieren permanecer aislados, pero los que se convierten en aventureros no se conforman con permanecer al margen del mundo."
+                            ]
+                        },
+                        {
+                            "type": "entradas",
+                            "name": "Mentes excéntricas",
+                            "entries": [
+                                "Para mantener la estricta disciplina y el intenso autoconocimiento necesarios para aprovechar su poder, los místicos desarrollan una serie de prácticas para mantener su concentración.",
+                                "Estas prácticas se reflejan en tabúes y rarezas, pequeños comportamientos extraños que rigen las acciones de un místico. Estos caprichos son juramentos o tics de comportamiento que ayudan a mantener a los místicos en el estado de ánimo adecuado mientras mantienen un perfecto control sobre sus mentes y cuerpos.",
+                                "Aunque estos tabúes son inofensivos, contribuyen a que los místicos sean considerados como extraños. Pocos se sienten aceptados por la sociedad, y menos aún se preocupan por integrarse en ella. Para los místicos, la vida de la mente es donde se sienten más a gusto.",
+                                {
+                                    "type": "entradas",
+                                    "name": "Selección de rarezas",
+                                    "entries": [
+                                        "Para añadir algo de textura a tu mística, considera las peculiaridades que ha adquirido tu personaje. Estos comportamientos no tienen ningún efecto en el juego, pero tu personaje puede irritarse o molestarse si se ve obligado a romperlos. Son una gran herramienta de roleo para añadir carácter al juego. Puedes tirar o elegir de la tabla de abajo, o crear tus propias rarezas. Intenta crear dos rarezas, para que tengan más posibilidades de entrar en juego. Por último, considera por qué tu personaje ha elegido estos comportamientos. ¿Qué dicen sobre la personalidad o el trasfondo de tu personaje? ¿Se basan en un incidente concreto o en una creencia?",
+                                        {
+                                            "type": "tabla",
+                                            "caption": "Curiosidades místicas",
+                                            "colLabels": [
+                                                null,
+                                                "Quirk"
+                                            ],
+                                            "colStyles": [
+                                                "col-2 texto-centro",
+                                                "col-10"
+                                            ],
+                                            "rows": [
+                                                [
+                                                    1,
+                                                    "Nunca te cortaste el pelo."
+                                                ],
+                                                [
+                                                    2,
+                                                    "Te niegas a llevar ropa de un color determinado."
+                                                ],
+                                                [
+                                                    3,
+                                                    "Nunca dices tu nombre."
+                                                ],
+                                                [
+                                                    4,
+                                                    "Nunca llevas calzado."
+                                                ],
+                                                [
+                                                    5,
+                                                    "Siempre llevas una máscara."
+                                                ],
+                                                [
+                                                    6,
+                                                    "Te tiñes el pelo de azul o verde intenso."
+                                                ],
+                                                [
+                                                    7,
+                                                    "Elige un nombre nuevo cada día."
+                                                ],
+                                                [
+                                                    8,
+                                                    "Nunca te sumerges en el agua."
+                                                ],
+                                                [
+                                                    9,
+                                                    "Duermes en la tierra desnuda."
+                                                ],
+                                                [
+                                                    10,
+                                                    "Nunca consumes alcohol."
+                                                ],
+                                                [
+                                                    11,
+                                                    "Llevas un velo para ocultar tu rostro."
+                                                ],
+                                                [
+                                                    12,
+                                                    "Siempre llevas una prenda específica."
+                                                ],
+                                                [
+                                                    13,
+                                                    "Te niegas a encender el fuego."
+                                                ],
+                                                [
+                                                    14,
+                                                    "Se niega a escribir las cosas, sino que utiliza pictogramas."
+                                                ],
+                                                [
+                                                    15,
+                                                    "Nunca se sienta en una silla, prefiere estar de pie o sentado en el suelo."
+                                                ],
+                                                [
+                                                    16,
+                                                    "Nunca respondes a otro nombre que no sea el tuyo."
+                                                ],
+                                                [
+                                                    17,
+                                                    "Anotas el nombre de cada criatura que matas y nombras a las que no tienen nombre."
+                                                ],
+                                                [
+                                                    18,
+                                                    "Sólo consumes agua y verduras crudas."
+                                                ],
+                                                [
+                                                    19,
+                                                    "El dinero que ganes lo gastas en el plazo de una semana desde que lo ganes."
+                                                ],
+                                                [
+                                                    20,
+                                                    "A menudo hablas con un compañero imaginario y actúas sólo con su bendición."
+                                                ]
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "entradas",
+                            "name": "Creación de un místico",
+                            "entries": [
+                                "A la hora de crear un místico, ten en cuenta los antecedentes de tu personaje. ¿Cómo te convertiste en místico? ¿Qué fue lo primero que te atrajo a esta práctica? ¿Eres autodidacta o tuviste un maestro? Si tuviste un maestro, ¿cómo es esa relación?",
+                                "Considera también por qué has vuelto al mundo desde tu ermita. ¿Dejaste a alguien o algo atrás cuando emprendiste tus estudios? ¿Te mueve la venganza o alguna otra motivación?",
+                                {
+                                    "type": "entradas",
+                                    "name": "Construcción rápida",
+                                    "entries": [
+                                        "Puedes hacer un místico rápidamente siguiendo estas sugerencias. Primero, haz que la Inteligencia sea tu puntuación de habilidad más alta, seguida de la Destreza o la Constitución. Segundo, elige el trasfondo {@background hermit}."
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "source": "UATheMysticClass",
+                    "page": 1
+                }
+            ]
+        }
+    ],
+    "subclass": [
+        {
+            "name": "Orden del Avatar",
+            "shortName": "Avatar",
+            "source": "UATheMysticClass",
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "page": 5,
+            "subclassFeatures": [
+                "Orden del Avatar|Mística|UATheMysticClass|Avatar|UATheMysticClass|1",
+                "Avatar de Batalla|Mística|UATheMysticClass|Avatar|UATheMysticClass|3",
+                "Avatar de la Curación|Mística|UATheMysticClass|Avatar|UATheMysticCla",
+                "Avatar de la velocidad|Mística|UATheMysticClass|Avatar|UATheMysticClass|14"
+            ]
+        },
+        {
+            "name": "Orden de los Despertados",
+            "shortName": "Despierta",
+            "source": "UATheMysticClass",
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "page": 6,
+            "subclassFeatures": [
+                "Orden de los Despertados|Mística|UATheMysticClass|Despertados|UATheMysticClass|1",
+                "Investigación Psiónica|Mística|UATheMysticClass|Despertada|UATheMysticClass|3",
+                "Oleada Psiónica|Mística|UATheMysticClass|Despertada|UATheMysticClass|6",
+                "Forma espectral|Mística|UATheMysticClass|Despertada|UATheMysticCla"
+            ]
+        },
+        {
+            "name": "Orden de los Inmortales",
+            "shortName": "Inmortal",
+            "source": "UATheMysticClass",
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "page": 6,
+            "subclassFeatures": [
+                "Orden de los Inmortales|Mística|UATheMysticClass|Imortal|UATheMysticClass|1",
+                "Resistencia Psiónica|Mística|UATheMysticClass|Imortal|UATheMysticClass|3",
+                "Sobrecarga de Salud|Mística|UATheMysticClass|Imortal|UATheMysticClass|6",
+                "Voluntad Inmortal|Mística|UATheMysticClass|Imortal|UATheMysticClass|14"
+            ]
+        },
+        {
+            "name": "Orden del Nómada",
+            "shortName": "Nómada",
+            "source": "UATheMysticClass",
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "page": 7,
+            "subclassFeatures": [
+                "Orden del Nómada|Mística|UATheMysticClass|Nómada|UATheMysticClass|1",
+                "Memoria de mil pasos|Mística|UATheMysticClass|Nomad|UATheMysticClass|3",
+                "Teleportación superior|Mística|UATheMysticClass|Nomad|UATheMysticClass|6",
+                "Viaje sin esfuerzo|Mística|UATheMysticClass|Nomad|UATheMysticClass|14"
+            ]
+        },
+        {
+            "name": "Orden del Cuchillo del Alma",
+            "shortName": "Cuchillo del alma",
+            "source": "UATheMysticClass",
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "page": 7,
+            "subclassFeatures": [
+                "Orden del Cuchillo del Alma|Mística|UATheMysticClass|Cuchillo del Alma|UATheMysticClass|1",
+                "Afinar la hoja|Mística|UATheMysticClass|Cuchillo del alma|UATheMysticClass|3",
+                "Cuchillo de consumo|Místico|UATheMysticClass|Cuchillo de alma|UATheMysticClass|6",
+                "Cuchillo fantasma|Místico|UATheMysticClass|Cuchillo de alma|UATheMysticClass|14"
+            ]
+        },
+        {
+            "name": "Orden del Wu Jen",
+            "shortName": "Wu Jen",
+            "source": "UATheMysticClass",
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "page": 8,
+            "subclassFeatures": [
+                "Orden de los Wu Jen|Mística|UATheMysticClass|Wu Jen|UATheMysticClass|1",
+                "Sintonización elemental|Mística|UATheMysticClass|Wu Jen|UATheMysticClass|3",
+                "Hábil Arcano|Místico|UATheMysticClass|Wu Jen|UATheMysticClass|6",
+                "Maestría elemental|Mística|UATheMysticClass|Wu Jen|UATheMysticClass|14"
+            ]
+        }
+    ],
+    "classFeature": [
+        {
+            "name": "Orden místico",
+            "source": "UATheMysticClass",
+            "page": 1,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "level": 1,
+            "entries": [
+                "A 1er nivel, eliges una Orden Mística de la lista de órdenes disponibles. Cada orden se especializa en un enfoque específico de la psiónica.",
+                "Tu orden te da rasgos cuando la eliges a 1º nivel y rasgos adicionales a 3º, 6º y 14º nivel."
+            ]
+        },
+        {
+            "name": "Disciplinas y talentos psiónicos",
+            "source": "UATheMysticClass",
+            "page": 1,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "level": 1,
+            "entries": [
+                "Los talentos y las disciplinas psiónicas son el corazón del oficio de místico. Son los ejercicios mentales y las fórmulas psiónicas que se utilizan para convertir la voluntad en efectos mágicos tangibles.",
+                "Las disciplinas psiónicas fueron descubiertas por diferentes órdenes y tienden a reflejar las especialidades de sus creadores. Sin embargo, un místico puede aprender cualquier disciplina independientemente de su orden asociada."
+            ]
+        },
+        {
+            "name": "Psiónica",
+            "source": "UATheMysticClass",
+            "page": 1,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "level": 1,
+            "entries": [
+                "Como estudiante de psiónica, puedes dominar y utilizar talentos y disciplinas psiónicas, cuyas reglas aparecen al final de este documento. La psiónica es una forma especial de uso de la magia, distinta del lanzamiento de hechizos.",
+                {
+                    "type": "entradas",
+                    "name": "Talentos psiónicos",
+                    "entries": [
+                        "Un talento psiónico es un efecto psiónico menor que dominas. A 1er nivel, conoces un talento psiónico de tu elección. A niveles superiores, aprende otros talentos a su elección. La columna de Talentos Conocidos de la tabla de Místicos muestra el número total de talentos que conoces en cada nivel; cuando ese número suba para ti, elige un nuevo talento."
+                    ]
+                },
+                {
+                    "type": "entradas",
+                    "name": "Disciplinas psiónicas",
+                    "entries": [
+                        "Una disciplina psiónica es un conjunto rígido de ejercicios mentales que permite a un místico manifestar su poder psiónico. Un místico sólo domina unas pocas disciplinas a la vez.",
+                        "A 1er nivel, conoces una disciplina psiónica de tu elección. La columna de Disciplinas Conocidas de la tabla de Místicos muestra el número total de disciplinas que conoces en cada nivel; cuando ese número suba para ti, elige una nueva disciplina.",
+                        "Además, cada vez que ganes un nivel en esta clase, podrás sustituir una disciplina que conozcas por otra de tu elección."
+                    ]
+                },
+                {
+                    "type": "entradas",
+                    "name": "Puntos Psi",
+                    "entries": [
+                        "Tienes una reserva interna de energía que puedes dedicar a las disciplinas psiónicas que conoces. Esta energía está representada por puntos psi. Cada disciplina psiónica describe los efectos que puedes crear con ella gastando un determinado número de puntos psi. Un talento psiónico no requiere puntos psi.",
+                        "El número de puntos psi que tienes se basa en tu nivel místico, como se muestra en la columna de puntos psi de la tabla de místicos. El número mostrado para tu nivel es tu máximo de puntos psi. Tu total de puntos psi vuelve a ser el máximo cuando terminas un descanso largo. El número de puntos psi que tienes no puede ser inferior a 0 ni superior a tu máximo."
+                    ]
+                },
+                {
+                    "type": "entradas",
+                    "name": "Límite Psi",
+                    "entries": [
+                        "Aunque tienes acceso a una potente cantidad de energía psiónica, se necesita entrenamiento y práctica para canalizar esa energía. Hay un límite en el número de puntos psi que puedes gastar para activar una disciplina psiónica. El límite se basa en tu nivel místico, como se muestra en la columna Límite Psi de la tabla Mística. Por ejemplo, como místico de 3er nivel, no puedes gastar más de 3 puntos de psi en una disciplina cada vez que la uses, sin importar cuántos puntos de psi tengas."
+                    ]
+                },
+                {
+                    "type": "entradas",
+                    "name": "Enfoque psíquico",
+                    "entries": [
+                        "Puedes concentrar la energía psiónica en una de tus disciplinas psiónicas para obtener beneficios continuos de ella. Como acción de bonificación, puedes elegir una de tus disciplinas psiónicas y obtener su beneficio de enfoque psíquico, que se detalla en la descripción de esa disciplina. El beneficio dura hasta que estés {@condición incapacitada} o hasta que uses otra acción de bonificación para elegir un beneficio de enfoque diferente.",
+                        "Sólo puedes tener un beneficio de enfoque psíquico a la vez, y usar el enfoque psíquico de una disciplina no limita tu capacidad de usar otras disciplinas."
+                    ]
+                },
+                {
+                    "type": "entradas",
+                    "name": "Habilidad Psiónica",
+                    "entries": [
+                        "La inteligencia es tu habilidad psiónica para tus disciplinas psiónicas. Utilizas tu modificador de Inteligencia cuando estableces la CD de la tirada de salvación de una disciplina psiónica o cuando haces una tirada de ataque con una.",
+                        {
+                            "type": "abilityDc",
+                            "name": "Disciplina",
+                            "attributes": [
+                                null
+                            ]
+                        },
+                        {
+                            "type": "abilityAttackMod",
+                            "name": "Disciplina",
+                            "attributes": [
+                                null
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Utilizar una disciplina",
+            "source": "UATheMysticClass",
+            "page": 1,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "level": 1,
+            "entries": [
+                "Cada disciplina psiónica tiene varias formas de utilizarla, todas ellas contenidas en su descripción. La disciplina especifica el tipo de acción y el número de puntos psi que requiere. También detalla si debes concentrarte en sus efectos, a cuántos objetivos afecta, qué tiradas de salvación requiere, etc.",
+                "Los siguientes apartados profundizan en el uso de una disciplina. Las disciplinas psiónicas son mágicas y funcionan de forma similar a los hechizos.",
+                {
+                    "type": "entradas",
+                    "name": "Enfoque psíquico",
+                    "entries": [
+                        "La sección de Foco Psíquico de una disciplina describe el beneficio que obtienes cuando eliges esa disciplina para tu foco psíquico."
+                    ]
+                },
+                {
+                    "type": "entradas",
+                    "name": "Opciones de efectos y puntos Psi",
+                    "entries": [
+                        "Una disciplina ofrece diferentes opciones de cómo utilizarla con sus puntos psi. Cada opción de efecto tiene un nombre, y el coste en puntos psi de esa opción aparece entre paréntesis después de su nombre. Debes gastar ese número de puntos psi para utilizar esa opción, respetando tu límite de psi. Si no te quedan suficientes puntos psi, o el coste es superior a tu límite psi, no puedes usar la opción.",
+                        "Algunas opciones muestran un rango de puntos psi, en lugar de un coste específico. Para usar esa opción, debes gastar un número de puntos dentro de ese rango de puntos, aún respetando tu límite de psi. Algunas opciones te permiten gastar puntos psi adicionales para aumentar la potencia de una disciplina. De nuevo, debes respetar tu límite de psi, y debes gastar todos los puntos cuando uses la disciplina por primera vez; no puedes decidir gastar puntos adicionales una vez que veas la disciplina en acción.",
+                        "Cada opción indica información específica sobre su efecto, incluida la acción necesaria para utilizarla y su alcance."
+                    ]
+                },
+                {
+                    "type": "entradas",
+                    "name": "Componentes",
+                    "entries": [
+                        "Las disciplinas no requieren los componentes que requieren muchos hechizos. El uso de una disciplina no requiere palabras habladas, gestos o materiales. El poder de la psiónica proviene de la mente."
+                    ]
+                },
+                {
+                    "type": "entradas",
+                    "name": "Duración",
+                    "entries": [
+                        "Una opción de efecto en una disciplina especifica la duración de su efecto.",
+                        {
+                            "type": "entradas",
+                            "name": "Instantáneo",
+                            "entries": [
+                                "Si no se especifica ninguna duración, el efecto de la opción es instantáneo."
+                            ]
+                        },
+                        {
+                            "type": "entradas",
+                            "name": "Concentración",
+                            "entries": [
+                                "Algunas opciones requieren concentración para mantener sus efectos. Este requisito se anota con \"conc.\" después del coste en puntos psi de la opción. La notación \"conc.\" va seguida de la duración máxima de la concentración. Por ejemplo, si una opción dice \"conc., 1 min.\", puedes concentrarte en su efecto hasta 1 minuto.",
+                                "La concentración en una disciplina sigue las mismas reglas que la concentración en un hechizo. Esta regla significa que no puedes concentrarte en un hechizo y una disciplina al mismo tiempo, ni puedes concentrarte en dos disciplinas al mismo tiempo. Ver {@book chapter 10|PHB|10}, \"Spellcasting,\" en el Player's Handbook para saber cómo funciona la concentración."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entradas",
+                    "name": "Objetivos y áreas de efecto",
+                    "entries": [
+                        "Las disciplinas psiónicas utilizan las mismas reglas que los hechizos para determinar los objetivos y las áreas de efecto, tal y como se presenta en {@book chapter 10|PHB|10}, \"Spellcasting,\" del Player's Handbook."
+                    ]
+                },
+                {
+                    "type": "entradas",
+                    "name": "Tiradas de salvación y de ataque",
+                    "entries": [
+                        "Si una disciplina requiere una tirada de salvación, especifica el tipo de salvación y los resultados de una tirada de salvación exitosa o fallida. La CD está determinada por tu habilidad psiónica.",
+                        "Algunas disciplinas requieren que hagas una tirada de ataque para determinar si el efecto de la disciplina alcanza a su objetivo. La tirada de ataque utiliza tu habilidad psiónica."
+                    ]
+                },
+                {
+                    "type": "entradas",
+                    "name": "Combinación de efectos psiónicos",
+                    "entries": [
+                        "Los efectos de las diferentes disciplinas psiónicas se suman mientras las duraciones de las disciplinas se superponen. Asimismo, diferentes opciones de una disciplina psiónica se combinan si están activas al mismo tiempo. Sin embargo, una opción específica de una disciplina psiónica no se combina consigo misma si la opción se utiliza varias veces. En su lugar, se aplica el efecto más potente -que suele depender de cuántos puntos psi se hayan utilizado para crear el efecto- mientras las duraciones de los efectos se superponen.",
+                        "La psiónica y los hechizos son efectos separados, y por lo tanto sus beneficios y desventajas se superponen. Un efecto psiónico que reproduzca un hechizo es una excepción a esta regla."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Recuperación mística",
+            "source": "UATheMysticClass",
+            "page": 1,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "level": 2,
+            "entries": [
+                "A partir del 2º nivel, puedes extraer vigor de la energía psi que utilizas para potenciar tus disciplinas psiónicas.",
+                "Inmediatamente después de gastar puntos de psi en una disciplina psiónica, puedes realizar una acción de bonificación para recuperar puntos de golpe iguales al número de puntos de psi que hayas gastado."
+            ]
+        },
+        {
+            "name": "Telepatía",
+            "source": "UATheMysticClass",
+            "page": 1,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "level": 2,
+            "entries": [
+                "A 2º nivel, tu mente despierta la capacidad de comunicarse por telepatía. Puedes hablar telepáticamente con cualquier criatura que puedas ver a menos de 120 pies de ti de esta manera. No necesitas compartir un idioma con la criatura para que entienda tus mensajes telepáticos, pero la criatura debe ser capaz de entender al menos un idioma o ser ella misma telepática."
+            ]
+        },
+        {
+            "name": "Función de orden místico",
+            "source": "UATheMysticClass",
+            "page": 1,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "level": 3,
+            "entries": [
+                "A 3er nivel, ganas otro rasgo de tu Orden Mística."
+            ]
+        },
+        {
+            "name": "Mejora de la puntuación de la capacidad",
+            "source": "UATheMysticClass",
+            "page": 1,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "level": 4,
+            "entries": [
+                "Al alcanzar el 4º nivel, y de nuevo en los niveles 8º, 12º, 16º y 19º, puedes aumentar una puntuación de habilidad a tu elección en 2, o puedes aumentar dos puntuaciones de habilidad a tu elección en 1. Como es normal, puedes"
+            ]
+        },
+        {
+            "name": "Versatilidad de la competencia",
+            "source": "UAClassFeatureVariants",
+            "page": 1,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "level": 4,
+            "isClassFeatureVariant": true,
+            "entries": [
+                "{@i Característica de 4º nivel (mejora la puntuación de habilidad)}",
+                "Cuando obtienes el rasgo de mejora de la puntuación de habilidad de tu clase, también puedes reemplazar una de tus competencias de habilidad por una competencia de habilidad ofrecida por tu clase a 1er nivel (la competencia que reemplazas no necesita ser de la clase).",
+                "Este cambio representa que una de tus habilidades se está atrofiando mientras te concentras en una habilidad diferente."
+            ]
+        },
+        {
+            "name": "Fuerza de la mente",
+            "source": "UATheMysticClass",
+            "page": 1,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "level": 4,
+            "entries": [
+                "Incluso la técnica psiónica más sencilla requiere un profundo conocimiento de cómo la energía psiónica puede aumentar la mente y el cuerpo. Esta comprensión te permite alterar tus defensas para afrontar mejor las amenazas.",
+                "A partir del 4º nivel, puedes reemplazar tu competencia en tiradas de salvación de Sabiduría cada vez que termines un descanso corto o largo. Para ello, elige Fuerza, Destreza, Constitución o Carisma. Obtienes competencia en las salvaciones utilizando esa habilidad, en lugar de la de Sabiduría. Este cambio dura hasta que termines tu próximo descanso corto o largo."
+            ]
+        },
+        {
+            "name": "Función de orden místico",
+            "source": "UATheMysticClass",
+            "page": 1,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "level": 6,
+            "entries": [
+                "A 6º nivel, ganas otro rasgo de tu Orden Mística."
+            ]
+        },
+        {
+            "name": "Mejora de la puntuación de la capacidad",
+            "source": "UATheMysticClass",
+            "page": 1,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "level": 8,
+            "entries": [
+                "Al alcanzar el 4º nivel, y de nuevo en los niveles 8º, 12º, 16º y 19º, puedes aumentar una puntuación de habilidad a tu elección en 2, o puedes aumentar dos puntuaciones de habilidad a tu elección en 1. Como es normal, no puedes aumentar una puntuación de habilidad por encima de 20 utilizando este rasgo."
+            ]
+        },
+        {
+            "name": "Psiónica potente (1d8)",
+            "source": "UATheMysticClass",
+            "page": 1,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "level": 8,
+            "entries": [
+                "A 8º nivel, obtienes la habilidad de infundir tus ataques con armas con energía psíquica. Una vez en cada uno de tus turnos, cuando golpeas a una criatura con un arma, puedes infligir un daño psíquico extra de {@dice 1d8} a ese objetivo. Cuando alcanzas el nivel 14, este daño extra aumenta a {@dice 2d8}.",
+                "Además, añades tu modificador de Inteligencia a cualquier tirada de daño que hagas por un talento psiónico."
+            ]
+        },
+        {
+            "name": "Versatilidad de la competencia",
+            "source": "UAClassFeatureVariants",
+            "page": 1,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "level": 8,
+            "isClassFeatureVariant": true,
+            "entries": [
+                "{@i Característica de 8º nivel (mejora la puntuación de habilidad)}",
+                "Cuando obtienes el rasgo de mejora de la puntuación de habilidad de tu clase, también puedes reemplazar una de tus competencias de habilidad por una competencia de habilidad ofrecida por tu clase a 1er nivel (la competencia que reemplazas no necesita ser de la clase).",
+                "Este cambio representa que una de tus habilidades se está atrofiando mientras te concentras en una habilidad diferente."
+            ]
+        },
+        {
+            "name": "Potencia de consumo",
+            "source": "UATheMysticClass",
+            "page": 1,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "level": 10,
+            "entries": [
+                "A 10º nivel, obtienes la capacidad de sacrificar tu durabilidad física a cambio de poder psiónico. Al activar una disciplina psiónica, puedes pagar su coste en puntos de psi con tus puntos de golpe, en lugar de utilizar puntos de psi. Tus puntos de golpe actuales y el máximo de puntos de golpe se reducen en el número de puntos de golpe que gastas. Esta reducción no puede ser disminuida de ninguna manera, y la reducción de tu máximo de puntos de golpe dura hasta que termines un descanso largo.",
+                "Una vez que utilices esta función, no podrás volver a usarla hasta que termines un descanso largo."
+            ]
+        },
+        {
+            "name": "Dominio psiónico (1/día)",
+            "source": "UATheMysticClass",
+            "page": 1,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "level": 11,
+            "entries": [
+                "A partir del 11º nivel, tu dominio de la energía psiónica te permite llevar tu mente más allá de sus límites normales. Como acción, obtienes 9 puntos de psi especiales que puedes gastar sólo en disciplinas que requieran una acción o una acción de bonificación para su uso. Puedes utilizar los 9 puntos en una sola disciplina, o puedes repartirlos entre varias disciplinas. No puedes gastar tus puntos de psi normales en estas disciplinas; sólo puedes gastar los puntos especiales ganados con este rasgo. Cuando terminas un descanso largo, pierdes los puntos especiales que no hayas gastado.",
+                "Si más de una de las disciplinas que activas con estos puntos requiere concentración, puedes concentrarte en todas ellas. La activación de una de ellas pone fin a cualquier efecto en el que ya estuvieras concentrado, y si empiezas a concentrarte en un efecto que no utiliza estos puntos especiales, las disciplinas terminan en las que estás concentrado.",
+                "A 15º nivel, la reserva de puntos de psi que obtienes con este rasgo aumenta a 11.",
+                "Tienes un uso de esta característica, y recuperas cualquier uso gastado de la misma con un descanso largo. Obtienes un uso adicional de este rasgo a 13º, 15º y 17º nivel."
+            ]
+        },
+        {
+            "name": "Mejora de la puntuación de la capacidad",
+            "source": "UATheMysticClass",
+            "page": 1,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "level": 12,
+            "entries": [
+                "Al alcanzar el 4º nivel, y de nuevo en los niveles 8º, 12º, 16º y 19º, puedes aumentar una puntuación de habilidad a tu elección en 2, o puedes aumentar dos puntuaciones de habilidad a tu elección en 1. Como es normal, no puedes aumentar una puntuación de habilidad por encima de 20 utilizando este rasgo."
+            ]
+        },
+        {
+            "name": "Versatilidad de la competencia",
+            "source": "UAClassFeatureVariants",
+            "page": 1,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "level": 12,
+            "isClassFeatureVariant": true,
+            "entries": [
+                "{@i Característica de nivel 12 (mejora la puntuación de habilidad)}",
+                "Cuando obtienes el rasgo de mejora de la puntuación de habilidad de tu clase, también puedes reemplazar una de tus competencias de habilidad por una competencia de habilidad ofrecida por tu clase a 1er nivel (la competencia que reemplazas no necesita ser de la clase).",
+                "Este cambio representa que una de tus habilidades se está atrofiando mientras te concentras en una habilidad diferente."
+            ]
+        },
+        {
+            "name": "Dominio psiónico (2/día)",
+            "source": "UATheMysticClass",
+            "page": 1,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "level": 13,
+            "entries": [
+                "A 13º nivel, puedes usar tu Maestría Psiónica dos veces al día."
+            ]
+        },
+        {
+            "name": "Función de orden místico",
+            "source": "UATheMysticClass",
+            "page": 1,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "level": 14,
+            "entries": [
+                "A 14º nivel, ganas otro rasgo de tu Orden Mística."
+            ]
+        },
+        {
+            "name": "Psiónica potente (2d8)",
+            "source": "UATheMysticClass",
+            "page": 1,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "level": 14,
+            "entries": [
+                "A 14º nivel, tu daño psiónico potente aumenta a {@dice 2d8}."
+            ]
+        },
+        {
+            "name": "Dominio psiónico (3/día)",
+            "source": "UATheMysticClass",
+            "page": 1,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "level": 15,
+            "entries": [
+                "A 15º nivel, puedes usar tu Maestría Psiónica tres veces al día."
+            ]
+        },
+        {
+            "name": "Mejora de la puntuación de la capacidad",
+            "source": "UATheMysticClass",
+            "page": 1,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "level": 16,
+            "entries": [
+                "Al alcanzar el 4º nivel, y de nuevo en los niveles 8º, 12º, 16º y 19º, puedes aumentar una puntuación de habilidad a tu elección en 2, o puedes aumentar dos puntuaciones de habilidad a tu elección en 1. Como es normal, no puedes aumentar una puntuación de habilidad por encima de 20 utilizando este rasgo."
+            ]
+        },
+        {
+            "name": "Versatilidad de la competencia",
+            "source": "UAClassFeatureVariants",
+            "page": 1,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "level": 16,
+            "isClassFeatureVariant": true,
+            "entries": [
+                "{@i Característica de nivel 16 (mejora la puntuación de habilidad)}",
+                "Cuando obtienes el rasgo de mejora de la puntuación de habilidad de tu clase, también puedes reemplazar una de tus competencias de habilidad por una competencia de habilidad ofrecida por tu clase a 1er nivel (la competencia que reemplazas no necesita ser de la clase).",
+                "Este cambio representa que una de tus habilidades se está atrofiando mientras te concentras en una habilidad diferente."
+            ]
+        },
+        {
+            "name": "Dominio psiónico (4/día)",
+            "source": "UATheMysticClass",
+            "page": 1,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "level": 17,
+            "entries": [
+                "A 17º nivel, puedes usar tu Maestría Psiónica cuatro veces al día."
+            ]
+        },
+        {
+            "name": "Mejora de la puntuación de la capacidad",
+            "source": "UATheMysticClass",
+            "page": 1,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "level": 19,
+            "entries": [
+                "Al alcanzar el 4º nivel, y de nuevo en los niveles 8º, 12º, 16º y 19º, puedes aumentar una puntuación de habilidad a tu elección en 2, o puedes aumentar dos puntuaciones de habilidad a tu elección en 1. Como es normal, no puedes aumentar una puntuación de habilidad por encima de 20 utilizando este rasgo."
+            ]
+        },
+        {
+            "name": "Versatilidad de la competencia",
+            "source": "UAClassFeatureVariants",
+            "page": 1,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "level": 19,
+            "isClassFeatureVariant": true,
+            "entries": [
+                "{@i característica de nivel 19 (mejora la puntuación de habilidad)}",
+                "Cuando obtienes el rasgo de mejora de la puntuación de habilidad de tu clase, también puedes reemplazar una de tus competencias de habilidad por una competencia de habilidad ofrecida por tu clase a 1er nivel (la competencia que reemplazas no necesita ser de la clase).",
+                "Este cambio representa que una de tus habilidades se está atrofiando mientras te concentras en una habilidad diferente."
+            ]
+        },
+        {
+            "name": "Cuerpo psiónico",
+            "source": "UATheMysticClass",
+            "page": 1,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "level": 20,
+            "entries": [
+                "A 20º nivel, tu dominio del poder psiónico hace que tu mente trascienda el cuerpo. Tu forma física está impregnada de energía psiónica. Obtienes los siguientes beneficios:",
+                {
+                    "type": "lista",
+                    "items": [
+                        "Obtienes resistencia al daño contundente, perforante y cortante.",
+                        "Ya no envejece.",
+                        "Eres inmune a la enfermedad, al daño por veneno y a la condición {@condición envenenada}.",
+                        "Si mueres, tira un {@dice d20}. Con un 10 o más, te desorporas con 0 puntos de golpe, en lugar de morir, y caes {@condición inconsciente}. Tú y tu equipo desaparecéis. Apareces en un punto de tu elección {@dice 1d3} días después en el plano de existencia donde moriste, habiendo obtenido los beneficios de un descanso largo."
+                    ]
+                }
+            ]
+        }
+    ],
+    "subclassFeature": [
+        {
+            "name": "Orden del Avatar",
+            "source": "UATheMysticClass",
+            "page": 5,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "subclassShortName": "Avatar",
+            "subclassSource": "UATheMysticClass",
+            "level": 1,
+            "entries": [
+                "Los místicos de la Orden del Avatar se adentran en el mundo de las emociones, dominando su vida interior hasta tal punto que pueden manipular y amplificar las emociones de los demás con la misma facilidad que un artista moldea la arcilla. Conocidos como Avatares, estos místicos varían desde tiranos hasta líderes inspiradores que son amados por sus seguidores.",
+                "Los avatares pueden provocar emociones extremas en las personas que los rodean. Para sus aliados, pueden aportar esperanza, ferocidad y coraje, transformando una banda de combatientes en una fuerza mortal y unificada. Para sus enemigos, aportan miedo, asco y temor que pueden hacer que hasta el más curtido veterano actúe como un novato tembloroso.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Disciplinas de bonificación|Mística|UATheMysticClass|Avatar|UATheMysticClass|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Entrenamiento de armadura|Mística|UATheMysticClass|Avatar|UATheMysticClass|1"
+                }
+            ]
+        },
+        {
+            "name": "Entrenamiento de la armadura",
+            "source": "UATheMysticClass",
+            "page": 5,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "subclassShortName": "Avatar",
+            "subclassSource": "UATheMysticClass",
+            "level": 1,
+            "header": 1,
+            "entries": [
+                "A 1er nivel, ganas competencia con armaduras y escudos medianos."
+            ]
+        },
+        {
+            "name": "Disciplinas de bonificación",
+            "source": "UATheMysticClass",
+            "page": 5,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "subclassShortName": "Avatar",
+            "subclassSource": "UATheMysticClass",
+            "level": 1,
+            "header": 1,
+            "entries": [
+                "A 1er nivel, aprendes dos disciplinas psiónicas adicionales a tu elección. Deben elegirse de entre las disciplinas del Avatar."
+            ]
+        },
+        {
+            "name": "Avatar de la batalla",
+            "source": "UATheMysticClass",
+            "page": 5,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "subclassShortName": "Avatar",
+            "subclassSource": "UATheMysticClass",
+            "level": 3,
+            "header": 2,
+            "entries": [
+                "A partir del 3º nivel, proyectas un aura inspiradora. Mientras no estés {@condición incapacitada}, cada aliado en un radio de 30 pies que pueda verte gana un bonificador +2 a las tiradas de iniciativa."
+            ]
+        },
+        {
+            "name": "Avatar de la curación",
+            "source": "UATheMysticClass",
+            "page": 5,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "subclassShortName": "Avatar",
+            "subclassSource": "UATheMysticClass",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "A partir del 6º nivel, proyectas un aura de resistencia. Mientras no estés {@condición incapacitada}, cada aliado en un radio de 30 pies que pueda verte recupera puntos de golpe adicionales iguales a tu modificador de Inteligencia (mínimo 0) cada vez que recuperen puntos de golpe por una disciplina psiónica."
+            ]
+        },
+        {
+            "name": "Avatar de la velocidad",
+            "source": "UATheMysticClass",
+            "page": 5,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "subclassShortName": "Avatar",
+            "subclassSource": "UATheMysticClass",
+            "level": 14,
+            "header": 2,
+            "entries": [
+                "A partir del 14º nivel, proyectas un aura de velocidad. Mientras no estés {@condición incapacitada}, cualquier aliado en un radio de 30 pies de ti que pueda verte puede realizar la acción {@acción Dash} como acción adicional."
+            ]
+        },
+        {
+            "name": "Orden de los Despertados",
+            "source": "UATheMysticClass",
+            "page": 6,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "subclassShortName": "Despierta",
+            "subclassSource": "UATheMysticClass",
+            "level": 1,
+            "entries": [
+                "Los místicos dedicados a la Orden de los Despertados buscan desbloquear todo el potencial de la mente. Al trascender lo físico, los Despertados esperan alcanzar un estado de ser centrado en el intelecto puro y la energía mental.",
+                "Los Despertados son expertos en doblar mentes y desatar ataques psiónicos devastadores, y pueden leer los secretos del mundo a través de la energía psiónica. Los místicos despiertos que se lanzan a la aventura destacan por desentrañar misterios, resolver rompecabezas y derrotar a los monstruos convirtiéndolos en peones involuntarios.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Disciplinas de bonificación|Mística|UATheMysticClass|Despertada|UATheMysticClass|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Talento despierto|Místico|UATheMysticClass|Despierto|UATheMysticClass|1"
+                }
+            ]
+        },
+        {
+            "name": "Talento despierto",
+            "source": "UATheMysticClass",
+            "page": 6,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "subclassShortName": "Despierta",
+            "subclassSource": "UATheMysticClass",
+            "level": 1,
+            "header": 1,
+            "entries": [
+                "A 1er nivel, obtienes competencia con dos de las siguientes habilidades a tu elección: {@habilidad Manejo de animales}, {@habilidad Engaño}, {@habilidad Perspicacia}, {@habilidad Intimidación}, {@habilidad"
+            ]
+        },
+        {
+            "name": "Disciplinas de bonificación",
+            "source": "UATheMysticClass",
+            "page": 6,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "subclassShortName": "Despierta",
+            "subclassSource": "UATheMysticClass",
+            "level": 1,
+            "header": 1,
+            "entries": [
+                "A 1er nivel, aprendes dos disciplinas psiónicas adicionales a tu elección. Deben elegirse de entre las disciplinas Despertadas."
+            ]
+        },
+        {
+            "name": "Investigación psiónica",
+            "source": "UATheMysticClass",
+            "page": 6,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "subclassShortName": "Despierta",
+            "subclassSource": "UATheMysticClass",
+            "level": 3,
+            "header": 2,
+            "entries": [
+                "A partir del 3º nivel, puedes concentrar tu mente para leer la huella psiónica dejada en un objeto. Si sostienes un objeto y te concentras en él durante 10 minutos (como si te concentraras en una disciplina psiónica), aprendes algunos datos básicos sobre él. Obtienes una imagen mental desde el punto de vista del objeto, que muestra la última criatura que lo sostuvo en las últimas 24 horas.",
+                "También te enteras de cualquier acontecimiento que haya ocurrido a menos de 6 metros del objeto en la última hora. Los acontecimientos que percibes se desarrollan desde la perspectiva del objeto. Ves y oyes esos acontecimientos como si estuvieras allí, pero no puedes utilizar otros sentidos.",
+                "Además, puedes incrustar un sensor psiónico intangible dentro del objeto. Durante las siguientes 24 horas, puedes utilizar una acción para conocer la ubicación del objeto con respecto a ti (su distancia y dirección) y observar el entorno del objeto desde su punto de vista como si estuvieras allí. Esta percepción dura hasta el comienzo de tu siguiente turno.",
+                "Una vez que utilices esta función, no podrás volver a utilizarla hasta que termines un descanso corto o largo."
+            ]
+        },
+        {
+            "name": "Sobrecarga psiónica",
+            "source": "UATheMysticClass",
+            "page": 6,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "subclassShortName": "Despierta",
+            "subclassSource": "UATheMysticClass",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "A partir del 6º nivel, puedes sobrecargar tu foco psíquico para derribar las defensas de un oponente. Puedes imponer desventaja en la tirada de salvación de un objetivo contra una disciplina o talento que utilices, pero a costa de utilizar tu foco psíquico. Tu foco psíquico termina inmediatamente si está activo, y no puedes usarlo hasta que termines un descanso corto o largo.",
+                "No puedes usar esta función si no puedes usar tu enfoque psíquico."
+            ]
+        },
+        {
+            "name": "Forma espectral",
+            "source": "UATheMysticClass",
+            "page": 6,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "subclassShortName": "Despierta",
+            "subclassSource": "UATheMysticClass",
+            "level": 14,
+            "header": 2,
+            "entries": [
+                "A 14º nivel, obtienes la habilidad de convertirte en una figura fantasmal de energía psiónica. Como acción, puedes transformarte en una versión transparente y fantasmal de ti mismo. Mientras estás en esta forma, tienes resistencia a todo el daño, te mueves a la mitad de la velocidad y puedes atravesar objetos y criaturas mientras te mueves, pero no puedes terminar voluntariamente tu movimiento en sus espacios. La forma dura 10 minutos o hasta que uses una acción para terminarla.",
+                "Una vez que utilices esta función, no podrás volver a usarla hasta que termines un descanso largo."
+            ]
+        },
+        {
+            "name": "Orden de los Inmortales",
+            "source": "UATheMysticClass",
+            "page": 6,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "subclassShortName": "Inmortal",
+            "subclassSource": "UATheMysticClass",
+            "level": 1,
+            "entries": [
+                "La Orden del Inmortal utiliza la energía psiónica para aumentar y modificar la forma física. Los seguidores de esta orden se conocen como Inmortales. Utilizan la energía psiónica para modificar sus cuerpos, fortaleciéndolos contra los ataques y convirtiéndose en armas vivientes.",
+                "Su dominio de la forma física les otorga su nombre, ya que los Inmortales son notoriamente difíciles de matar.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Disciplinas de Bonificación|Mística|UATheMysticClass|Imortal|UATheMysticClass|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Durabilidad Inmortal|Mística|UATheMysticClass|Imortal|UATheMysticClass|1"
+                }
+            ]
+        },
+        {
+            "name": "Disciplinas de bonificación",
+            "source": "UATheMysticClass",
+            "page": 6,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "subclassShortName": "Inmortal",
+            "subclassSource": "UATheMysticClass",
+            "level": 1,
+            "header": 1,
+            "entries": [
+                "A 1er nivel, aprendes dos disciplinas psiónicas adicionales a tu elección. Deben elegirse de entre las disciplinas inmortales."
+            ]
+        },
+        {
+            "name": "Durabilidad inmortal",
+            "source": "UATheMysticClass",
+            "page": 6,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "subclassShortName": "Inmortal",
+            "subclassSource": "UATheMysticClass",
+            "level": 1,
+            "header": 1,
+            "entries": [
+                "A partir del 1er nivel, tu máximo de puntos de golpe aumenta en 1 por nivel místico.",
+                "Además, mientras no lleves armadura o empuñes un escudo, tu CA base es igual a 10 + tu modificador de Destreza + tu modificador de Constitución."
+            ]
+        },
+        {
+            "name": "Resistencia psiónica",
+            "source": "UATheMysticClass",
+            "page": 6,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "subclassShortName": "Inmortal",
+            "subclassSource": "UATheMysticClass",
+            "level": 3,
+            "header": 2,
+            "entries": [
+                "A partir del 3º nivel, tu energía psiónica te otorga una fortaleza extraordinaria. Al comienzo de cada uno de tus turnos, ganas puntos de golpe temporales iguales a tu modificador de Inteligencia (mínimo 0) si tienes al menos 1 punto de golpe."
+            ]
+        },
+        {
+            "name": "El aumento de la salud",
+            "source": "UATheMysticClass",
+            "page": 6,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "subclassShortName": "Inmortal",
+            "subclassSource": "UATheMysticClass",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "A partir del 6º nivel, puedes recurrir a tu enfoque psíquico para escapar de las garras de la muerte. Como reacción cuando recibes daño, puedes reducir a la mitad ese daño contra ti. Tu foco psíquico termina inmediatamente si está activo, y no puedes usarlo hasta que termines un descanso corto o largo.",
+                "No puedes usar esta función si no puedes usar tu enfoque psíquico."
+            ]
+        },
+        {
+            "name": "Voluntad inmortal",
+            "source": "UATheMysticClass",
+            "page": 6,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "subclassShortName": "Inmortal",
+            "subclassSource": "UATheMysticClass",
+            "level": 14,
+            "header": 2,
+            "entries": [
+                "A partir del 14º nivel, puedes recurrir a tus reservas de poder psiónico para sobrevivir más allá de la muerte. Al final de tu turno mientras estés a 0 puntos de golpe, puedes gastar 5 puntos de psi para recuperar inmediatamente un número de puntos de golpe igual a tu nivel místico + tu modificador de Constitución."
+            ]
+        },
+        {
+            "name": "Orden del Nómada",
+            "source": "UATheMysticClass",
+            "page": 7,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "subclassShortName": "Nómada",
+            "subclassSource": "UATheMysticClass",
+            "level": 1,
+            "entries": [
+                "Los místicos de la Orden del Nómada mantienen sus mentes en un estado extraño y enrarecido. Tratan de acumular todo el conocimiento posible, ya que buscan desentrañar los misterios del multiverso y buscar la estructura subyacente de todas las cosas. Al mismo tiempo, perciben una extraña red viviente de conocimiento que llaman la noosfera.",
+                "Los nómadas, como su nombre indica, disfrutan viajando, explorando y descubriendo. Desean acumular tantos conocimientos como sea posible, y la búsqueda de secretos y conocimientos ocultos puede convertirse en una obsesión para ellos.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Disciplinas de bonificación|Mística|UATheMysticClass|Nomad|UATheMysticClass|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Amplitud de conocimientos|Mística|UATheMysticClass|Nomad|UATheMysticClass|1"
+                }
+            ]
+        },
+        {
+            "name": "Disciplinas de bonificación",
+            "source": "UATheMysticClass",
+            "page": 7,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "subclassShortName": "Nómada",
+            "subclassSource": "UATheMysticClass",
+            "level": 1,
+            "header": 1,
+            "entries": [
+                "A 1er nivel, aprendes dos disciplinas psiónicas adicionales a tu elección. Deben elegirse de entre las disciplinas de los Nómadas."
+            ]
+        },
+        {
+            "name": "Amplitud de conocimientos",
+            "source": "UATheMysticClass",
+            "page": 7,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "subclassShortName": "Nómada",
+            "subclassSource": "UATheMysticClass",
+            "level": 1,
+            "header": 1,
+            "entries": [
+                "A 1er nivel, obtienes la habilidad de ampliar tus conocimientos. Cuando terminas un descanso largo, ganas dos proficiencias a tu elección: dos herramientas, dos habilidades, o una de cada. Puedes sustituir una o ambas selecciones por idiomas. Este beneficio dura hasta que termines un descanso largo."
+            ]
+        },
+        {
+            "name": "Memoria de los mil pasos",
+            "source": "UATheMysticClass",
+            "page": 7,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "subclassShortName": "Nómada",
+            "subclassSource": "UATheMysticClass",
+            "level": 3,
+            "header": 2,
+            "entries": [
+                "A 3er nivel, obtienes la habilidad de usar la psiónica para recordar tus pasos. Como reacción cuando eres golpeado por un ataque, puedes teletransportarte a un espacio desocupado que hayas ocupado desde el inicio de tu último turno, y el ataque te falla. Una vez que usas este rasgo, no puedes volver a usarlo hasta que termines un descanso corto o largo."
+            ]
+        },
+        {
+            "name": "Teletransporte superior",
+            "source": "UATheMysticClass",
+            "page": 7,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "subclassShortName": "Nómada",
+            "subclassSource": "UATheMysticClass",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "A 6º nivel, obtienes un talento superior para el teletransporte. Cuando usas una disciplina psiónica para teletransportarte a cualquier distancia, puedes aumentar esa distancia hasta 3 metros."
+            ]
+        },
+        {
+            "name": "Viaje sin esfuerzo",
+            "source": "UATheMysticClass",
+            "page": 7,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "subclassShortName": "Nómada",
+            "subclassSource": "UATheMysticClass",
+            "level": 14,
+            "header": 2,
+            "entries": [
+                "A partir del nivel 14, tu mente puede mover místicamente tu cuerpo. Una vez en cada uno de tus turnos, puedes perder hasta 30 pies de tu movimiento para teletransportarte la distancia que perdiste. Debes teletransportarte a un espacio desocupado que puedas ver."
+            ]
+        },
+        {
+            "name": "Orden del Cuchillo del Alma",
+            "source": "UATheMysticClass",
+            "page": 7,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "subclassShortName": "Cuchillo del alma",
+            "subclassSource": "UATheMysticClass",
+            "level": 1,
+            "entries": [
+                "La Orden del Cuchillo del Alma sacrifica la amplitud de conocimientos que obtienen otros místicos para centrarse en una técnica psiónica específica. Estos místicos aprenden a manifestar un arma mortal de energía psíquica pura que pueden utilizar para atravesar a los enemigos.",
+                "Los cuchillos para almas varían mucho en su enfoque de este camino. Algunos lo siguen por el deseo de alcanzar la perfección marcial. Otros son asesinos despiadados que buscan convertirse en el asesino perfecto.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Entrenamiento marcial|Místico|UATheMysticClass|Cuchillo del alma|UATheMysticClass|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Cuchillo de alma|Mística|UATheMysticClass|Cuchillo de alma|UATheMysticClass|1"
+                }
+            ]
+        },
+        {
+            "name": "Entrenamiento marcial",
+            "source": "UATheMysticClass",
+            "page": 7,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "subclassShortName": "Cuchillo del alma",
+            "subclassSource": "UATheMysticClass",
+            "level": 1,
+            "header": 1,
+            "entries": [
+                "A 1er nivel, ganas competencia con armadura media y armas marciales."
+            ]
+        },
+        {
+            "name": "Cuchillo del alma",
+            "source": "UATheMysticClass",
+            "page": 7,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "subclassShortName": "Cuchillo del alma",
+            "subclassSource": "UATheMysticClass",
+            "level": 1,
+            "header": 1,
+            "entries": [
+                "A partir del 1er nivel, obtienes la habilidad de manifestar una hoja de energía psíquica. Como acción adicional, creas cuchillos centelleantes de energía que salen de tus dos puños. No puedes sostener nada en tus manos mientras manifiestas estas cuchillas. Puedes descartarlas como acción adicional.",
+                "Para ti, un cuchillo de alma es un arma marcial cuerpo a cuerpo con las propiedades de luz y delicadeza. Inflige {@daño 1d8} de daño psíquico en un golpe.",
+                "Como acción de bonificación, puedes prepararte para usar las cuchillas para parar; ganas un bonificador +2 a la CA hasta el comienzo de tu próximo turno o hasta que quedes {@condición incapacitada}."
+            ]
+        },
+        {
+            "name": "Afilar la cuchilla",
+            "source": "UATheMysticClass",
+            "page": 7,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "subclassShortName": "Cuchillo del alma",
+            "subclassSource": "UATheMysticClass",
+            "level": 3,
+            "header": 2,
+            "entries": [
+                "A partir del 3º nivel, puedes gastar puntos de psi para aumentar las tiradas de ataque y el daño de tu cuchillo del alma. Obtienes una bonificación a las tiradas de ataque y daño con tus cuchillos de alma en función del número de puntos de psi gastados, como se muestra en la siguiente tabla. Esta bonificación dura 10 minutos.",
+                {
+                    "type": "tabla",
+                    "colLabels": [
+                        "Puntos Psi",
+                        "Bonificación de ataque y daño"
+                    ],
+                    "colStyles": [
+                        "col-6 texto-centro",
+                        "col-6 texto-centro"
+                    ],
+                    "rows": [
+                        [
+                            null,
+                            null
+                        ],
+                        [
+                            null,
+                            null
+                        ],
+                        [
+                            null,
+                            null
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Cuchillo de consumo",
+            "source": "UATheMysticClass",
+            "page": 7,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "subclassShortName": "Cuchillo del alma",
+            "subclassSource": "UATheMysticClass",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "A partir del 6º nivel, siempre que mates a una criatura enemiga con un ataque de cuchillo de alma, recuperas inmediatamente 2 puntos de psi."
+            ]
+        },
+        {
+            "name": "Cuchillo fantasma",
+            "source": "UATheMysticClass",
+            "page": 7,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "subclassShortName": "Cuchillo del alma",
+            "subclassSource": "UATheMysticClass",
+            "level": 14,
+            "header": 2,
+            "entries": [
+                "A partir del nivel 14, puedes realizar un ataque que atraviesa la mayoría de las defensas. Como acción, puedes realizar un ataque con tu cuchillo del alma. Trata la CA del objetivo como 10 contra este ataque, independientemente de la CA real del objetivo."
+            ]
+        },
+        {
+            "name": "Orden del Wu Jen",
+            "source": "UATheMysticClass",
+            "page": 8,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "subclassShortName": "Wu Jen",
+            "subclassSource": "UATheMysticClass",
+            "level": 1,
+            "entries": [
+                "La Orden del Wu Jen cuenta con algunos de los místicos más devotos. Estos místicos buscan encerrarse en el mundo, negando los límites del mundo físico y sustituyéndolo por una realidad que ellos mismos crean. Conocidos como wu jens, estos místicos arrojan sus mentes al mundo, toman el control de sus principios fundamentales y lo reconstruyen.",
+                "En términos prácticos, los wu jens destacan en el control de las fuerzas del mundo natural. Pueden lanzar objetos con la mente, controlar los cuatro elementos y alterar la realidad para adaptarla a sus deseos.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Disciplinas de bonificación|Mística|UATheMysticClass|Wu Jen|UATheMysticClass|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Estudio del Ermitaño|Mística|UATheMysticCla"
+                }
+            ]
+        },
+        {
+            "name": "Disciplinas de bonificación",
+            "source": "UATheMysticClass",
+            "page": 8,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "subclassShortName": "Wu Jen",
+            "subclassSource": "UATheMysticClass",
+            "level": 1,
+            "header": 1,
+            "entries": [
+                "A 1er nivel, aprendes dos disciplinas psiónicas adicionales a tu elección. Deben elegirse de entre las disciplinas de Wu Jen."
+            ]
+        },
+        {
+            "name": "Estudio del ermitaño",
+            "source": "UATheMysticClass",
+            "page": 8,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "subclassShortName": "Wu Jen",
+            "subclassSource": "UATheMysticClass",
+            "level": 1,
+            "header": 1,
+            "entries": [
+                "A 1er nivel, adquieres competencia con dos de las siguientes habilidades a tu elección: {@habilidad Manejo de Animales}, {@habilidad Arcanos}, {@habilidad Historia}, {@habilidad Insigh"
+            ]
+        },
+        {
+            "name": "Sintonización elemental",
+            "source": "UATheMysticClass",
+            "page": 8,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "subclassShortName": "Wu Jen",
+            "subclassSource": "UATheMysticClass",
+            "level": 3,
+            "header": 2,
+            "entries": [
+                "A partir del 3º nivel, cuando la resistencia de una criatura reduce el daño infligido por una disciplina psiónica tuya, puedes gastar 1 punto de psi para hacer que ese uso de la disciplina ignore la resistencia de la criatura. No puedes gastar este punto si al hacerlo aumenta el coste de la disciplina por encima de tu límite de psi."
+            ]
+        },
+        {
+            "name": "Diletante arcano",
+            "source": "UATheMysticClass",
+            "page": 8,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "subclassShortName": "Wu Jen",
+            "subclassSource": "UATheMysticClass",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "A 6º nivel, aprendes tres hechizos de mago de tu elección y los tienes siempre preparados. Los hechizos deben ser de 1º a 3º nivel.",
+                "Como acción adicional, puedes gastar puntos de psi para crear ranuras de conjuro que puedes utilizar para lanzar estos conjuros, así como otros conjuros que seas capaz de lanzar. El coste en puntos psi de cada ranura de hechizo se detalla en la siguiente tabla.",
+                {
+                    "type": "tabla",
+                    "colLabels": [
+                        "Nivel de la ranura del hechizo",
+                        "Coste Psi"
+                    ],
+                    "colStyles": [
+                        "col-6 texto-centro",
+                        "col-6 texto-centro"
+                    ],
+                    "rows": [
+                        [
+                            null,
+                            null
+                        ],
+                        [
+                            null,
+                            null
+                        ],
+                        [
+                            null,
+                            null
+                        ],
+                        [
+                            null,
+                            null
+                        ],
+                        [
+                            null,
+                            null
+                        ]
+                    ]
+                },
+                "La ranura de hechizo permanece hasta que la uses o termines un descanso largo. Debes respetar tu límite de psi cuando gastes puntos de psi para crear una ranura de hechizo.",
+                "Cada vez que ganes un nivel en esta clase, puedes reemplazar uno de los hechizos de mago elegidos por un hechizo de mago diferente de nivel 1 a 3."
+            ]
+        },
+        {
+            "name": "Dominio de los elementos",
+            "source": "UATheMysticClass",
+            "page": 8,
+            "className": "Mystic",
+            "classSource": "UATheMysticClass",
+            "subclassShortName": "Wu Jen",
+            "subclassSource": "UATheMysticClass",
+            "level": 14,
+            "header": 2,
+            "entries": [
+                "A partir del 14º nivel, si tienes resistencia a un tipo de daño, puedes gastar 2 puntos de psi como reacción cuando recibas un daño de ese tipo para ignorarlo; ganas inmunidad a ese tipo de daño hasta el final de tu siguiente turno."
+            ]
+        }
+    ]
+}
