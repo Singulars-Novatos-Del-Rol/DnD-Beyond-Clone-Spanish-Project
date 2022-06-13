@@ -1,0 +1,3398 @@
+{
+    "book": [
+        {
+            "name": "Manual del jugador",
+            "group": "núcleo",
+            "coverUrl": "img/portadas/PHB.png",
+            "published": "2014-08-19",
+            "author": "Equipo Wizards RPG",
+            "contents": [
+                {
+                    "name": "Introducción",
+                    "headers": [
+                        "Mundos de Aventura",
+                        "Cómo utilizar este libro",
+                        "Cómo jugar",
+                        "Aventuras"
+                    ]
+                },
+                {
+                    "name": "Personajes paso a paso",
+                    "headers": [
+                        "1. Elige una carrera",
+                        "2. Elija una clase",
+                        "3. Determinar las puntuaciones de habilidad",
+                        "4. Describa a su personaje",
+                        "5. Elija el equipo",
+                        "6. Juntos",
+                        "Más allá del primer nivel"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 1
+                    }
+                },
+                {
+                    "name": "Carreras",
+                    "headers": [
+                        "Elegir una carrera"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 2
+                    }
+                },
+                {
+                    "name": "Clases",
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 3
+                    }
+                },
+                {
+                    "name": "Personalidad y antecedentes",
+                    "headers": [
+                        "Detalles del personaje",
+                        "Características personales",
+                        "Alineación",
+                        "Idiomas",
+                        "Inspiración",
+                        "Fondos"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 4
+                    }
+                },
+                {
+                    "name": "Equipo",
+                    "headers": [
+                        "Equipo de arranque",
+                        "Riqueza",
+                        "Armaduras y escudos",
+                        "Armas",
+                        "Equipamiento para aventureros",
+                        "Herramientas",
+                        "Soportes y vehículos",
+                        {
+                            "index": 1,
+                            "header": "Productos comerciales"
+                        },
+                        "Gastos",
+                        "Baratijas"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 5
+                    }
+                },
+                {
+                    "name": "Opciones de personalización",
+                    "headers": [
+                        "Multiclasificación",
+                        "Hazañas"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 6
+                    }
+                },
+                {
+                    "name": "Utilización de los índices de aptitud",
+                    "headers": [
+                        "Puntuaciones y modificadores de habilidad",
+                        "Ventajas y desventajas",
+                        "Bonificación por competencia",
+                        "Comprobación de la capacidad",
+                        "Uso de cada habilidad",
+                        "Tiradas de salvación"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 7
+                    }
+                },
+                {
+                    "name": "Aventura",
+                    "headers": [
+                        "Tiempo",
+                        "Movimiento",
+                        "El medio ambiente",
+                        "Interacción social",
+                        "Descansando",
+                        "Entre Aventuras"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 8
+                    }
+                },
+                {
+                    "name": "Combate",
+                    "headers": [
+                        "El orden de los combates",
+                        "Movimiento y posición",
+                        "Acciones en combate",
+                        "Cómo realizar un ataque",
+                        "Portada",
+                        "Daño y curación",
+                        "Combate montado",
+                        "Combate subacuático"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 9
+                    }
+                },
+                {
+                    "name": "Hechizo",
+                    "headers": [
+                        "¿Qué es un hechizo?",
+                        "Lanzar un hechizo"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 10
+                    }
+                },
+                {
+                    "name": "Hechizos",
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 11
+                    }
+                },
+                {
+                    "name": "Condiciones",
+                    "ordinal": {
+                        "type": "apéndice"
+                    }
+                },
+                {
+                    "name": "Dioses del Multiverso",
+                    "ordinal": {
+                        "type": "apéndice"
+                    }
+                },
+                {
+                    "name": "Los planos de la existencia",
+                    "headers": [
+                        "El plano material",
+                        "Más allá del material"
+                    ],
+                    "ordinal": {
+                        "type": "apéndice"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Manual de Monstruos",
+            "group": "núcleo",
+            "coverUrl": "img/covers/MM.png",
+            "published": "2014-09-30",
+            "author": "Equipo Wizards RPG",
+            "contents": [
+                {
+                    "name": "Introducción",
+                    "headers": [
+                        "Cómo utilizar este libro",
+                        "¿Qué es un monstruo?",
+                        "Estadísticas",
+                        "Criaturas legendarias",
+                        "Plantilla del Dragón de las Sombras",
+                        "Plantilla de medio dragón",
+                        "Plantilla de siervos de Spore"
+                    ]
+                },
+                {
+                    "name": "Criaturas diversas",
+                    "ordinal": {
+                        "type": "apéndice"
+                    }
+                },
+                {
+                    "name": "Personajes no jugadores",
+                    "headers": [
+                        "Personalización de NPCs",
+                        "Descripciones de NPCs"
+                    ],
+                    "ordinal": {
+                        "type": "apéndice"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Guía del Dungeon Master",
+            "group": "núcleo",
+            "coverUrl": "img/covers/DMG.png",
+            "published": "2014-12-09",
+            "author": "Equipo Wizards RPG",
+            "contents": [
+                {
+                    "name": "Introducción",
+                    "headers": [
+                        "El maestro de mazmorras",
+                        "Cómo utilizar este libro",
+                        "Conozca a sus jugadores"
+                    ]
+                },
+                {
+                    "name": "Un mundo propio",
+                    "headers": [
+                        "El panorama general",
+                        "Ir a",
+                        "Trazado de la campaña",
+                        "Liquidaciones",
+                        "Lenguas y dialectos",
+                        "Facciones y organizaciones",
+                        "Magia en tu mundo",
+                        "Creación de una campaña",
+                        "Eventos de la campaña",
+                        "Estilo de juego",
+                        "Niveles de juego",
+                        "Sabores de la fantasía"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 1
+                    }
+                },
+                {
+                    "name": "Creación de un multiverso",
+                    "headers": [
+                        "Los aviones",
+                        "Pl",
+                        "Plano Astral",
+                        "Plano etéreo",
+                        "Feywild",
+                        "Shadowfell",
+                        "Planos interiores",
+                        "Planos exteriores",
+                        "Otros aviones",
+                        "Mundos conocidos del plano material"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 2
+                    }
+                },
+                {
+                    "name": "Crear aventuras",
+                    "headers": [
+                        "Elementos de una gran aventura",
+                        "Aventuras publicadas",
+                        "Estructura de la aventura",
+                        "Tipos de aventura",
+                        "Complicaciones",
+                        "Creación de encuentros",
+                        "Encuentros aleatorios"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 3
+                    }
+                },
+                {
+                    "name": "Creación de personajes no jugadores",
+                    "headers": [
+                        "Diseñar NPCs",
+                        "Miembros del Partido NPC",
+                        "Contactos",
+                        "Contratados",
+                        "Extras",
+                        "Villanos",
+                        "Opciones de clase de los villanos"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 4
+                    }
+                },
+                {
+                    "name": "Entornos de aventura",
+                    "headers": [
+                        "Mazmorras",
+                        "Trazado de una mazmorra",
+                        "Silvestre",
+                        "Cartografía de un espacio natural",
+                        "Supervivencia en la naturaleza",
+                        "Liquidación",
+                        "Trazar el mapa de un asentamiento",
+                        "Encuentros urbanos",
+                        "Entornos inusuales",
+                        "Trampas"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 5
+                    }
+                },
+                {
+                    "name": "Entre Aventuras",
+                    "headers": [
+                        "Li",
+                        "Seguimiento de la campaña",
+                        "Gastos recurrentes",
+                        "Actividades en tiempo de inactividad"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 6
+                    }
+                },
+                {
+                    "name": "Tesoro",
+                    "headers": [
+                        "Tipos de tesoro",
+                        "Tesoro al azar",
+                        {
+                            "header": "Objetos mágicos",
+                            "index": 1
+                        },
+                        "Objetos mágicos sensibles",
+                        "Artefactos",
+                        "Otras recompensas"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 7
+                    }
+                },
+                {
+                    "name": "Cómo funciona el juego",
+                    "headers": [
+                        "Reglas de la tabla",
+                        "El papel de los dados",
+                        "Utilización de los índices de aptitud",
+                        "Exploración",
+                        "Interacción social",
+                        "Objetos",
+                        "Combate",
+                        "Persigue",
+                        "Equipo de asedio",
+                        "Enfermedades",
+                        "Venenos",
+                        "Locura",
+                        "Puntos de experiencia"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 8
+                    }
+                },
+                {
+                    "name": "Taller del Dungeon Master",
+                    "headers": [
+                        "Opciones de habilidad",
+                        "Opciones de aventura",
+                        "Opciones de combate",
+                        "Crear un monstruo",
+                        "Creación de un hechizo",
+                        "Creación de un objeto mágico",
+                        "Creación de nuevas opciones de personajes"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 9
+                    }
+                },
+                {
+                    "name": "Mazmorras aleatorias",
+                    "headers": [
+                        "Zona de inicio",
+                        "Pasajes",
+                        "Puertas",
+                        "Cámaras",
+                        "Escaleras",
+                        "Áreas de conexión",
+                        "Abastecimiento de una mazmorra"
+                    ],
+                    "ordinal": {
+                        "type": "apéndice"
+                    }
+                },
+                {
+                    "name": "Listas de monstruos",
+                    "ordinal": {
+                        "type": "apéndice"
+                    }
+                },
+                {
+                    "name": "Mapas",
+                    "ordinal": {
+                        "type": "apéndice"
+                    }
+                },
+                {
+                    "name": "Inspiración del Dungeon Master",
+                    "ordinal": {
+                        "type": "apéndice"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Pantalla del Dungeon Master",
+            "id": "Pantalla",
+            "source": "Pantalla",
+            "group": "s",
+            "coverUrl": "img/carátulas/pantalla.png",
+            "published": "2015-01-20",
+            "contents": [
+                {
+                    "name": "Tablas"
+                }
+            ]
+        },
+        {
+            "name": "Guía del aventurero de la Costa de la Espada",
+            "id": "SCAG",
+            "source": "SCAG",
+            "group": "ajuste",
+            "coverUrl": "img/portadas/SCAG.png",
+            "published": "2015-11-03",
+            "author": "Equipo Wizards RPG",
+            "contents": [
+                {
+                    "name": "Prefacio"
+                },
+                {
+                    "name": "Bienvenido a los Reinos",
+                    "headers": [
+                        "La Costa de la Espada y el Norte",
+                        "Toril y sus tierras",
+                        "El tiempo en los reinos",
+                        "Una breve historia",
+                        "Magia en los reinos",
+                        "La religión en los reinos",
+                        "Los dioses de Faerûn"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 1
+                    }
+                },
+                {
+                    "name": "La Costa de la Espada y el Norte",
+                    "headers": [
+                        "Nota para el DM: hacer que los reinos sean suyos",
+                        "La Alianza de los Señores",
+                        "Hogares de enanos del Norte",
+                        "Reinos Insulares",
+                        "Reinos independientes",
+                        "La Infraoscuridad"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 2
+                    }
+                },
+                {
+                    "name": "Razas de los Reinos",
+                    "headers": [
+                        "Enanos",
+                        "Elfos",
+                        "Halflings",
+                        "Humanos",
+                        "Dragonborn",
+                        "Gnomos",
+                        "Medio Elfos",
+                        "Medio-Orcos",
+                        "Tieflings"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 3
+                    }
+                },
+                {
+                    "name": "Clases",
+                    "headers": [
+                        "Bárbaros",
+                        "Caminos Primordiales",
+                        "Bardos",
+                        "Los Harpers",
+                        "Colegios bárdicos",
+                        "Instrumentos musicales",
+                        "Clérigos",
+                        "Dominio Divino",
+                        "Druidas",
+                        "Círculos de druidas",
+                        "Luchadores",
+                        "Arquetipo marcial",
+                        "Monjes",
+                        "Órdenes monásticas",
+                        "Tradiciones monásticas",
+                        "Paladines",
+                        "Órdenes de los paladines",
+                        "Juramento sagrado",
+                        "Rangers",
+                        "Pícaros",
+                        "Arquetipos de la Pícara",
+                        "Hechiceros",
+                        "Origen hechicero",
+                        "Brujos",
+                        "Patrón de otro mundo",
+                        "Magos",
+                        "Grupos de magos",
+                        "Tradición arcana",
+                        "Hechizos para hechiceros, brujos y magos"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 4
+                    }
+                },
+                {
+                    "name": "Fondos",
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 5
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Cambio de plano: Zendikar",
+            "id": "PS-Z",
+            "group": "suplemento-alt",
+            "coverUrl": "img/portadas/PSZ.png",
+            "published": "2016-04-27",
+            "author": "Equipo Wizards RPG",
+            "contents": [
+                {
+                    "name": "Introducción",
+                    "headers": [
+                        "El mundo"
+                    ]
+                },
+                {
+                    "name": "Razas de Zendikar"
+                },
+                {
+                    "name": "Un bestiario de Zendikar"
+                }
+            ]
+        },
+        {
+            "name": "Cambio de avión: Innistrad",
+            "id": "PS-I",
+            "group": "suplemento-alt",
+            "coverUrl": "img/covers/PSI.png",
+            "published": "2016-07-12",
+            "author": "Equipo Wizards RPG",
+            "contents": [
+                {
+                    "name": "Introducción"
+                },
+                {
+                    "name": "El mundo de Innistrad",
+                    "headers": [
+                        "Horrores de la noche",
+                        "Defensores de la Humanidad"
+                    ]
+                },
+                {
+                    "name": "La vida en Innistrad",
+                    "headers": [
+                        "Gente de Innistrad",
+                        "La Iglesia de Avacyn",
+                        "Antecedentes del inquisidor"
+                    ]
+                },
+                {
+                    "name": "Criaturas de la noche"
+                },
+                {
+                    "name": "La llegada de Emrakul",
+                    "headers": [
+                        "El ascenso de Emrakul",
+                        "La locura de Emrakul"
+                    ]
+                },
+                {
+                    "name": "Maldición de Innistrad",
+                    "headers": [
+                        "Tierras de Barovia-Valles de Ultramar",
+                        "Pueblo de Barovia-Shadowgrange",
+                        "La bodega de la luz de Argynvostholt-Heron",
+                        "Krezk",
+                        "Las ruinas de Berez",
+                        "Torre de Van Richten-Torre de Rem Karolus",
+                        "El mago de los vinos y los cuervos",
+                        "Colina de Yester",
+                        "Guarida de los hombres lobo",
+                        "Ganchos de aventura"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Liga de Aventureros",
+            "group": "otros",
+            "coverUrl": "img",
+            "published": "2016-08-26",
+            "contents": [
+                {
+                    "name": "Guía de Facción",
+                    "headers": [
+                        "Avance y beneficios de la facción",
+                        "Aprendizaje",
+                        "Harpers",
+                        "Orden del Guantelete",
+                        "Enclave Esmeralda",
+                        "Alianza de los Señores",
+                        "Zhentarim"
+                    ]
+                },
+                {
+                    "name": "Más información"
+                }
+            ]
+        },
+        {
+            "name": "Guía de monstruos de Volo",
+            "group": "suplemento",
+            "coverUrl": "img/covers/VGM.png",
+            "published": "2016-11-15",
+            "author": "Equipo Wizards RPG",
+            "contents": [
+                {
+                    "name": "Monstruos",
+                    "headers": [
+                        "Los espectadores: Los malos sueños se hacen realidad",
+                        "Gigantes: Agitadores del mundo",
+                        "Gnolls: El hambre insaciable",
+                        "Goblinoides: La hueste conquistadora",
+                        "Hags: La Hermandad Oscura",
+                        "K",
+                        "Kobolds: L",
+                        "Orcos: The Godsworn",
+                        "Yuan-ti: La gente de la serpiente"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 1
+                    }
+                },
+                {
+                    "name": "Razas de personajes",
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 2
+                    },
+                    "headers": [
+                        "Altura y peso"
+                    ]
+                },
+                {
+                    "name": "Bestiario",
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 3
+                    }
+                },
+                {
+                    "name": "Bestias variadas",
+                    "ordinal": {
+                        "type": "apéndice"
+                    }
+                },
+                {
+                    "name": "Personajes no jugadores",
+                    "ordinal": {
+                        "type": "apéndice"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Cambio de avión: Kaladesh",
+            "id": "PS-K",
+            "group": "suplemento-alt",
+            "coverUrl": "img/carátulas/PSK.png",
+            "published": "2017-02-16",
+            "author": "Equipo Wizards RPG",
+            "contents": [
+                {
+                    "name": "Introducción"
+                },
+                {
+                    "name": "El mundo de Kaladesh",
+                    "headers": [
+                        "El consulado y los renegados",
+                        "Invención y magia",
+                        "Inventar opciones",
+                        "Una campaña de Kaladesh"
+                    ]
+                },
+                {
+                    "name": "Razas de Kaladesh"
+                },
+                {
+                    "name": "Un bestiario de Kaladesh"
+                }
+            ]
+        },
+        {
+            "name": "Cambio de avión: Amonkhet",
+            "id": "PS-A",
+            "group": "suplemento-alt",
+            "coverUrl": "img/covers/PSA.png",
+            "published": "2017-07-06",
+            "author": "Equipo Wizards RPG",
+            "contents": [
+                {
+                    "name": "Introducción"
+                },
+                {
+                    "name": "El mundo de Amonkhet",
+                    "headers": [
+                        "Gente de Naktamun"
+                    ]
+                },
+                {
+                    "name": "Razas de Amonkhet"
+                },
+                {
+                    "name": "Pruebas de los Cinco Dioses"
+                },
+                {
+                    "name": "Un bestiario de Amonkhet"
+                }
+            ]
+        },
+        {
+            "name": "Una molienda por encima",
+            "group": "suplemento-alt",
+            "coverUrl": "img/portadas/OGA.png",
+            "published": "2017-10-11",
+            "author": "Vida extra",
+            "contents": [
+                {
+                    "name": "Una molienda por encima"
+                }
+            ]
+        },
+        {
+            "name": "Guía de Xanathar para todo",
+            "group": "suplemento",
+            "coverUrl": "img/covers/XGE.png",
+            "published": "2017-11-21",
+            "author": "Equipo Wizards RPG",
+            "contents": [
+                {
+                    "name": "Introducción",
+                    "headers": [
+                        "Cómo utilizar este libro",
+                        "Las reglas básicas"
+                    ]
+                },
+                {
+                    "name": "Opciones de carácter",
+                    "headers": [
+                        "Esta es tu vida",
+                        "Habilidades raciales"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 1
+                    }
+                },
+                {
+                    "name": "Herramientas del Dungeon Master",
+                    "headers": [
+                        "Efectos simultáneos",
+                        "Falling",
+                        "Dormir",
+                        "Armas adamantinas",
+                        "Cómo atar los nudos",
+                        "Capacidades de las herramientas",
+                        "Hechizo",
+                        "Edificio de Encuentros",
+                        "Encuentros aleatorios: Un mundo de posibilidades",
+                        "Trampas revisadas",
+                        "Tiempo de inactividad revisado",
+                        "Adjudicación de objetos mágicos"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 2
+                    }
+                },
+                {
+                    "name": "Hechizos",
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 3
+                    }
+                },
+                {
+                    "name": "Campañas compartidas",
+                    "headers": [
+                        "Código de conducta",
+                        "Diseñar aventuras",
+                        "Creación de personajes",
+                        "Normas de las variantes"
+                    ],
+                    "ordinal": {
+                        "type": "apéndice"
+                    }
+                },
+                {
+                    "name": "Nombres de personajes",
+                    "ordinal": {
+                        "type": "apéndice"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Cambio de avión: Ixalan",
+            "id": "PS-X",
+            "group": "suplemento-alt",
+            "coverUrl": "img/carátulas/PSX.png",
+            "published": "2018-01-09",
+            "author": "Equipo Wizards RPG",
+            "contents": [
+                {
+                    "name": "Introducción"
+                },
+                {
+                    "name": "El mundo de Ixalan",
+                    "headers": [
+                        "Imperio del Sol",
+                        "Heraldos del río",
+                        "Legión del Crepúsculo",
+                        "Coalición de Brazen"
+                    ]
+                },
+                {
+                    "name": "Razas de Ixalan"
+                },
+                {
+                    "name": "Tierra del Gran Río",
+                    "headers": [
+                        "Sitios antiguos",
+                        "Tesoro"
+                    ]
+                },
+                {
+                    "name": "Un bestiario de Ixalan",
+                    "headers": [
+                        "Apéndice: Los colores de la magia"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "El tomo de los enemigos de Mordenkainen",
+            "group": "suplemento",
+            "coverUrl": "img/covers/MTF.png",
+            "published": "2018-05-29",
+            "author": "Equipo Wizards RPG",
+            "contents": [
+                {
+                    "name": "La guerra de la sangre",
+                    "headers": [
+                        "La Gran Danza",
+                        "Señores de los Nueve",
+                        "Sectas diabólicas",
+                        "Cambiones infernales",
+                        "Subrazas Tiefling",
+                        "Tablas de personalización del diablo",
+                        "Príncipes del Abismo",
+                        "Lor",
+                        "Boones demoníacos",
+                        "Cambiones demoníacos",
+                        "Tablas de personalización del demonio",
+                        "Cultos diabólicos"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 1
+                    }
+                },
+                {
+                    "name": "Elfos",
+                    "headers": [
+                        "Una raza dividida",
+                        "La diáspora de los elfos",
+                        "Vivir en el ensueño",
+                        "La perspectiva de los elfos",
+                        "Los elfos y la magia",
+                        "La Seldarine",
+                        "Eladrin y el Feywild",
+                        "Drow",
+                        "La Reina del Cuervo y los Shadar-kai",
+                        "Subrazas de elfos",
+                        "Mesas de los elfos"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 2
+                    }
+                },
+                {
+                    "name": "Enanos y Duergar",
+                    "headers": [
+                        "Las profundas raíces de la guerra",
+                        "Enanos",
+                        "Duergar",
+                        "Personajes de Duergar",
+                        "Mesas enanas",
+                        "Mesas Duergar"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 3
+                    }
+                },
+                {
+                    "name": "Gith y su guerra sin fin",
+                    "headers": [
+                        "Githyanki",
+                        "Githzerai",
+                        "Personajes de Gith",
+                        "Tablas Gith"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 4
+                    }
+                },
+                {
+                    "name": "Halflings y gnomos",
+                    "headers": [
+                        "Halflings",
+                        "Tablas Halfling",
+                        "Gnomos",
+                        "Personajes gnomos profundos",
+                        "Mesas Gnome"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 5
+                    }
+                },
+                {
+                    "name": "Bestiario",
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 6
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Cambio de plano: Dominaria",
+            "id": "PS-D",
+            "group": "suplemento-alt",
+            "coverUrl": "img/covers/PSD.png",
+            "published": "2018-07-31",
+            "author": "Equipo Wizards RPG",
+            "contents": [
+                {
+                    "name": "Introducción",
+                    "headers": [
+                        "Los dominios"
+                    ]
+                },
+                {
+                    "name": "Los siete pilares de Benalia"
+                },
+                {
+                    "name": "Iglesia de Serra"
+                },
+                {
+                    "name": "Academia Tolariana"
+                },
+                {
+                    "name": "Merfolk de Vodalia"
+                },
+                {
+                    "name": "La cábala de Belezenlok"
+                },
+                {
+                    "name": "Huestes de guerra de Keld"
+                },
+                {
+                    "name": "Elfos de Llanowar"
+                }
+            ]
+        },
+        {
+            "name": "Guía de los Guildmasters de Ravnica",
+            "group": "ajuste",
+            "coverUrl": "img/covers/GGR.png",
+            "published": "2018-11-20",
+            "contents": [
+                {
+                    "name": "Bienvenido a Rávnica",
+                    "headers": [
+                        "Ciudad de los Gremios",
+                        "Historia de Rávnica",
+                        "La vida en la gran ciudad"
+                    ]
+                },
+                {
+                    "name": "Creación de personajes",
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 1
+                    },
+                    "headers": [
+                        "Elegir un gremio",
+                        "Carreras",
+                        "Clases por gremio",
+                        "Opciones de subclase"
+                    ]
+                },
+                {
+                    "name": "Gremios de Ravnica",
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 2
+                    },
+                    "headers": [
+                        "Senado de Azorius",
+                        "Legión Boros",
+                        "Casa Dimir",
+                        "Enjambre Golgari",
+                        "Clanes Gruul",
+                        "Liga Izzet",
+                        "Sindicato Orzhov",
+                        "Culto a Rakdos",
+                        "Cónclave de Selesnya",
+                        "Combinación Simic"
+                    ]
+                },
+                {
+                    "name": "El Décimo Distrito",
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 3
+                    },
+                    "headers": [
+                        "Los seis recintos",
+                        "Principales vías de comercio",
+                        "Bajo las calles",
+                        "Recinto Uno",
+                        "Recinto Dos",
+                        "Recinto Tres",
+                        "Comisaría 4",
+                        "Comisaría 5",
+                        "Comisaría 6"
+                    ]
+                },
+                {
+                    "name": "Crear aventuras",
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 4
+                    },
+                    "headers": [
+                        "Aventuras gremiales",
+                        "Elegir un gremio",
+                        "Implicación de los personajes",
+                        "Complicaciones",
+                        "Senado de Azorius",
+                        "Legión Boros",
+                        "Casa Dimir",
+                        "Enjambre Golgari",
+                        "Clanes Gruul",
+                        "Liga Izzet",
+                        "Sindicato Orzhov",
+                        "Culto a Rakdos",
+                        "Cónclave de Selesnya",
+                        "Combinación Simic"
+                    ]
+                },
+                {
+                    "name": "Tesoros",
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 5
+                    },
+                    "headers": [
+                        "Monedas en el tesoro",
+                        "Amuletos del gremio",
+                        "Objetos mágicos"
+                    ]
+                },
+                {
+                    "name": "Amigos y enemigos",
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 6
+                    },
+                    "headers": [
+                        "Criaturas por gremio"
+                    ]
+                },
+                {
+                    "name": "NPCs por gremio",
+                    "headers": [
+                        "NPCs de Azorius",
+                        "NPCs de Boros",
+                        "NPCs de Dimir",
+                        "NPCs Golgari",
+                        "Gruul NPCs",
+                        "NPCs Izzet",
+                        "NPCs de Orzhov",
+                        "NPCs de Rakdos",
+                        "NPCs de Selesnya",
+                        "PNJs simicos"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Compendio de consejos de Sage",
+            "group": "otros",
+            "coverUrl": "img/portadas/SAC.png",
+            "published": "2019-01-31",
+            "contents": [
+                {
+                    "name": "Compendio de consejos de Sage",
+                    "headers": [
+                        "Referencias a las normas",
+                        "Respuestas recopiladas",
+                        "El papel de las normas",
+                        "Creación de personajes",
+                        "Ra",
+                        "Características de la clase",
+                        "Fondos",
+                        "Equipo",
+                        "Multiclasificación",
+                        "Hazañas",
+                        "Comprobación de la capacidad",
+                        "Aventura",
+                        "Combate",
+                        "Hechizo",
+                        "Monstruos",
+                        "Objetos mágicos"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Adquisiciones Incorporadas",
+            "group": "suplemento",
+            "coverUrl": "img/",
+            "published": "2019-06-18",
+            "contents": [
+                {
+                    "name": "Adquisiciones Incorporadas",
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 1
+                    },
+                    "headers": [
+                        "Son sólo negocios",
+                        "Un prospecto de empresa",
+                        "Generador rápido de franquicias"
+                    ]
+                },
+                {
+                    "name": "Cómo hacer crecer su franquicia",
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 2
+                    },
+                    "headers": [
+                        "Avance de la franquicia",
+                        "Puestos de la empresa",
+                        {
+                            "depth": 1,
+                            "header": "Cartógrafo"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Decisionista"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Documancer"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Acaparador"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Loremonger"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Obviator"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Ocultista"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Secretario"
+                        },
+                        "Tareas de franquicia y tiempo de inactividad"
+                    ]
+                },
+                {
+                    "name": "Opciones del jugador",
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 3
+                    },
+                    "headers": [
+                        "Fondos",
+                        "Jugar con clase",
+                        "Nueva raza: Verdan",
+                        "Nuevos hechizos",
+                        "Facciones y rivales"
+                    ]
+                },
+                {
+                    "name": "Acq Inc.",
+                    "ordinal": {
+                        "type": "apéndice"
+                    },
+                    "headers": [
+                        "Omin Dran",
+                        "Jim Darkmagic",
+                        "Viari",
+                        "Môrgæn",
+                        "Flabbergast",
+                        "El equipo \"C\"",
+                        "El equipo \"B\"",
+                        "Casa Dran"
+                    ]
+                },
+                {
+                    "name": "Monstruos",
+                    "ordinal": {
+                        "type": "apéndice"
+                    },
+                    "headers": [
+                        "Ic",
+                        "Características icónicas de la franquicia"
+                    ]
+                },
+                {
+                    "name": "Vehículos",
+                    "ordinal": {
+                        "type": "apéndice"
+                    }
+                },
+                {
+                    "name": "Orrería y componentes",
+                    "ordinal": {
+                        "type": "apéndice"
+                    }
+                },
+                {
+                    "name": "Baratijas",
+                    "ordinal": {
+                        "type": "apéndice"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Dragones y Mazmorras contra Rick y Morty: Reglas básicas",
+            "group": "suplemento",
+            "coverUrl": "img/covers/RMR.png",
+            "published": "2019-11-19",
+            "contents": [
+                {
+                    "name": "Cómo jugar",
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 1
+                    },
+                    "headers": [
+                        "Cómo empezar",
+                        {
+                            "depth": 1,
+                            "header": "1. El DM describe el entorno"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "2. Los jugadores describen lo que quieren hacer"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "3. El DM narra los resultados de las acciones de los aventureros."
+                        },
+                        "Seis habilidades",
+                        {
+                            "depth": 1,
+                            "header": "1. Tira el dado"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "2. Aplicar bonificaciones y sanciones circunstanciales"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "3. Comparar el total con un número objetivo"
+                        }
+                    ]
+                },
+                {
+                    "name": "Combate",
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 2
+                    },
+                    "headers": [
+                        "El orden de los combates",
+                        "Movimiento y posición",
+                        "Acciones en combate",
+                        "Cómo realizar un ataque",
+                        "Portada",
+                        "Daño y curación"
+                    ]
+                },
+                {
+                    "name": "Aventura",
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 3
+                    },
+                    "headers": [
+                        "Viajes",
+                        "Descansando",
+                        "Recompensas",
+                        "Equipo",
+                        "Armaduras y escudos",
+                        "Armas",
+                        "Equipos y servicios diversos"
+                    ]
+                },
+                {
+                    "name": "Hechizo",
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 4
+                    },
+                    "headers": [
+                        "¿Qué es un hechizo?",
+                        "Lanzar un hechizo",
+                        "Listas de hechizos",
+                        "Hechizos"
+                    ]
+                },
+                {
+                    "name": "Condiciones",
+                    "ordinal": {
+                        "type": "apéndice"
+                    },
+                    "headers": [
+                        "Blinded",
+                        "Encantado",
+                        "Ensordecido",
+                        "Agotamiento",
+                        "Asustado",
+                        "Agarrado",
+                        "Incapacitado",
+                        "Invisible",
+                        "Paralizado",
+                        "Petrificado",
+                        "Envenenado",
+                        "Prone",
+                        "Restringido",
+                        "Aturdido",
+                        "Inconsciente"
+                    ]
+                },
+                {
+                    "name": "¡¿CUÁL ES EL PUTO OBJETIVO?!",
+                    "ordinal": {
+                        "type": "apéndice"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Eberron: El resurgir de la última guerra",
+            "id": "ERLW",
+            "source": "ERLW",
+            "group": "ajuste",
+            "coverUrl": "img/covers/ERLW.png",
+            "published": "2019-11-19",
+            "contents": [
+                {
+                    "name": "Bienvenido a Eberron",
+                    "headers": [
+                        "Cómo utilizar este libro",
+                        "Siete cosas que hay que saber",
+                        "Historia de Eberron",
+                        "La vida en Khorvaire",
+                        "Aventura Pulp",
+                        "Intriga negra",
+                        "Un mundo mágico",
+                        "La última guerra",
+                        "La profecía dracónica"
+                    ]
+                },
+                {
+                    "name": "Creación de personajes",
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 1
+                    },
+                    "headers": [
+                        "Carreras",
+                        "Changelings",
+                        "Dragonborn",
+                        "Enanos",
+                        "Elfos",
+                        "Gnomos",
+                        "Goblinoides",
+                        "Medio Elfos",
+                        "Halflings",
+                        "Humanos",
+                        "Kalashtar",
+                        "Orcos y semiorcos",
+                        "Cajas de cambio",
+                        "T",
+                        "Wa"
+                    ]
+                },
+                {
+                    "name": "Creación de personajes - Dragonmarks",
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 1
+                    },
+                    "headers": [
+                        "Dragonmarks",
+                        "La marca de la detección",
+                        "La marca del hallazgo",
+                        "La marca de la manipulación",
+                        "La marca de la curación",
+                        "La marca de la hospitalidad",
+                        "La marca de la fabricación",
+                        "La marca del paso",
+                        "La marca de la escribanía",
+                        "La marca del centinela",
+                        "La marca de la sombra",
+                        "La marca de la tormenta",
+                        "La marca del vallado",
+                        "Marcas de dragón aberrantes",
+                        "Antecedentes"
+                    ]
+                },
+                {
+                    "name": "Creación de personajes - Artificer",
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 1
+                    },
+                    "headers": [
+                        "Clase: Artificador",
+                        "Características de la clase",
+                        "Especialistas en Artistas",
+                        "Infusiones de los artífices"
+                    ]
+                },
+                {
+                    "name": "Creación de personajes - Patrones de grupo",
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 1
+                    },
+                    "headers": [
+                        "Cómo funcionan los patronos",
+                        "Patrones en Eberron",
+                        "Gremio de aventureros",
+                        "Cr",
+                        "Casa con marca de dragón",
+                        "Agencia de espionaje",
+                        "Jefe de Estado",
+                        "Ser inmortal",
+                        "Agencia Inquisitiva",
+                        "Fuerza militar",
+                        "Periódico",
+                        "Orden religiosa",
+                        "Universidad"
+                    ]
+                },
+                {
+                    "name": "Nomenclátor de Khorvaire",
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 2
+                    },
+                    "headers": [
+                        "Naciones de Khorvaire",
+                        "Aundair",
+                        "Brelandia",
+                        "Cyre (El País del Luto)",
+                        "Darguun",
+                        "Los residuos de los demonios",
+                        "Droaam",
+                        "Los alcances de Eldeen",
+                        "Karrnath",
+                        "Principados de Lhazaar",
+                        "Mror Holds",
+                        "Q'barra",
+                        "Marchas de la sombra",
+                        "Llanuras de Talenta",
+                        "Thrane",
+                        "Thronehold",
+                        "Valenar",
+                        "Zilargo"
+                    ]
+                },
+                {
+                    "name": "Khorvaire Gazeteer - Tierras lejanas",
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 2
+                    },
+                    "headers": [
+                        "Aerenal",
+                        "Argonnessen",
+                        "Khyber",
+                        "Polos Norte y Sur",
+                        "Sarlona",
+                        "Xen'drik"
+                    ]
+                },
+                {
+                    "name": "Khorvaire Gazeteer - Fe de Khorvaire",
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 2
+                    },
+                    "headers": [
+                        "Deidades de Eberron",
+                        "Anfitrión soberano",
+                        "Los Seis Oscuros",
+                        "Iglesia de la Llama de Plata",
+                        "Sangre de Vol",
+                        "Cultos del Dragón de Abajo",
+                        "Camino de la luz",
+                        "Espíritus del pasado",
+                        "Corte imperecedera",
+                        "Druidas de Khorvaire"
+                    ]
+                },
+                {
+                    "name": "Sharn, Ciudad de las Torres",
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 3
+                    },
+                    "headers": [
+                        "La forma de Sharn",
+                        "Guía de la ciudad",
+                        "Guardias de Sharn",
+                        "Meseta central",
+                        "Dura",
+                        "Meseta de Menthis",
+                        "Northedge",
+                        "Tavick's Landing",
+                        "Arriba y abajo",
+                        "Mazmorras de Sharn",
+                        "Actividades delictivas",
+                        "Fuerzas de la ley"
+                    ]
+                },
+                {
+                    "name": "Construir aventuras en Eberron",
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 4
+                    },
+                    "headers": [
+                        "Temas de aventura",
+                        "El Aurum",
+                        "Cultos del Dragón de Abajo",
+                        "Casas con marcas de dragón",
+                        "Dragones",
+                        "La oscuridad del sueño",
+                        "Droaam",
+                        "Porteros",
+                        "Goblinoides (Herederos de Dhakaan)"
+                    ]
+                },
+                {
+                    "name": "Construir aventuras en Eberron",
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 4
+                    },
+                    "headers": [
+                        "La última guerra",
+                        "Señor de las Cuchillas",
+                        "Los Señores del Polvo",
+                        "La tierra del luto",
+                        "Orden de la Garra Esmeralda",
+                        "Planos de existencia",
+                        "Vuelta a los aviones",
+                        "Eberron y el Multiverso",
+                        "Dioses, celestiales y demonios",
+                        "Viajes"
+                    ]
+                },
+                {
+                    "name": "Construyendo Aventuras en Eberron - Sharn",
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 4
+                    },
+                    "headers": [
+                        "Aventuras en Sharn",
+                        "Crimen en Sharn",
+                        "El clan Boromar",
+                        "Daask",
+                        "Casa Tarkanan",
+                        "Los tiranos",
+                        "Reloj de hilo"
+                    ]
+                },
+                {
+                    "name": "Tesoros",
+                    "headers": [
+                        "Dragonshards",
+                        "Objetos mágicos",
+                        "Máquinas Eldritch",
+                        "Objetos mágicos cotidianos"
+                    ]
+                },
+                {
+                    "name": "Amigos y enemigos",
+                    "headers": [
+                        "Daelkyr",
+                        "Hechizos de vida"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Guía del explorador de Wildemount",
+            "group": "ajuste",
+            "coverUrl": "img/covers/EGW.png",
+            "published": "2020-03-17",
+            "contents": [
+                {
+                    "name": "Prefacio"
+                },
+                {
+                    "name": "Bienvenido a Wildemount",
+                    "headers": [
+                        "Una nueva ambientación de D&D",
+                        "Naciones de Wildemount",
+                        "¿Qué contiene este libro?",
+                        "¡Guerra!",
+                        "Calendario y hora",
+                        "Lunas de Exandria",
+                        "La vida cotidiana en Wildemount"
+                    ]
+                },
+                {
+                    "name": "Historia de Wildemount",
+                    "headers": [
+                        "Historia de Wildemount",
+                        "Wildemount después de la calamidad",
+                        "Panteón de Exandria",
+                        "Deidades principales",
+                        "Dioses traidores",
+                        "Ídolos menores"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 1
+                    }
+                },
+                {
+                    "name": "Facciones y sociedades",
+                    "headers": [
+                        "Imperio Dwendaliano",
+                        "Dinastía Kryn",
+                        "Cer",
+                        "Clovis Concord",
+                        "La miríada",
+                        "Hijos de la malicia",
+                        "Diarquía de Uthodurn",
+                        "Tribus de Shadycreek Run",
+                        "Biblioteca del Alma de Cobalto",
+                        "Cicatrices de escamas y dientes",
+                        "Pedidos Claret",
+                        "Oro",
+                        "El jolgorio"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 2
+                    }
+                },
+                {
+                    "name": "Nomenclátor de Wildemount",
+                    "headers": [
+                        "Regiones",
+                        "Costa de las fieras",
+                        {
+                            "depth": 1,
+                            "header": "Zonas (A-C)"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Zonas (D-F)"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Áreas (G-O)"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Áreas (P-R)"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Áreas (S-Z)"
+                        },
+                        "Valle de los Tuétanos",
+                        {
+                            "depth": 1,
+                            "header": "Zonas (A-C)"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Zonas (D-K)"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Zonas (L-Z)"
+                        },
+                        "Campos de Zemni",
+                        {
+                            "depth": 1,
+                            "header": "Zonas (A-K)"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Zonas (N-R)"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Áreas (S-Z)"
+                        },
+                        "Tierras silvestres grises",
+                        {
+                            "depth": 1,
+                            "header": "Zonas (A-M)"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Zonas (P-Z)"
+                        },
+                        "Eiselcross",
+                        {
+                            "depth": 1,
+                            "header": "Encuentros en Eiselcross"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Islas de Eiselcross"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Los salvajes de Eiselcross"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Zonas (A-M)"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Zonas (R-Z)"
+                        },
+                        "Los desechos de Xhorhas",
+                        {
+                            "depth": 1,
+                            "header": "Zonas (A-D)"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Áreas (F-R)"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Áreas (S-Z)"
+                        },
+                        "Blightshore",
+                        "Tierras lejanas de Exandria"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 3
+                    }
+                },
+                {
+                    "name": "Opciones de carácter",
+                    "headers": [
+                        "Carreras",
+                        {
+                            "depth": 1,
+                            "header": "Enanos"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Elfos"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Halflings"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Humanos"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Aarakocra"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Aasimar"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Dragonborn"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Firbolgs"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Genasi"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Gnomos"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Goblinkin"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Goliats"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Medio Elfos"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Kenku"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Orcos y semiorcos"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Tabaxi"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Tieflings"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Tortles"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Hollow One"
+                        },
+                        "Subclases",
+                        {
+                            "depth": 1,
+                            "header": "Dunamis y Dunamancia"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Caza"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Mago"
+                        },
+                        "Hechizos de Dunamancia",
+                        "Descripciones de hechizos",
+                        "Crónica heroica",
+                        "Fondos"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 4
+                    }
+                },
+                {
+                    "name": "Aventuras en Wildemount",
+                    "headers": [
+                        "Utilizar estas aventuras"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 5
+                    }
+                },
+                {
+                    "name": "Tesoros de Wildemount",
+                    "headers": [
+                        "Objetos mágicos de Wildemount",
+                        "Vestigios de divergencia",
+                        "Las armas de los traidores",
+                        "Descripciones de artefactos"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 6
+                    }
+                },
+                {
+                    "name": "Bestiario de Wildemount"
+                },
+                {
+                    "name": "Glosario"
+                },
+                {
+                    "name": "Mapas"
+                }
+            ]
+        },
+        {
+            "name": "Odiseas míticas de Theros",
+            "group": "ajuste",
+            "coverUrl": "img/covers/MOT.png",
+            "published": "2020-06-02",
+            "contents": [
+                {
+                    "name": "Bienvenido a Theros",
+                    "headers": [
+                        "Sueños de divinidad",
+                        "Historia y mito",
+                        "Idiomas"
+                    ]
+                },
+                {
+                    "name": "Creación de personajes",
+                    "headers": [
+                        "Impulso heroico",
+                        "Regalos sobrenaturales",
+                        "Carreras",
+                        "Opciones de subclase",
+                        "Antecedentes"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 1
+                    }
+                },
+                {
+                    "name": "Dioses de Theros",
+                    "headers": [
+                        "Características divinas",
+                        "Adoración",
+                        "Clérigos y campeones",
+                        "Piedad",
+                        "Los Dioses"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 2
+                    }
+                },
+                {
+                    "name": "Reinos de Dioses y Mortales",
+                    "headers": [
+                        "El reino de los mortales",
+                        "Akros",
+                        "Meletis",
+                        "Setessa",
+                        "Oreskos",
+                        "Phoberos y Skophos",
+                        "Reinos del Retorno",
+                        "El mar de las sirenas",
+                        "Skola Vale",
+                        "Los montes Katachthon",
+                        "Las montañas de Oraniad",
+                        "Reinos de los Dioses"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 3
+                    }
+                },
+                {
+                    "name": "Creación de aventuras en Theros",
+                    "headers": [
+                        "Aventuras basadas en Dios",
+                        "Asistencia divina",
+                        "Athreos",
+                        "Ephara",
+                        "Erebos",
+                        "Heliodoro",
+                        "Iroas",
+                        "Karametra",
+                        "Keranos",
+                        "Klothys",
+                        "Kruphix",
+                        "Mogis",
+                        "Nylea",
+                        "Pharika",
+                        "Ph",
+                        "Purphoros",
+                        "Thassa",
+                        "Aventuras náuticas",
+                        "Aventuras del inframundo",
+                        "Ningún secreto silencioso"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 4
+                    }
+                },
+                {
+                    "name": "Tesoros",
+                    "headers": [
+                        "Objetos mágicos",
+                        "Descripciones de objetos mágicos",
+                        "Artefactos",
+                        "Descripciones de artefactos"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 5
+                    }
+                },
+                {
+                    "name": "Amigos y enemigos",
+                    "headers": [
+                        "Criaturas de Nyxborn",
+                        "Monstruos clásicos",
+                        "Bestiario",
+                        "Monstruos míticos"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 6
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Dun",
+            "id": "ScreenDungeonKit",
+            "source": "ScreenDungeonKit",
+            "group": "pantalla",
+            "coverUrl": "img/covers/ScreenDungeonKit.webp",
+            "published": "2020-09-21",
+            "contents": [
+                {
+                    "name": "Pantalla",
+                    "headers": [
+                        "Salto de longitud",
+                        "Salto de altura",
+                        "Asfixiante",
+                        "Concentración",
+                        "Agotamiento",
+                        "Condiciones",
+                        "Estado de ruina",
+                        "Encuentros en la mazmorra",
+                        "Cámaras de la mazmorra"
+                    ]
+                },
+                {
+                    "name": "Accesorios incluidos",
+                    "headers": [
+                        "Fichas de estado y peligro",
+                        "Tarjetas de iniciativa",
+                        "Tarjetas geomorfas"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Pantalla del Dungeon Master: Kit de la Tierra Salvaje",
+            "id": "PantallaWildernessKit",
+            "source": "PantallaWildernessKit",
+            "group": "pantalla",
+            "coverUrl": "img/cover/ScreenWildernessKit.png",
+            "published": "2020-11-17",
+            "contents": [
+                {
+                    "name": "Viajes a la naturaleza"
+                },
+                {
+                    "name": "Persecuciones en la naturaleza"
+                }
+            ]
+        },
+        {
+            "name": "El caldero de todo de Tasha",
+            "group": "suplemento",
+            "coverUrl": "img/covers/TCE.png",
+            "published": "2020-11-17",
+            "author": "Equipo Wizards RPG",
+            "contents": [
+                {
+                    "name": "Cómo utilizar este libro",
+                    "headers": [
+                        "Lo que encontrará en el interior",
+                        "Todo es opcional",
+                        "Diez reglas para recordar"
+                    ]
+                },
+                {
+                    "name": "Opciones de carácter",
+                    "headers": [
+                        "Personalización de su origen",
+                        "Cambiar una habilidad",
+                        "Cambio de subclase",
+                        "Artificer",
+                        {
+                            "depth": 1,
+                            "header": "Artistas en muchos mundos"
+                        },
+                        "Bárbaro",
+                        "Bardo",
+                        "Clérigo",
+                        "Druida",
+                        "Caza",
+                        {
+                            "depth": 1,
+                            "header": "Construcciones de Maestro de Batalla"
+                        },
+                        "Monk",
+                        "Paladín",
+                        "Ranger",
+                        "Rogue",
+                        "Hechicero",
+                        "Warlock",
+                        "Mago",
+                        "Hazañas"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 1
+                    }
+                },
+                {
+                    "name": "Patrones de grupo",
+                    "headers": [
+                        "Cómo funcionan los patronos",
+                        "Ejemplos de clientes",
+                        "Ser su propio patrón"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 2
+                    }
+                },
+                {
+                    "name": "Miscelánea mágica",
+                    "headers": [
+                        "Hechizos",
+                        "Personalización de los hechizos",
+                        "Objetos mágicos",
+                        "Tatuajes mágicos",
+                        "Descripciones de objetos mágicos"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 3
+                    }
+                },
+                {
+                    "name": "Herramientas del Dungeon Master",
+                    "headers": [
+                        "Sesión cero",
+                        "Sidekicks",
+                        "Parloteando con los monstruos",
+                        "Riesgos medioambientales",
+                        "Puzzles",
+                        {
+                            "depth": 1,
+                            "header": "¿Por qué utilizar rompecabezas?"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Pinturas de criaturas"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Pasos temerarios"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Llaves de esqueleto"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Todo lo que brilla"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "El ojo del espectador"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "De cuatro en cuatro"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Isla ilusoria"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Componentes materiales"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Sólo para miembros"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Cambio exacto"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Cuatro elementos"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Pasillo embrujado"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Qué hay en el menú"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Folletos de rompecabezas"
+                        }
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 4
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Guía de Ravenloft de Van Richten",
+            "id": "VRGR",
+            "source": "VRGR",
+            "group": "ajuste",
+            "coverUrl": "img/covers/VRGR.png",
+            "published": "2021-05-18",
+            "contents": [
+                {
+                    "name": "Bienvenido a Ravenloft",
+                    "headers": [
+                        "Cómo utilizar este libro",
+                        "El País de las Nieblas"
+                    ]
+                },
+                {
+                    "name": "Creación de personajes",
+                    "headers": [
+                        {
+                            "header": "Héroes embrujados",
+                            "index": 1
+                        },
+                        {
+                            "header": "Linajes",
+                            "index": 1
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Dhampir"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Hexblood"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Renacido"
+                        },
+                        {
+                            "header": "Regalos oscuros",
+                            "index": 1
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Gangas oscuras"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Descripciones de regalos oscuros"
+                        },
+                        {
+                            "header": "Opciones de subclase",
+                            "index": 1
+                        },
+                        {
+                            "header": "Fondos",
+                            "index": 1
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Características generales de fondo"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Características del terror"
+                        },
+                        {
+                            "header": "Baratijas de terror",
+                            "index": 1
+                        }
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 1
+                    }
+                },
+                {
+                    "name": "Creación de dominios de terror",
+                    "headers": [
+                        "Creación de un Darklord",
+                        "Creación de un dominio",
+                        "Géneros de terror",
+                        "Horror corporal",
+                        "Horror cósmico",
+                        "Fantasía oscura",
+                        "Horror folclórico",
+                        "Historias de fantasmas",
+                        "Terror gótico",
+                        "Otros géneros de terror"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 2
+                    }
+                },
+                {
+                    "name": "Dominios de Ravenloft",
+                    "headers": [
+                        "Naturaleza de Ravenloft",
+                        {
+                            "depth": 1,
+                            "header": "Dominios destacados"
+                        },
+                        "Barovia",
+                        {
+                            "depth": 1,
+                            "header": "Características dignas de mención"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Asentamientos y sitios"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Strahd von Zarovich"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Aventuras en Barovia"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Encarnaciones de Tatyana"
+                        },
+                        "Bluetspur",
+                        {
+                            "depth": 1,
+                            "header": "Características dignas de mención"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Asentamientos y sitios"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "El cerebro de Dios"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Aventuras en Bluetspur"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Volver a Bluetspur"
+                        },
+                        "Borca",
+                        {
+                            "depth": 1,
+                            "header": "Características dignas de mención"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Asentamientos y sitios"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Ivana Boritsi"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Ivan Dilisnya"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Aventuras en Borca"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Nobles de Borca"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Intriga en Borca"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Intrigas de Ivana"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Intrigas de Iván"
+                        },
+                        "El Carnaval",
+                        {
+                            "depth": 1,
+                            "header": "Características dignas de mención"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Asentamientos y sitios"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Isolda y Nepenthe"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Aventuras en el Carnaval"
+                        },
+                        "Darkon",
+                        {
+                            "depth": 1,
+                            "header": "Características dignas de mención"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Asentamientos y sitios"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Herederos de Darkon"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Aventuras en Darkon"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "El Dominio Condenado"
+                        },
+                        "Dementlieu",
+                        {
+                            "depth": 1,
+                            "header": "Características dignas de mención"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Asentamientos y sitios"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Saidra d'Honaire"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Aventuras en Dementlieu"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "La Gran Mascarada"
+                        },
+                        "Falkovnia",
+                        {
+                            "depth": 1,
+                            "header": "Características dignas de mención"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Asentamientos y sitios"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Vladeska Drakov"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Aventuras en Falkovnia"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Asedio de Lekar"
+                        },
+                        "Har'Akir",
+                        {
+                            "depth": 1,
+                            "header": "Características dignas de mención"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Asentamientos y sitios"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Ankhtepot"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Aventuras en Har'Akir"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Dioses de Har'Akir"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "El alma del señor de las tinieblas"
+                        },
+                        "Hazlan",
+                        {
+                            "depth": 1,
+                            "header": "Características dignas de mención"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Asentamientos y sitios"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Hazlik"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Aventuras en Hazlan"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Magia en el dominio de la muerte"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "El ojo de Hazlik"
+                        },
+                        "I'Cath",
+                        {
+                            "depth": 1,
+                            "header": "Características dignas de mención"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Sitios"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Tsien Chiang"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Aventuras en I'Cath"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "El sueño de I'Cath"
+                        },
+                        "Kalakeri",
+                        {
+                            "depth": 1,
+                            "header": "Características dignas de mención"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Asentamientos y sitios"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Ramya Vasavadan"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Aventuras en Kalakeri"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Traidores de Vasavadan"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Traición en Kalakeri"
+                        },
+                        "Kartakass",
+                        {
+                            "depth": 1,
+                            "header": "Características dignas de mención"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Asentamientos y sitios"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Harkon Lukas"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Aventuras en Kartakass"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Hambre insaciable"
+                        },
+                        "Lamordia",
+                        {
+                            "depth": 1,
+                            "header": "Características dignas de mención"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Asentamientos y sitios"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Viktra Mordenheim"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Aventuras en Lamordia"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Monstruos de Mordenheim"
+                        },
+                        "Mordent",
+                        {
+                            "depth": 1,
+                            "header": "Características dignas de mención"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Asentamientos y sitios"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Wilfred Godofredo"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Aventuras en Mordent"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Mordaza inquietante"
+                        },
+                        "Richemulot",
+                        {
+                            "depth": 1,
+                            "header": "Características dignas de mención"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Asentamientos y sitios"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Jacqueline Renier"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Aventuras en Richemulot"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "La plaga que roe"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Ciclo de la peste"
+                        },
+                        "Tepest",
+                        {
+                            "depth": 1,
+                            "header": "Características dignas de mención"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Asentamientos y sitios"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Madre Lorinda"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Aventuras en Tepest"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Viktal y el Diezmo"
+                        },
+                        "Valachan",
+                        {
+                            "depth": 1,
+                            "header": "Características dignas de mención"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Asentamientos y sitios"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Chakuna"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Aventuras en Valachan"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "El juicio de los corazones"
+                        },
+                        "Otros dominios del terror",
+                        {
+                            "depth": 1,
+                            "header": "Cyre 1313, El riel del luto"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Forlorn"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Ghastria"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "G'henna"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Invidia"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Keening"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Klorr"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Markovia"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Las tierras de la pesadilla"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Niranjan"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Nova Vaasa"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Odaire"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "El puente del jinete"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Risibilos"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Scaena"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Mar de Penas"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Las Tierras Sombrías"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Souragne"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Staunton Bluffs"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Tovag"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Agencia Vhage"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Zherisia"
+                        },
+                        "Viajeros en la niebla",
+                        {
+                            "depth": 1,
+                            "header": "Guardianes de la pluma"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Vistani"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Otros grupos"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Mist Wanderers (Vagabundos de la Niebla)"
+                        }
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 3
+                    }
+                },
+                {
+                    "name": "Aventuras de terror",
+                    "headers": [
+                        "Preparándose para el terror",
+                        "R",
+                        "Después del horror",
+                        "Cubierta de Tarokka y Tablero del Espíritu",
+                        "Caja de herramientas del terror",
+                        "Maldiciones",
+                        "Ejemplos de maldiciones",
+                        "Miedo y estrés",
+                        "Trampas embrujadas",
+                        "Supervivientes"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 4
+                    }
+                },
+                {
+                    "name": "Monstruos de Ravenloft",
+                    "headers": [
+                        "Monstruos de terror",
+                        "Bestiario"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 5
+                    }
+                },
+                {
+                    "name": "Tablón de anuncios",
+                    "ordinal": {
+                        "type": "apéndice"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Dominios del placer",
+            "group": "suplemento-alt",
+            "coverUrl": "img/covers/DoD.png",
+            "published": "2021-09-21",
+            "contents": [
+                {
+                    "name": "Resumen de Feywild",
+                    "headers": [
+                        "Características de Feywild",
+                        {
+                            "depth": 1,
+                            "header": "Fey de las Seelie y de las Unseelie"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Hechizos en el Feywild"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Tiempo"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Fronteras de los dominios"
+                        },
+                        "Guías de Feywild",
+                        "Perspectiva de Fey",
+                        {
+                            "depth": 1,
+                            "header": "Reciprocidad"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Hospitalidad"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Regalos"
+                        },
+                        "Contratos Fey",
+                        "Contratos accidentales de Fey",
+                        {
+                            "depth": 1,
+                            "header": "Cómo hacer un contrato"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Precio de un contrato"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Romper un contrato"
+                        },
+                        "Maldición de Fey",
+                        "Moradas Fey"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 1
+                    }
+                },
+                {
+                    "name": "Creación de un arco de trabajo",
+                    "headers": [
+                        "¿Por dónde empezar?",
+                        {
+                            "depth": 1,
+                            "header": "El encuentro con el Archipiélago"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Fey Court Allegiances"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Apariencia"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Personalidad"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Obsesiones"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Magia de autor"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Regalos mágicos"
+                        },
+                        "Estadísticas de Archfey"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 2
+                    }
+                },
+                {
+                    "name": "Crear un dominio de deleite",
+                    "headers": [
+                        "Características geográficas",
+                        "Tema del dominio",
+                        "Ir y venir",
+                        "Viajes en el dominio",
+                        {
+                            "depth": 1,
+                            "header": "Trazado de un dominio de deleite"
+                        },
+                        {
+                            "depth": 1,
+                            "header": "Atajos mágicos"
+                        },
+                        "Drama",
+                        "Magia extraña",
+                        "Dominio Denizens",
+                        {
+                            "depth": 1,
+                            "header": "Visitantes del dominio"
+                        }
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 3
+                    }
+                },
+                {
+                    "name": "Ponerlo todo en común",
+                    "headers": [
+                        "Hilandero",
+                        "Fablerise"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 4
+                    }
+                },
+                {
+                    "name": "Ayudas a la aventura",
+                    "ordinal": {
+                        "type": "apéndice"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Min",
+            "id": "MaBJoV",
+            "source": "MaBJoV",
+            "group": "suplemento-alt",
+            "coverUrl": "img/covers/MaBJoV.png",
+            "published": "2021-10-05",
+            "author": "Equipo Wizards RPG",
+            "contents": [
+                {
+                    "name": "Prefacio"
+                },
+                {
+                    "name": "Historias heroicas",
+                    "headers": [
+                        "Ciudades de origen",
+                        "Patrones de grupo",
+                        "Villanos de la campaña"
+                    ]
+                },
+                {
+                    "name": "Ciudades de origen",
+                    "headers": [
+                        "Athkatla",
+                        "Baldur's Gate",
+                        "Suldanessellar",
+                        "Ust Natha"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 1
+                    }
+                },
+                {
+                    "name": "Patrones de grupo",
+                    "headers": [
+                        "Gremio de aventureros",
+                        "Candlekeep",
+                        "Iglesia de Sune",
+                        "Enclave Esmeralda",
+                        "Puño en llamas",
+                        "Harpers",
+                        "Caballeros de Bahamut",
+                        "Orden de Ícaro",
+                        "Círculo de Cuervos",
+                        "Ladrones en la sombra"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 2
+                    }
+                },
+                {
+                    "name": "Villanos de la campaña",
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 3
+                    }
+                },
+                {
+                    "name": "Esbirros",
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 4
+                    }
+                },
+                {
+                    "name": "Monstruos",
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 5
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Tesoro de Dragones de Fizban",
+            "group": "suplemento",
+            "coverUrl": "img/portadas/FTD.png",
+            "published": "2021-10-26",
+            "author": "Equipo Wizards RPG",
+            "contents": [
+                {
+                    "name": "Elegía por el primer mundo",
+                    "headers": [
+                        "Un tesoro de dragones",
+                        "El primer mundo"
+                    ]
+                },
+                {
+                    "name": "Creación de personajes",
+                    "headers": [
+                        "Razas dracónicas",
+                        "Opciones de subclase",
+                        "Héroes del Dragón",
+                        "Habilidades dracónicas"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 1
+                    }
+                },
+                {
+                    "name": "Magia de Dragón",
+                    "headers": [
+                        "Hechizos",
+                        "Objetos mágicos",
+                        "Acumular objetos mágicos",
+                        "Regalos dracónicos"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 2
+                    }
+                },
+                {
+                    "name": "Dragones en juego",
+                    "headers": [
+                        "Dragones de rol",
+                        "Seguidores",
+                        "Encuentros con dragones",
+                        "Aventuras de los dragones",
+                        "Campañas de dragones"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 3
+                    }
+                },
+                {
+                    "name": "Guaridas y acaparamientos",
+                    "headers": [
+                        "Guaridas de dragones",
+                        "Acumulación de dragones",
+                        "¿Qué hay en un tesoro?"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 4
+                    }
+                },
+                {
+                    "name": "Draconomicon",
+                    "headers": [
+                        "Uso de las entradas",
+                        "Dragones de amatista",
+                        "Dragones negros",
+                        "Dragones azules",
+                        "Dragones de latón",
+                        "Dragones de bronce",
+                        "Dragones de cobre",
+                        "Dragones de cristal",
+                        "Dragones profundos",
+                        "Tortugas dragón",
+                        "Dragones de Esmeralda",
+                        "Dragones de hadas",
+                        "Dragones de Oro",
+                        "Dragones verdes",
+                        "Dragones de piedra lunar",
+                        "Dragones rojos",
+                        "Dragones de Zafiro",
+                        "Dragones en la sombra",
+                        "Dragones de plata",
+                        "Dragones de Topacio",
+                        "Dragones blancos"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 5
+                    }
+                },
+                {
+                    "name": "Bestiario",
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 6
+                    }
+                },
+                {
+                    "name": "Listas de criaturas",
+                    "headers": [
+                        "Calificaciones de los desafíos",
+                        "Tipos de criaturas"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Strixhaven: Un plan de estudios del caos",
+            "group": "ajuste",
+            "coverUrl": "img/portadas/SCC.png",
+            "published": "2021-12-07",
+            "author": "Equipo Wizards RPG",
+            "contents": [
+                {
+                    "name": "Bienvenido a Strixhaven",
+                    "headers": [
+                        "Sobre este libro",
+                        "Orientación",
+                        "El mundo de Strixhaven"
+                    ]
+                },
+                {
+                    "name": "La vida en Strixhaven",
+                    "headers": [
+                        "Estudio mágico",
+                        "Visión general del campus",
+                        "Colegio Lorehold",
+                        "Colegio Prismari",
+                        "Colegio Quandrix",
+                        "Colegio Silverquill",
+                        "Colegio Witherbloom"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 1
+                    }
+                },
+                {
+                    "name": "Opciones de carácter",
+                    "headers": [
+                        "Opción de carrera",
+                        "Elegir una universidad",
+                        "Fondos de Strixhaven",
+                        "Hazañas",
+                        "Hechizos",
+                        "Objetos mágicos"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 2
+                    }
+                },
+                {
+                    "name": "La escuela está en sesión",
+                    "headers": [
+                        "Correr las Aventuras",
+                        "Hoja de seguimiento de Strixhaven",
+                        "Actividades extracurriculares",
+                        "Puestos de trabajo",
+                        "Exámenes",
+                        "Relaciones",
+                        "Sesión cero",
+                        "Utilizar estas reglas",
+                        "Hacer amigos y rivales",
+                        "Compañeros de clase"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 3
+                    }
+                },
+                {
+                    "name": "El alboroto del campus",
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 3
+                    }
+                },
+                {
+                    "name": "Caza de la Torre del Mago",
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 4
+                    }
+                },
+                {
+                    "name": "La mascarada del maestro",
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 5
+                    }
+                },
+                {
+                    "name": "Un ajuste de cuentas en las ruinas",
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 6
+                    }
+                },
+                {
+                    "name": "Amigos y enemigos",
+                    "headers": [
+                        "Uso de un bloque de estadísticas"
+                    ],
+                    "ordinal": {
+                        "type": "capítulo",
+                        "identifier": 7
+                    }
+                },
+                {
+                    "name": "Mapa del campus",
+                    "ordinal": {
+                        "type": "apéndice"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Mordenkainen presenta: Monstruos del Multiverso",
+            "id": "MPMM",
+            "source": "MPMM",
+            "group": "suplemento",
+            "coverUrl": "img/portadas/MPMM.png",
+            "published": "2022-01-25",
+            "author": "Equipo Wizards RPG",
+            "contents": [
+                {
+                    "name": "Cómo utilizar este libro"
+                },
+                {
+                    "name": "Carreras fantásticas"
+                },
+                {
+                    "name": "Bestiario"
+                }
+            ]
+        }
+    ]
+}
